@@ -1,0 +1,2472 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Postal Department Quiz</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --primary: #1a3a6b;
+            --secondary: #c8102e;
+            --accent: #f0a500;
+            --light: #f4f7fc;
+            --white: #ffffff;
+            --gray: #6c757d;
+            --success: #28a745;
+            --danger: #dc3545;
+            --warning: #ffc107;
+            --shadow: 0 4px 20px rgba(0,0,0,0.1);
+            --radius: 12px;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #1a3a6b 0%, #2d5a9e 50%, #1a3a6b 100%);
+            min-height: 100vh;
+            color: #333;
+        }
+
+        /* ===== NAVIGATION ===== */
+        nav {
+            background: rgba(255,255,255,0.1);
+            backdrop-filter: blur(10px);
+            padding: 15px 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            border-bottom: 1px solid rgba(255,255,255,0.2);
+        }
+
+        .nav-logo {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            color: white;
+            text-decoration: none;
+        }
+
+        .nav-logo-icon {
+            width: 45px;
+            height: 45px;
+            background: var(--accent);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 22px;
+        }
+
+        .nav-logo h1 {
+            font-size: 1.3rem;
+            font-weight: 700;
+        }
+
+        .nav-logo p {
+            font-size: 0.75rem;
+            opacity: 0.8;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 10px;
+        }
+
+        .nav-btn {
+            padding: 10px 20px;
+            border: 2px solid rgba(255,255,255,0.5);
+            background: transparent;
+            color: white;
+            border-radius: 25px;
+            cursor: pointer;
+            font-size: 0.9rem;
+            transition: all 0.3s;
+            font-weight: 500;
+        }
+
+        .nav-btn:hover, .nav-btn.active {
+            background: var(--accent);
+            border-color: var(--accent);
+            color: #333;
+        }
+
+        /* ===== PAGES ===== */
+        .page {
+            display: none;
+            min-height: calc(100vh - 75px);
+            padding: 30px;
+        }
+
+        .page.active {
+            display: block;
+        }
+
+        /* ===== HOME PAGE ===== */
+        .home-hero {
+            text-align: center;
+            color: white;
+            padding: 40px 20px;
+        }
+
+        .home-hero h2 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+
+        .home-hero p {
+            font-size: 1.1rem;
+            opacity: 0.9;
+            margin-bottom: 40px;
+        }
+
+        .home-cards {
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+            flex-wrap: wrap;
+            margin-bottom: 40px;
+        }
+
+        .home-card {
+            background: white;
+            border-radius: var(--radius);
+            padding: 30px;
+            width: 220px;
+            text-align: center;
+            box-shadow: var(--shadow);
+            cursor: pointer;
+            transition: transform 0.3s;
+        }
+
+        .home-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .home-card .icon {
+            font-size: 3rem;
+            margin-bottom: 15px;
+        }
+
+        .home-card h3 {
+            color: var(--primary);
+            margin-bottom: 8px;
+        }
+
+        .home-card p {
+            color: var(--gray);
+            font-size: 0.85rem;
+        }
+
+        /* ===== SETUP PAGE ===== */
+        .setup-container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .setup-title {
+            text-align: center;
+            color: white;
+            margin-bottom: 30px;
+        }
+
+        .setup-title h2 {
+            font-size: 2rem;
+            margin-bottom: 8px;
+        }
+
+        .setup-card {
+            background: white;
+            border-radius: var(--radius);
+            padding: 30px;
+            margin-bottom: 25px;
+            box-shadow: var(--shadow);
+        }
+
+        .setup-card h3 {
+            color: var(--primary);
+            font-size: 1.2rem;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid var(--light);
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        /* Time Selection */
+        .time-options {
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+
+        .time-option {
+            flex: 1;
+            min-width: 100px;
+            padding: 15px;
+            border: 2px solid #e0e0e0;
+            border-radius: 10px;
+            text-align: center;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+
+        .time-option:hover {
+            border-color: var(--primary);
+        }
+
+        .time-option.selected {
+            border-color: var(--primary);
+            background: var(--primary);
+            color: white;
+        }
+
+        .time-option .time-val {
+            font-size: 1.8rem;
+            font-weight: 700;
+        }
+
+        .time-option .time-label {
+            font-size: 0.8rem;
+            margin-top: 5px;
+        }
+
+        /* Question Count */
+        .question-options {
+            display: flex;
+            gap: 12px;
+            flex-wrap: wrap;
+        }
+
+        .q-option {
+            padding: 12px 20px;
+            border: 2px solid #e0e0e0;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: all 0.3s;
+            font-weight: 600;
+        }
+
+        .q-option:hover {
+            border-color: var(--primary);
+        }
+
+        .q-option.selected {
+            border-color: var(--primary);
+            background: var(--primary);
+            color: white;
+        }
+
+        /* Chapter Selection */
+        .chapter-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+            gap: 12px;
+        }
+
+        .chapter-item {
+            padding: 12px 15px;
+            border: 2px solid #e0e0e0;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: all 0.3s;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .chapter-item:hover {
+            border-color: var(--primary);
+            background: #f0f4ff;
+        }
+
+        .chapter-item.selected {
+            border-color: var(--primary);
+            background: var(--primary);
+            color: white;
+        }
+
+        .chapter-check {
+            width: 20px;
+            height: 20px;
+            border: 2px solid currentColor;
+            border-radius: 4px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+        }
+
+        .chapter-item.selected .chapter-check::after {
+            content: '✓';
+            font-size: 14px;
+        }
+
+        .chapter-name {
+            font-size: 0.85rem;
+            font-weight: 500;
+        }
+
+        .select-all-btn {
+            margin-bottom: 15px;
+            padding: 8px 16px;
+            background: var(--primary);
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 0.85rem;
+        }
+
+        .start-quiz-btn {
+            width: 100%;
+            padding: 18px;
+            background: linear-gradient(135deg, var(--secondary), #a00020);
+            color: white;
+            border: none;
+            border-radius: var(--radius);
+            font-size: 1.2rem;
+            font-weight: 700;
+            cursor: pointer;
+            transition: all 0.3s;
+            box-shadow: 0 4px 15px rgba(200, 16, 46, 0.4);
+        }
+
+        .start-quiz-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(200, 16, 46, 0.5);
+        }
+
+        /* ===== QUIZ PAGE ===== */
+        .quiz-container {
+            max-width: 850px;
+            margin: 0 auto;
+        }
+
+        .quiz-header {
+            background: white;
+            border-radius: var(--radius);
+            padding: 20px 25px;
+            margin-bottom: 20px;
+            box-shadow: var(--shadow);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+
+        .quiz-progress-info {
+            display: flex;
+            gap: 20px;
+            align-items: center;
+        }
+
+        .q-counter {
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: var(--primary);
+        }
+
+        .q-chapter-tag {
+            background: var(--light);
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            color: var(--gray);
+            font-weight: 500;
+        }
+
+        .quiz-timer {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .timer-circle {
+            width: 70px;
+            height: 70px;
+            position: relative;
+        }
+
+        .timer-circle svg {
+            transform: rotate(-90deg);
+        }
+
+        .timer-circle .timer-bg {
+            fill: none;
+            stroke: #e0e0e0;
+            stroke-width: 5;
+        }
+
+        .timer-circle .timer-progress {
+            fill: none;
+            stroke: var(--success);
+            stroke-width: 5;
+            stroke-linecap: round;
+            transition: stroke-dashoffset 1s linear, stroke 0.5s;
+        }
+
+        .timer-text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-weight: 700;
+            font-size: 1rem;
+            color: var(--primary);
+        }
+
+        .progress-bar-container {
+            background: white;
+            border-radius: var(--radius);
+            padding: 15px 25px;
+            margin-bottom: 20px;
+            box-shadow: var(--shadow);
+        }
+
+        .progress-bar-top {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 8px;
+            font-size: 0.85rem;
+            color: var(--gray);
+        }
+
+        .progress-bar {
+            height: 8px;
+            background: #e0e0e0;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        .progress-fill {
+            height: 100%;
+            background: linear-gradient(90deg, var(--primary), var(--accent));
+            border-radius: 10px;
+            transition: width 0.5s;
+        }
+
+        .question-card {
+            background: white;
+            border-radius: var(--radius);
+            padding: 30px;
+            margin-bottom: 20px;
+            box-shadow: var(--shadow);
+        }
+
+        .question-topic {
+            display: inline-block;
+            background: linear-gradient(135deg, var(--primary), #2d5a9e);
+            color: white;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            margin-bottom: 20px;
+            font-weight: 500;
+        }
+
+        .question-text {
+            font-size: 1.15rem;
+            font-weight: 600;
+            color: #222;
+            line-height: 1.6;
+            margin-bottom: 25px;
+        }
+
+        .options-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 12px;
+        }
+
+        @media(max-width: 600px) {
+            .options-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .option-btn {
+            padding: 15px 20px;
+            border: 2px solid #e0e0e0;
+            border-radius: 10px;
+            background: white;
+            cursor: pointer;
+            text-align: left;
+            font-size: 0.95rem;
+            transition: all 0.3s;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            line-height: 1.4;
+        }
+
+        .option-btn:hover:not(:disabled) {
+            border-color: var(--primary);
+            background: #f0f4ff;
+            transform: translateY(-1px);
+        }
+
+        .option-letter {
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            background: #f0f0f0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 700;
+            font-size: 0.85rem;
+            flex-shrink: 0;
+            transition: all 0.3s;
+        }
+
+        .option-btn.correct {
+            border-color: var(--success);
+            background: #d4edda;
+        }
+
+        .option-btn.correct .option-letter {
+            background: var(--success);
+            color: white;
+        }
+
+        .option-btn.wrong {
+            border-color: var(--danger);
+            background: #f8d7da;
+        }
+
+        .option-btn.wrong .option-letter {
+            background: var(--danger);
+            color: white;
+        }
+
+        .option-btn.skipped {
+            border-color: var(--warning);
+            background: #fff3cd;
+        }
+
+        .option-btn:disabled {
+            cursor: not-allowed;
+        }
+
+        .quiz-nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: white;
+            border-radius: var(--radius);
+            padding: 20px 25px;
+            box-shadow: var(--shadow);
+        }
+
+        .nav-quiz-btn {
+            padding: 12px 25px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 0.95rem;
+            font-weight: 600;
+            transition: all 0.3s;
+        }
+
+        .btn-skip {
+            background: #f0f0f0;
+            color: var(--gray);
+        }
+
+        .btn-skip:hover {
+            background: #e0e0e0;
+        }
+
+        .btn-next {
+            background: var(--primary);
+            color: white;
+        }
+
+        .btn-next:hover {
+            background: #0f2550;
+        }
+
+        .btn-finish {
+            background: var(--secondary);
+            color: white;
+        }
+
+        .btn-finish:hover {
+            background: #a00020;
+        }
+
+        .score-mini {
+            display: flex;
+            gap: 15px;
+        }
+
+        .score-mini span {
+            font-weight: 600;
+            font-size: 0.9rem;
+        }
+
+        .score-correct { color: var(--success); }
+        .score-wrong { color: var(--danger); }
+        .score-skipped { color: var(--warning); }
+
+        /* ===== RESULTS PAGE ===== */
+        .results-container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .results-header {
+            text-align: center;
+            color: white;
+            margin-bottom: 30px;
+        }
+
+        .results-header h2 {
+            font-size: 2.2rem;
+            margin-bottom: 10px;
+        }
+
+        .score-board {
+            background: white;
+            border-radius: var(--radius);
+            padding: 35px;
+            margin-bottom: 25px;
+            box-shadow: var(--shadow);
+            text-align: center;
+        }
+
+        .score-circle {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, var(--primary), #2d5a9e);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 25px;
+            box-shadow: 0 8px 25px rgba(26,58,107,0.4);
+        }
+
+        .score-circle .score-num {
+            font-size: 2.5rem;
+            font-weight: 800;
+            color: white;
+        }
+
+        .score-circle .score-total {
+            font-size: 1rem;
+            color: rgba(255,255,255,0.8);
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 20px;
+            margin-top: 25px;
+        }
+
+        .stat-box {
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        .stat-box.correct-box { background: #d4edda; }
+        .stat-box.wrong-box { background: #f8d7da; }
+        .stat-box.skip-box { background: #fff3cd; }
+        .stat-box.time-box { background: #d1ecf1; }
+
+        .stat-box .stat-num {
+            font-size: 2rem;
+            font-weight: 800;
+            margin-bottom: 5px;
+        }
+
+        .correct-box .stat-num { color: var(--success); }
+        .wrong-box .stat-num { color: var(--danger); }
+        .skip-box .stat-num { color: #856404; }
+        .time-box .stat-num { color: #0c5460; }
+
+        .stat-box .stat-label {
+            font-size: 0.85rem;
+            color: var(--gray);
+            font-weight: 500;
+        }
+
+        /* Review Section */
+        .review-section {
+            background: white;
+            border-radius: var(--radius);
+            padding: 30px;
+            box-shadow: var(--shadow);
+            margin-bottom: 25px;
+        }
+
+        .review-section h3 {
+            color: var(--primary);
+            margin-bottom: 20px;
+            font-size: 1.3rem;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .review-item {
+            border: 2px solid #e0e0e0;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 15px;
+            transition: all 0.3s;
+        }
+
+        .review-item.review-correct {
+            border-color: var(--success);
+            background: #f8fff9;
+        }
+
+        .review-item.review-wrong {
+            border-color: var(--danger);
+            background: #fff8f8;
+        }
+
+        .review-item.review-skipped {
+            border-color: var(--warning);
+            background: #fffef5;
+        }
+
+        .review-item-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 12px;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .review-q-num {
+            font-weight: 700;
+            color: var(--primary);
+            font-size: 0.9rem;
+        }
+
+        .review-badge {
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            font-weight: 700;
+        }
+
+        .badge-correct { background: #d4edda; color: #155724; }
+        .badge-wrong { background: #f8d7da; color: #721c24; }
+        .badge-skipped { background: #fff3cd; color: #856404; }
+
+        .review-question {
+            font-weight: 600;
+            margin-bottom: 12px;
+            line-height: 1.5;
+            color: #222;
+        }
+
+        .review-options {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 8px;
+            margin-bottom: 10px;
+        }
+
+        @media(max-width: 600px) {
+            .review-options {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .review-option {
+            padding: 8px 12px;
+            border-radius: 8px;
+            font-size: 0.85rem;
+            background: #f5f5f5;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .review-option.r-correct { background: #d4edda; color: #155724; font-weight: 600; }
+        .review-option.r-wrong-selected { background: #f8d7da; color: #721c24; font-weight: 600; }
+
+        .review-topic {
+            font-size: 0.8rem;
+            color: var(--gray);
+            margin-top: 8px;
+        }
+
+        .results-actions {
+            display: flex;
+            gap: 15px;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-bottom: 30px;
+        }
+
+        .result-btn {
+            padding: 14px 30px;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            font-size: 1rem;
+            font-weight: 600;
+            transition: all 0.3s;
+        }
+
+        .btn-retry {
+            background: var(--primary);
+            color: white;
+        }
+
+        .btn-new {
+            background: var(--secondary);
+            color: white;
+        }
+
+        .btn-study {
+            background: var(--accent);
+            color: #333;
+        }
+
+        .result-btn:hover {
+            transform: translateY(-2px);
+            opacity: 0.9;
+        }
+
+        /* ===== STUDY PAGE ===== */
+        .study-container {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .study-title {
+            text-align: center;
+            color: white;
+            margin-bottom: 25px;
+        }
+
+        .study-title h2 {
+            font-size: 2rem;
+            margin-bottom: 8px;
+        }
+
+        .study-controls {
+            background: white;
+            border-radius: var(--radius);
+            padding: 20px 25px;
+            margin-bottom: 20px;
+            box-shadow: var(--shadow);
+            display: flex;
+            gap: 15px;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .study-search {
+            flex: 1;
+            padding: 10px 15px;
+            border: 2px solid #e0e0e0;
+            border-radius: 8px;
+            font-size: 0.95rem;
+            outline: none;
+            min-width: 200px;
+        }
+
+        .study-search:focus {
+            border-color: var(--primary);
+        }
+
+        .study-filter {
+            padding: 10px 15px;
+            border: 2px solid #e0e0e0;
+            border-radius: 8px;
+            font-size: 0.9rem;
+            outline: none;
+            cursor: pointer;
+        }
+
+        .study-filter:focus {
+            border-color: var(--primary);
+        }
+
+        .study-chapter {
+            background: white;
+            border-radius: var(--radius);
+            margin-bottom: 20px;
+            box-shadow: var(--shadow);
+            overflow: hidden;
+        }
+
+        .chapter-header {
+            background: linear-gradient(135deg, var(--primary), #2d5a9e);
+            color: white;
+            padding: 18px 25px;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .chapter-header h3 {
+            font-size: 1.1rem;
+        }
+
+        .chapter-count {
+            background: rgba(255,255,255,0.2);
+            padding: 3px 12px;
+            border-radius: 20px;
+            font-size: 0.8rem;
+        }
+
+        .chapter-toggle {
+            font-size: 1.2rem;
+            transition: transform 0.3s;
+        }
+
+        .chapter-header.open .chapter-toggle {
+            transform: rotate(180deg);
+        }
+
+        .chapter-body {
+            display: none;
+            padding: 20px 25px;
+        }
+
+        .chapter-body.open {
+            display: block;
+        }
+
+        .topic-section {
+            margin-bottom: 20px;
+        }
+
+        .topic-title {
+            font-size: 0.9rem;
+            font-weight: 700;
+            color: var(--secondary);
+            padding: 8px 12px;
+            background: #fff0f3;
+            border-left: 3px solid var(--secondary);
+            border-radius: 0 5px 5px 0;
+            margin-bottom: 12px;
+        }
+
+        .qa-item {
+            border: 1px solid #e8e8e8;
+            border-radius: 8px;
+            margin-bottom: 10px;
+            overflow: hidden;
+        }
+
+        .qa-question {
+            padding: 12px 15px;
+            background: #fafafa;
+            font-weight: 600;
+            font-size: 0.9rem;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .qa-question:hover {
+            background: #f0f4ff;
+        }
+
+        .qa-toggle {
+            color: var(--gray);
+            flex-shrink: 0;
+            font-size: 1.1rem;
+        }
+
+        .qa-answer {
+            padding: 12px 15px;
+            background: #e8f5e9;
+            font-size: 0.9rem;
+            color: #1b5e20;
+            display: none;
+            border-top: 1px solid #c8e6c9;
+            line-height: 1.6;
+        }
+
+        .qa-answer.open {
+            display: block;
+        }
+
+        /* ===== UTILITY ===== */
+        .alert {
+            padding: 12px 20px;
+            border-radius: 8px;
+            margin-top: 15px;
+            font-weight: 500;
+            font-size: 0.9rem;
+        }
+
+        .alert-warning {
+            background: #fff3cd;
+            color: #856404;
+            border: 1px solid #ffc107;
+        }
+
+        .feedback-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0,0,0,0.5);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 9999;
+            opacity: 0;
+            pointer-events: none;
+            transition: opacity 0.3s;
+        }
+
+        .feedback-overlay.show {
+            opacity: 1;
+            pointer-events: all;
+        }
+
+        .feedback-box {
+            background: white;
+            border-radius: var(--radius);
+            padding: 40px;
+            text-align: center;
+            max-width: 300px;
+            transform: scale(0.8);
+            transition: transform 0.3s;
+        }
+
+        .feedback-overlay.show .feedback-box {
+            transform: scale(1);
+        }
+
+        .feedback-icon {
+            font-size: 4rem;
+            margin-bottom: 15px;
+        }
+
+        .feedback-text {
+            font-size: 1.2rem;
+            font-weight: 700;
+        }
+
+        .scrolltop {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            width: 45px;
+            height: 45px;
+            background: var(--accent);
+            border-radius: 50%;
+            border: none;
+            cursor: pointer;
+            font-size: 1.2rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: var(--shadow);
+            z-index: 100;
+        }
+
+        @media(max-width: 768px) {
+            nav {
+                padding: 10px 15px;
+            }
+            .nav-logo h1 { font-size: 1rem; }
+            .nav-btn { padding: 8px 12px; font-size: 0.8rem; }
+            .page { padding: 15px; }
+            .home-hero h2 { font-size: 1.6rem; }
+            .quiz-header { flex-direction: column; }
+            .options-grid { grid-template-columns: 1fr; }
+            .review-options { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+
+<!-- Navigation -->
+<nav>
+    <div class="nav-logo">
+        <div class="nav-logo-icon">📮</div>
+        <div>
+            <h1>Postal Quiz</h1>
+            <p>Department of Post</p>
+        </div>
+    </div>
+    <div class="nav-links">
+        <button class="nav-btn active" onclick="showPage('home')">🏠 Home</button>
+        <button class="nav-btn" onclick="showPage('setup')">🎯 Start Quiz</button>
+        <button class="nav-btn" onclick="showPage('study')">📖 Study</button>
+    </div>
+</nav>
+
+<!-- Feedback Overlay -->
+<div class="feedback-overlay" id="feedbackOverlay">
+    <div class="feedback-box">
+        <div class="feedback-icon" id="feedbackIcon"></div>
+        <div class="feedback-text" id="feedbackText"></div>
+    </div>
+</div>
+
+<!-- ===== HOME PAGE ===== -->
+<div class="page active" id="page-home">
+    <div class="home-hero">
+        <h2>📮 Department of Post Quiz</h2>
+        <p>Test your knowledge about India's Postal Service Organization & Administration</p>
+    </div>
+    <div class="home-cards">
+        <div class="home-card" onclick="showPage('setup')">
+            <div class="icon">🎯</div>
+            <h3>Take Quiz</h3>
+            <p>Test your knowledge with timed questions</p>
+        </div>
+        <div class="home-card" onclick="showPage('study')">
+            <div class="icon">📖</div>
+            <h3>Study Mode</h3>
+            <p>Read all questions and answers by chapter</p>
+        </div>
+        <div class="home-card" onclick="showPage('setup')">
+            <div class="icon">⚙️</div>
+            <h3>Custom Quiz</h3>
+            <p>Choose chapters, time limit & question count</p>
+        </div>
+    </div>
+    <div style="text-align:center; color:rgba(255,255,255,0.7); font-size:0.9rem;">
+        <p>📚 Chapter: Organization of Department &nbsp;|&nbsp; Total Questions: 65+</p>
+    </div>
+</div>
+
+<!-- ===== SETUP PAGE ===== -->
+<div class="page" id="page-setup">
+    <div class="setup-container">
+        <div class="setup-title">
+            <h2>⚙️ Quiz Setup</h2>
+            <p style="opacity:0.8;">Customize your quiz experience</p>
+        </div>
+
+        <!-- Time Selection -->
+        <div class="setup-card">
+            <h3>⏱️ Time Per Question</h3>
+            <div class="time-options">
+                <div class="time-option" data-time="30" onclick="selectTime(this, 30)">
+                    <div class="time-val">30</div>
+                    <div class="time-label">Seconds</div>
+                </div>
+                <div class="time-option selected" data-time="60" onclick="selectTime(this, 60)">
+                    <div class="time-val">1</div>
+                    <div class="time-label">Minute</div>
+                </div>
+                <div class="time-option" data-time="120" onclick="selectTime(this, 120)">
+                    <div class="time-val">2</div>
+                    <div class="time-label">Minutes</div>
+                </div>
+                <div class="time-option" data-time="180" onclick="selectTime(this, 180)">
+                    <div class="time-val">3</div>
+                    <div class="time-label">Minutes</div>
+                </div>
+                <div class="time-option" data-time="300" onclick="selectTime(this, 300)">
+                    <div class="time-val">5</div>
+                    <div class="time-label">Minutes</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Number of Questions -->
+        <div class="setup-card">
+            <h3>🔢 Number of Questions</h3>
+            <div class="question-options">
+                <div class="q-option selected" onclick="selectQCount(this, 10)">10</div>
+                <div class="q-option" onclick="selectQCount(this, 20)">20</div>
+                <div class="q-option" onclick="selectQCount(this, 30)">30</div>
+                <div class="q-option" onclick="selectQCount(this, 50)">50</div>
+                <div class="q-option" onclick="selectQCount(this, 999)">All</div>
+            </div>
+        </div>
+
+        <!-- Chapter Selection -->
+        <div class="setup-card">
+            <h3>📚 Select Chapters</h3>
+            <button class="select-all-btn" onclick="toggleAllChapters()">Select / Deselect All</button>
+            <div class="chapter-grid" id="chapterGrid"></div>
+            <div id="setupAlert"></div>
+        </div>
+
+        <button class="start-quiz-btn" onclick="startQuiz()">🚀 Start Quiz</button>
+    </div>
+</div>
+
+<!-- ===== QUIZ PAGE ===== -->
+<div class="page" id="page-quiz">
+    <div class="quiz-container">
+        <!-- Quiz Header -->
+        <div class="quiz-header">
+            <div class="quiz-progress-info">
+                <div class="q-counter" id="qCounter">Question 1 / 10</div>
+                <div class="q-chapter-tag" id="qChapterTag">Chapter</div>
+            </div>
+            <div class="score-mini">
+                <span class="score-correct">✅ <span id="liveCorrect">0</span></span>
+                <span class="score-wrong">❌ <span id="liveWrong">0</span></span>
+                <span class="score-skipped">⏭️ <span id="liveSkipped">0</span></span>
+            </div>
+            <div class="quiz-timer">
+                <div class="timer-circle">
+                    <svg width="70" height="70" viewBox="0 0 70 70">
+                        <circle class="timer-bg" cx="35" cy="35" r="30"/>
+                        <circle class="timer-progress" id="timerProgress" cx="35" cy="35" r="30"
+                            stroke-dasharray="188.5" stroke-dashoffset="0"/>
+                    </svg>
+                    <div class="timer-text" id="timerText">60</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Progress Bar -->
+        <div class="progress-bar-container">
+            <div class="progress-bar-top">
+                <span>Progress</span>
+                <span id="progressPercent">0%</span>
+            </div>
+            <div class="progress-bar">
+                <div class="progress-fill" id="progressFill" style="width:0%"></div>
+            </div>
+        </div>
+
+        <!-- Question Card -->
+        <div class="question-card">
+            <span class="question-topic" id="questionTopic">Topic</span>
+            <div class="question-text" id="questionText">Question text here</div>
+            <div class="options-grid" id="optionsGrid"></div>
+        </div>
+
+        <!-- Quiz Nav -->
+        <div class="quiz-nav">
+            <button class="nav-quiz-btn btn-skip" onclick="skipQuestion()">⏭️ Skip</button>
+            <div style="font-size:0.85rem; color:var(--gray); text-align:center;">
+                <span id="qTopicLabel">Topic</span>
+            </div>
+            <button class="nav-quiz-btn btn-next" id="nextBtn" onclick="nextQuestion()" style="display:none;">
+                Next ➡️
+            </button>
+            <button class="nav-quiz-btn btn-finish" id="finishBtn" onclick="finishQuiz()" style="display:none;">
+                Finish 🏁
+            </button>
+        </div>
+    </div>
+</div>
+
+<!-- ===== RESULTS PAGE ===== -->
+<div class="page" id="page-results">
+    <div class="results-container">
+        <div class="results-header">
+            <h2 id="resultEmoji">🎉 Quiz Complete!</h2>
+            <p id="resultMessage">Great job!</p>
+        </div>
+
+        <div class="score-board">
+            <div class="score-circle">
+                <div class="score-num" id="finalScore">0</div>
+                <div class="score-total" id="finalTotal">/ 10</div>
+            </div>
+            <div style="font-size:1.5rem; font-weight:700; color:var(--primary)" id="scorePercent">0%</div>
+            <div style="color:var(--gray); margin-top:5px;" id="scoreGrade">-</div>
+            <div class="stats-grid">
+                <div class="stat-box correct-box">
+                    <div class="stat-num" id="finalCorrect">0</div>
+                    <div class="stat-label">✅ Correct</div>
+                </div>
+                <div class="stat-box wrong-box">
+                    <div class="stat-num" id="finalWrong">0</div>
+                    <div class="stat-label">❌ Wrong</div>
+                </div>
+                <div class="stat-box skip-box">
+                    <div class="stat-num" id="finalSkipped">0</div>
+                    <div class="stat-label">⏭️ Skipped</div>
+                </div>
+                <div class="stat-box time-box">
+                    <div class="stat-num" id="finalTime">0:00</div>
+                    <div class="stat-label">⏱️ Total Time</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="results-actions">
+            <button class="result-btn btn-retry" onclick="retryQuiz()">🔄 Retry Same</button>
+            <button class="result-btn btn-new" onclick="showPage('setup')">🎯 New Quiz</button>
+            <button class="result-btn btn-study" onclick="showPage('study')">📖 Study Mode</button>
+        </div>
+
+        <div class="review-section">
+            <h3>📋 Question Review</h3>
+            <div id="reviewList"></div>
+        </div>
+    </div>
+</div>
+
+<!-- ===== STUDY PAGE ===== -->
+<div class="page" id="page-study">
+    <div class="study-container">
+        <div class="study-title">
+            <h2>📖 Study Mode</h2>
+            <p style="opacity:0.8;">Read all questions and answers organized by chapter and topic</p>
+        </div>
+        <div class="study-controls">
+            <input type="text" class="study-search" id="studySearch" placeholder="🔍 Search questions..." oninput="filterStudy()">
+            <select class="study-filter" id="studyChapterFilter" onchange="filterStudy()">
+                <option value="all">All Chapters</option>
+            </select>
+        </div>
+        <div id="studyContent"></div>
+    </div>
+</div>
+
+<button class="scrolltop" onclick="window.scrollTo({top:0,behavior:'smooth'})">⬆️</button>
+
+<script>
+// ===================================================
+// QUESTION BANK
+// ===================================================
+const questionBank = [
+    // ============= CHAPTER 1: Postal Service Board & Administration =============
+    {
+        id: 1,
+        question: "Which body houses the apex management entity for the Department of Post?",
+        answer: "The Postal Service Board (PSB).",
+        options: ["The Postal Service Board (PSB)", "Ministry of Communications", "Director General's Office", "India Post Corporation"],
+        chapter: "Organization of Department",
+        topic: "Postal Service Board & Administration"
+    },
+    {
+        id: 2,
+        question: "Who serves as the Chairman of the Postal Service Board?",
+        answer: "The Secretary of the Department of Post (also known as the Ex-officio Chairman).",
+        options: ["The Secretary of the Department of Post (also known as the Ex-officio Chairman)", "Director General of Post", "Additional Secretary", "Member of Personnel"],
+        chapter: "Organization of Department",
+        topic: "Postal Service Board & Administration"
+    },
+    {
+        id: 3,
+        question: "What is the total strength of the Postal Service Board?",
+        answer: "One Chairman and seven members.",
+        options: ["One Chairman and seven members", "One Chairman and five members", "Two Chairmen and six members", "One Chairman and ten members"],
+        chapter: "Organization of Department",
+        topic: "Postal Service Board & Administration"
+    },
+    {
+        id: 4,
+        question: "Under whose direct administrative control does the Department of Post operate?",
+        answer: "The Director General in New Delhi.",
+        options: ["The Director General in New Delhi", "The Secretary of Department of Post", "Ministry of Finance", "The Additional Secretary"],
+        chapter: "Organization of Department",
+        topic: "Postal Service Board & Administration"
+    },
+    {
+        id: 5,
+        question: "Who provides functional support and serves as the Secretary of the Postal Service Board?",
+        answer: "A senior staff officer of the Directorate.",
+        options: ["A senior staff officer of the Directorate", "The Director General", "The Additional Director General", "The Member of Personnel"],
+        chapter: "Organization of Department",
+        topic: "Postal Service Board & Administration"
+    },
+    {
+        id: 6,
+        question: "Who acts as the Executive Vice Chairman of the Postal Service Staff Welfare Board?",
+        answer: "The Secretary of the Department of Post.",
+        options: ["The Secretary of the Department of Post", "The Director General", "The Member of Personnel", "The Additional Secretary"],
+        chapter: "Organization of Department",
+        topic: "Postal Service Board & Administration"
+    },
+    {
+        id: 7,
+        question: "Who is considered a permanent invitee to the Postal Service Board?",
+        answer: "The Additional Secretary and Financial Advisor.",
+        options: ["The Additional Secretary and Financial Advisor", "The Director General", "The Member of Technology", "The Chief PMG of largest circle"],
+        chapter: "Organization of Department",
+        topic: "Postal Service Board & Administration"
+    },
+    {
+        id: 8,
+        question: "Who provides the necessary functional support for the board at the headquarters?",
+        answer: "Senior officers of the Directorate, including Deputy Director Generals (DDG), Directors, and Additional Director Generals (ADG).",
+        options: ["Senior officers of the Directorate, including Deputy Director Generals (DDG), Directors, and Additional Director Generals (ADG)", "Only the Director General and Secretary", "Field officers from postal circles", "State government representatives"],
+        chapter: "Organization of Department",
+        topic: "Postal Service Board & Administration"
+    },
+    {
+        id: 9,
+        question: "Which board has the objective to promote staff welfare, sports, and cultural activities within the department?",
+        answer: "The Postal Service Staff Welfare Board.",
+        options: ["The Postal Service Staff Welfare Board", "The Postal Sports Board", "The Postal Service Board", "The Army Postal Service Board"],
+        chapter: "Organization of Department",
+        topic: "Postal Service Board & Administration"
+    },
+    {
+        id: 10,
+        question: "Who is the Chairman of the Postal Sports Board?",
+        answer: "The Secretary of the Department of Post.",
+        options: ["The Secretary of the Department of Post", "The Director General", "Member of Service Quality", "Additional Director General (Sports)"],
+        chapter: "Organization of Department",
+        topic: "Postal Service Board & Administration"
+    },
+    {
+        id: 11,
+        question: "Who serves as the Vice Chairman of the Postal Sports Board?",
+        answer: "The Director General.",
+        options: ["The Director General", "The Secretary of Department of Post", "Member of Personnel", "Additional Secretary"],
+        chapter: "Organization of Department",
+        topic: "Postal Service Board & Administration"
+    },
+
+    // ============= CHAPTER 2: Restructuring & Board Members =============
+    {
+        id: 12,
+        question: "When did the revised designation and responsibilities of Postal Service Board members come into effect?",
+        answer: "December 1, 2024.",
+        options: ["December 1, 2024", "January 1, 2024", "April 1, 2024", "October 1, 2024"],
+        chapter: "Organization of Department",
+        topic: "Restructuring & Board Members (Effective Dec 1, 2024)"
+    },
+    {
+        id: 13,
+        question: "Which official/division issued the revised designation and duties for the members of the Postal Service Board?",
+        answer: "The Ministry of Communications, Department of Post, Establishment Division.",
+        options: ["The Ministry of Communications, Department of Post, Establishment Division", "Ministry of Finance", "Cabinet Secretariat", "Department of Personnel and Training"],
+        chapter: "Organization of Department",
+        topic: "Restructuring & Board Members (Effective Dec 1, 2024)"
+    },
+    {
+        id: 14,
+        question: "What is the revised designation for the member of Banking and DBT?",
+        answer: "Member of Infrastructure.",
+        options: ["Member of Infrastructure", "Member of Finance", "Member of Technology", "Member of Operations"],
+        chapter: "Organization of Department",
+        topic: "Restructuring & Board Members (Effective Dec 1, 2024)"
+    },
+    {
+        id: 15,
+        question: "Under which member have parcel operations been shifted for better integration?",
+        answer: "Member of Service Quality and Marketing.",
+        options: ["Member of Service Quality and Marketing", "Member of Operations", "Member of Infrastructure", "Member of Technology"],
+        chapter: "Organization of Department",
+        topic: "Restructuring & Board Members (Effective Dec 1, 2024)"
+    },
+    {
+        id: 16,
+        question: "Before the reorganization on December 1, 2024, which member was responsible for parcel operations?",
+        answer: "Member of Operations.",
+        options: ["Member of Operations", "Member of Service Quality", "Member of Infrastructure", "Member of Technology"],
+        chapter: "Organization of Department",
+        topic: "Restructuring & Board Members (Effective Dec 1, 2024)"
+    },
+    {
+        id: 17,
+        question: "Which member is now responsible for Technology Modernization and PMLA (Prevention of Money Laundering Act)?",
+        answer: "Member of Technology.",
+        options: ["Member of Technology", "Member of Infrastructure", "Member of Finance", "Member of Operations"],
+        chapter: "Organization of Department",
+        topic: "Restructuring & Board Members (Effective Dec 1, 2024)"
+    },
+    {
+        id: 18,
+        question: "Which member handles personnel matters, recruitment, and staff relations?",
+        answer: "Member of Personnel.",
+        options: ["Member of Personnel", "Member of Human Resource Development", "Member of Infrastructure", "Member of Service Quality"],
+        chapter: "Organization of Department",
+        topic: "Restructuring & Board Members (Effective Dec 1, 2024)"
+    },
+    {
+        id: 19,
+        question: "What is the revised designation for the Member of Planning and Human Resource Development?",
+        answer: "Member of Human Resource Development (the 'Planning' aspect was removed).",
+        options: ["Member of Human Resource Development (the 'Planning' aspect was removed)", "Member of Planning", "Member of Training and Development", "Member of Operations"],
+        chapter: "Organization of Department",
+        topic: "Restructuring & Board Members (Effective Dec 1, 2024)"
+    },
+    {
+        id: 20,
+        question: "Training and Human Resource Development have been restructured under which member?",
+        answer: "Member of Infrastructure.",
+        options: ["Member of Infrastructure", "Member of Human Resource Development", "Member of Personnel", "Member of Technology"],
+        chapter: "Organization of Department",
+        topic: "Restructuring & Board Members (Effective Dec 1, 2024)"
+    },
+    {
+        id: 21,
+        question: "Under which member do marketing, publicity, and social media consolidation fall?",
+        answer: "Member of Service Quality and Marketing.",
+        options: ["Member of Service Quality and Marketing", "Member of Technology", "Member of Infrastructure", "Member of Operations"],
+        chapter: "Organization of Department",
+        topic: "Restructuring & Board Members (Effective Dec 1, 2024)"
+    },
+
+    // ============= CHAPTER 3: Postal Circles & Jurisdictions =============
+    {
+        id: 22,
+        question: "How many postal circles are currently functioning in India?",
+        answer: "23 circles.",
+        options: ["23 circles", "22 circles", "25 circles", "28 circles"],
+        chapter: "Organization of Department",
+        topic: "Postal Circles & Jurisdictions"
+    },
+    {
+        id: 23,
+        question: "Who is the head of the postal circle?",
+        answer: "The Chief Post Master General (CPMG).",
+        options: ["The Chief Post Master General (CPMG)", "The Director General of Post", "The Senior Superintendent of Post", "The Postmaster General"],
+        chapter: "Organization of Department",
+        topic: "Postal Circles & Jurisdictions"
+    },
+    {
+        id: 24,
+        question: "Under which circle's jurisdiction does the Union Territory of Andaman and Nicobar Islands fall?",
+        answer: "West Bengal Circle.",
+        options: ["West Bengal Circle", "Tamil Nadu Circle", "Andhra Pradesh Circle", "Odisha Circle"],
+        chapter: "Organization of Department",
+        topic: "Postal Circles & Jurisdictions"
+    },
+    {
+        id: 25,
+        question: "Which circle manages the postal administration for the Union Territory of Lakshadweep?",
+        answer: "Kerala Circle.",
+        options: ["Kerala Circle", "Tamil Nadu Circle", "Karnataka Circle", "Maharashtra Circle"],
+        chapter: "Organization of Department",
+        topic: "Postal Circles & Jurisdictions"
+    },
+    {
+        id: 26,
+        question: "The State of Sikkim falls under the administrative control of which circle?",
+        answer: "West Bengal Circle.",
+        options: ["West Bengal Circle", "North East Circle", "Bihar Circle", "Odisha Circle"],
+        chapter: "Organization of Department",
+        topic: "Postal Circles & Jurisdictions"
+    },
+    {
+        id: 27,
+        question: "Which territories are covered under the jurisdiction of the Gujarat Circle?",
+        answer: "Gujarat, Daman, Diu, and Dadra and Nagar Haveli.",
+        options: ["Gujarat, Daman, Diu, and Dadra and Nagar Haveli", "Gujarat and Goa", "Gujarat and Rajasthan", "Gujarat, Goa, and Daman"],
+        chapter: "Organization of Department",
+        topic: "Postal Circles & Jurisdictions"
+    },
+    {
+        id: 28,
+        question: "Which circle administers the Union Territory of Chandigarh?",
+        answer: "Punjab Circle.",
+        options: ["Punjab Circle", "Haryana Circle", "Delhi Circle", "Himachal Pradesh Circle"],
+        chapter: "Organization of Department",
+        topic: "Postal Circles & Jurisdictions"
+    },
+    {
+        id: 29,
+        question: "The State of Goa is under the control of which postal circle?",
+        answer: "Maharashtra Circle.",
+        options: ["Maharashtra Circle", "Karnataka Circle", "Kerala Circle", "Gujarat Circle"],
+        chapter: "Organization of Department",
+        topic: "Postal Circles & Jurisdictions"
+    },
+    {
+        id: 30,
+        question: "How many states are included in the North East Postal Circle?",
+        answer: "Six states: Arunachal Pradesh, Manipur, Meghalaya, Mizoram, Nagaland, and Tripura.",
+        options: ["Six states: Arunachal Pradesh, Manipur, Meghalaya, Mizoram, Nagaland, and Tripura", "Seven states including Assam", "Five states", "Eight states including Sikkim"],
+        chapter: "Organization of Department",
+        topic: "Postal Circles & Jurisdictions"
+    },
+    {
+        id: 31,
+        question: "Under which circle does the administrative jurisdiction of Mahe (Puducherry) fall?",
+        answer: "Kerala Circle.",
+        options: ["Kerala Circle", "Tamil Nadu Circle", "Karnataka Circle", "Andhra Pradesh Circle"],
+        chapter: "Organization of Department",
+        topic: "Postal Circles & Jurisdictions"
+    },
+    {
+        id: 32,
+        question: "Under which circle does the administrative control of Yanam (Puducherry) fall?",
+        answer: "Andhra Pradesh Circle.",
+        options: ["Andhra Pradesh Circle", "Tamil Nadu Circle", "Telangana Circle", "Odisha Circle"],
+        chapter: "Organization of Department",
+        topic: "Postal Circles & Jurisdictions"
+    },
+    {
+        id: 33,
+        question: "Under which circle does the Union Territory of Puducherry fall?",
+        answer: "Tamil Nadu Circle.",
+        options: ["Tamil Nadu Circle", "Kerala Circle", "Andhra Pradesh Circle", "Karnataka Circle"],
+        chapter: "Organization of Department",
+        topic: "Postal Circles & Jurisdictions"
+    },
+    {
+        id: 34,
+        question: "Where is the headquarters of the Telangana Postal Circle located?",
+        answer: "Hyderabad.",
+        options: ["Hyderabad", "Secunderabad", "Vijayawada", "Warangal"],
+        chapter: "Organization of Department",
+        topic: "Postal Circles & Jurisdictions"
+    },
+
+    // ============= CHAPTER 4: Base Circle & Army Postal Service =============
+    {
+        id: 35,
+        question: "Which circle is dedicated to the communication needs of the Armed Forces?",
+        answer: "The Base Circle (also known as the Army Postal Service or APS).",
+        options: ["The Base Circle (also known as the Army Postal Service or APS)", "The Delhi Circle", "The Special Forces Circle", "The Defence Communications Circle"],
+        chapter: "Organization of Department",
+        topic: "Base Circle & Army Postal Service (APS)"
+    },
+    {
+        id: 36,
+        question: "Who is the head of the Base Circle (APS)?",
+        answer: "The Additional Director General of Army Postal Service.",
+        options: ["The Additional Director General of Army Postal Service", "A Lieutenant General", "The Director General of Post", "A Brigadier"],
+        chapter: "Organization of Department",
+        topic: "Base Circle & Army Postal Service (APS)"
+    },
+    {
+        id: 37,
+        question: "What is the military rank held by the Additional Director General of the APS?",
+        answer: "Major General.",
+        options: ["Major General", "Lieutenant General", "Brigadier", "Colonel"],
+        chapter: "Organization of Department",
+        topic: "Base Circle & Army Postal Service (APS)"
+    },
+    {
+        id: 38,
+        question: "Where is 1 CBPO (Central Base Post Office) located?",
+        answer: "New Delhi (PIN 900056, known as 56 APO).",
+        options: ["New Delhi (PIN 900056, known as 56 APO)", "Mumbai (known as 55 APO)", "Kolkata (known as 99 APO)", "Chennai (known as 88 APO)"],
+        chapter: "Organization of Department",
+        topic: "Base Circle & Army Postal Service (APS)"
+    },
+    {
+        id: 39,
+        question: "Where is 2 CBPO (Central Base Post Office) located?",
+        answer: "Kolkata (PIN 900099, known as 99 APO).",
+        options: ["Kolkata (PIN 900099, known as 99 APO)", "New Delhi (known as 56 APO)", "Mumbai (known as 55 APO)", "Pune (known as 77 APO)"],
+        chapter: "Organization of Department",
+        topic: "Base Circle & Army Postal Service (APS)"
+    },
+    {
+        id: 40,
+        question: "What percentage of the non-officer cadre in the APS is drawn from the Department of Posts?",
+        answer: "75%.",
+        options: ["75%", "50%", "60%", "80%"],
+        chapter: "Organization of Department",
+        topic: "Base Circle & Army Postal Service (APS)"
+    },
+    {
+        id: 41,
+        question: "What percentage of the non-officer cadre in the APS is drawn from the Army?",
+        answer: "25%.",
+        options: ["25%", "50%", "40%", "20%"],
+        chapter: "Organization of Department",
+        topic: "Base Circle & Army Postal Service (APS)"
+    },
+    {
+        id: 42,
+        question: "What is the rank of the Commandants overseeing the two CBPOs and the Army Postal Training Centre?",
+        answer: "Colonel rank.",
+        options: ["Colonel rank", "Major General rank", "Brigadier rank", "Lieutenant Colonel rank"],
+        chapter: "Organization of Department",
+        topic: "Base Circle & Army Postal Service (APS)"
+    },
+
+    // ============= CHAPTER 5: Divisions, Directorates & Facilities =============
+    {
+        id: 43,
+        question: "Who is the head of the postal division and directly controls the working of all post offices within it?",
+        answer: "The Senior Superintendent of Post (SSPO) or Superintendent of Post (SPO), depending on the division's working strength.",
+        options: ["The Senior Superintendent of Post (SSPO) or Superintendent of Post (SPO), depending on the division's working strength", "The Chief Postmaster General", "The Postmaster General", "The Assistant Superintendent of Post"],
+        chapter: "Organization of Department",
+        topic: "Divisions, Directorates & Facilities"
+    },
+    {
+        id: 44,
+        question: "Who is the administrative head of the RMS (Railway Mail Service)?",
+        answer: "The Superintendent of RMS (SRMS).",
+        options: ["The Superintendent of RMS (SRMS)", "The Director General of Post", "The Postmaster General", "The Additional Director General (RMS)"],
+        chapter: "Organization of Department",
+        topic: "Divisions, Directorates & Facilities"
+    },
+    {
+        id: 45,
+        question: "Who is responsible for heading the postal subdivision?",
+        answer: "The Assistant Superintendent of Post (ASP) or Inspector of Post (IP).",
+        options: ["The Assistant Superintendent of Post (ASP) or Inspector of Post (IP)", "Senior Superintendent of Post", "Postmaster Grade III", "Superintendent of Post"],
+        chapter: "Organization of Department",
+        topic: "Divisions, Directorates & Facilities"
+    },
+    {
+        id: 46,
+        question: "Who heads the Parcel Directorate?",
+        answer: "The Chief General Manager (CGM).",
+        options: ["The Chief General Manager (CGM)", "The Director General", "The Additional Director General", "The Secretary of Department of Post"],
+        chapter: "Organization of Department",
+        topic: "Divisions, Directorates & Facilities"
+    },
+    {
+        id: 47,
+        question: "Where is the headquarters of the Parcel Directorate located?",
+        answer: "New Delhi.",
+        options: ["New Delhi", "Mumbai", "Kolkata", "Chennai"],
+        chapter: "Organization of Department",
+        topic: "Divisions, Directorates & Facilities"
+    },
+    {
+        id: 48,
+        question: "At present, who heads the merged units of the Postal Store Depot and Circle Store Depot?",
+        answer: "A Postal Service Group B Officer at the Superintendent level.",
+        options: ["A Postal Service Group B Officer at the Superintendent level", "An IPS Group A Officer", "A Director level officer", "Chief General Manager"],
+        chapter: "Organization of Department",
+        topic: "Divisions, Directorates & Facilities"
+    },
+    {
+        id: 49,
+        question: "Where is the Directorate of PLI (Postal Life Insurance) located?",
+        answer: "Chanakyapuri Post Office Complex, First Floor, New Delhi (PIN 110021). Note: The Director PLI's working office is in Kolkata.",
+        options: ["Chanakyapuri Post Office Complex, First Floor, New Delhi (PIN 110021). Note: The Director PLI's working office is in Kolkata", "Kolkata Head Office", "Mumbai GPO Complex", "Chennai Postal Campus"],
+        chapter: "Organization of Department",
+        topic: "Divisions, Directorates & Facilities"
+    },
+    {
+        id: 50,
+        question: "Where is the Office of the Controller of Foreign Mail located?",
+        answer: "Mumbai.",
+        options: ["Mumbai", "New Delhi", "Kolkata", "Chennai"],
+        chapter: "Organization of Department",
+        topic: "Divisions, Directorates & Facilities"
+    },
+
+    // ============= CHAPTER 6: History & Acts =============
+    {
+        id: 51,
+        question: "Who is considered the founder of the modern postal system in India?",
+        answer: "Lord Dalhousie.",
+        options: ["Lord Dalhousie", "Lord Mountbatten", "Lord Curzon", "Lord Bentinck"],
+        chapter: "Organization of Department",
+        topic: "History & Acts"
+    },
+    {
+        id: 52,
+        question: "On what date did the Department of Post take its present form?",
+        answer: "October 1, 1854.",
+        options: ["October 1, 1854", "August 15, 1947", "January 26, 1950", "April 1, 1898"],
+        chapter: "Organization of Department",
+        topic: "History & Acts"
+    },
+    {
+        id: 53,
+        question: "Where was the first-ever post office in India established in 1727?",
+        answer: "Kolkata.",
+        options: ["Kolkata", "Mumbai", "Chennai", "New Delhi"],
+        chapter: "Organization of Department",
+        topic: "History & Acts"
+    },
+    {
+        id: 54,
+        question: "In which city was the first General Post Office (GPO) set up in 1774?",
+        answer: "Kolkata (Kolkata GPO).",
+        options: ["Kolkata (Kolkata GPO)", "Mumbai", "Chennai", "Delhi"],
+        chapter: "Organization of Department",
+        topic: "History & Acts"
+    },
+    {
+        id: 55,
+        question: "Where was the first-ever official airmail flight in the world conducted?",
+        answer: "Allahabad to Naini, India (on February 18, 1911).",
+        options: ["Allahabad to Naini, India (on February 18, 1911)", "Delhi to Mumbai, India", "London to Paris, France", "New York to Washington, USA"],
+        chapter: "Organization of Department",
+        topic: "History & Acts"
+    },
+    {
+        id: 56,
+        question: "Which new legislation replaces the Indian Post Office Act of 1898?",
+        answer: "The Post Office Act 2023 (came into effect on June 18, 2024).",
+        options: ["The Post Office Act 2023 (came into effect on June 18, 2024)", "The Post Office Act 2021", "The Indian Postal Services Act 2023", "The Communications Act 2024"],
+        chapter: "Organization of Department",
+        topic: "History & Acts"
+    },
+
+    // ============= CHAPTER 7: General Knowledge & Acronyms =============
+    {
+        id: 57,
+        question: "How many parts is the Post Office (PO) Guide divided into?",
+        answer: "Four parts: Part 1 (Inland Post), Part 2 (Foreign Post), Part 3 (List of Post Offices), Part 4 (Savings Banks and Schemes).",
+        options: ["Four parts: Part 1 (Inland Post), Part 2 (Foreign Post), Part 3 (List of Post Offices), Part 4 (Savings Banks and Schemes)", "Three parts: Inland, Foreign, and Savings", "Five parts including Parcel Post", "Two parts: Inland and Foreign"],
+        chapter: "Organization of Department",
+        topic: "General Knowledge & Acronyms"
+    },
+    {
+        id: 58,
+        question: "What is the primary focus of The Post Office Guide Part One?",
+        answer: "Rules and Regulations Relating to Inland Post.",
+        options: ["Rules and Regulations Relating to Inland Post", "Foreign Post Rules", "List of all Post Offices", "Savings Banks and Schemes"],
+        chapter: "Organization of Department",
+        topic: "General Knowledge & Acronyms"
+    },
+    {
+        id: 59,
+        question: "What is the full form of CEPT?",
+        answer: "Centre for Excellence in Postal Technology.",
+        options: ["Centre for Excellence in Postal Technology", "Central Electronic Postal Technology", "Centre for Efficient Postal Training", "Central Excellence in Post and Telecom"],
+        chapter: "Organization of Department",
+        topic: "General Knowledge & Acronyms"
+    },
+    {
+        id: 60,
+        question: "What is the full form of RAKNPA?",
+        answer: "Rafi Ahmed Kidwai National Postal Academy.",
+        options: ["Rafi Ahmed Kidwai National Postal Academy", "Rajendra Kumar National Postal Academy", "Rafi Ahmed Khan National Postal Association", "Regional Academy for Knowledge in National Postal Administration"],
+        chapter: "Organization of Department",
+        topic: "General Knowledge & Acronyms"
+    },
+    {
+        id: 61,
+        question: "What is the full form of PMLA?",
+        answer: "Prevention of Money Laundering Act.",
+        options: ["Prevention of Money Laundering Act", "Postal Management Liaison Authority", "Prevention of Mail Loss Act", "Post Master Level Authority"],
+        chapter: "Organization of Department",
+        topic: "General Knowledge & Acronyms"
+    },
+    {
+        id: 62,
+        question: "What is the full form of APS?",
+        answer: "Army Postal Service.",
+        options: ["Army Postal Service", "Advanced Postal System", "Authorized Postal Station", "Administrative Postal Section"],
+        chapter: "Organization of Department",
+        topic: "General Knowledge & Acronyms"
+    },
+    {
+        id: 63,
+        question: "What is the full form of CBPO?",
+        answer: "Central Base Post Office.",
+        options: ["Central Base Post Office", "Chief Base Postal Officer", "Circle Base Post Office", "Central Branch Post Office"],
+        chapter: "Organization of Department",
+        topic: "General Knowledge & Acronyms"
+    },
+    {
+        id: 64,
+        question: "What is the full form of SSPO?",
+        answer: "Senior Superintendent of Post.",
+        options: ["Senior Superintendent of Post", "Special Superintendent of Postal Operations", "State Senior Post Officer", "Senior Staff Postal Officer"],
+        chapter: "Organization of Department",
+        topic: "General Knowledge & Acronyms"
+    },
+    {
+        id: 65,
+        question: "What is the full form of CPMG?",
+        answer: "Chief Post Master General.",
+        options: ["Chief Post Master General", "Central Post Management Group", "Chief Postal Management General", "Central Postmaster Grade"],
+        chapter: "Organization of Department",
+        topic: "General Knowledge & Acronyms"
+    },
+    {
+        id: 66,
+        question: "What is the full form of RMS?",
+        answer: "Railway Mail Service.",
+        options: ["Railway Mail Service", "Regional Mail System", "Rapid Mail Sorting", "Remote Mail Station"],
+        chapter: "Organization of Department",
+        topic: "General Knowledge & Acronyms"
+    },
+    {
+        id: 67,
+        question: "What is the full form of PLI?",
+        answer: "Postal Life Insurance.",
+        options: ["Postal Life Insurance", "Post Office Loan Insurance", "Permanent Life Insurance", "Postal Liability Insurance"],
+        chapter: "Organization of Department",
+        topic: "General Knowledge & Acronyms"
+    },
+    {
+        id: 68,
+        question: "What is the full form of PSB?",
+        answer: "Postal Service Board.",
+        options: ["Postal Service Board", "Post Office Standards Bureau", "Postal Supervisory Body", "Public Service Board"],
+        chapter: "Organization of Department",
+        topic: "General Knowledge & Acronyms"
+    },
+    {
+        id: 69,
+        question: "What is the full form of CGM?",
+        answer: "Chief General Manager.",
+        options: ["Chief General Manager", "Central Grade Member", "Chief Government Manager", "Circle General Manager"],
+        chapter: "Organization of Department",
+        topic: "General Knowledge & Acronyms"
+    },
+    {
+        id: 70,
+        question: "What is the full form of DBT?",
+        answer: "Direct Benefit Transfer.",
+        options: ["Direct Benefit Transfer", "Digital Banking Technology", "Department of Banking and Telecom", "Direct Bank Transaction"],
+        chapter: "Organization of Department",
+        topic: "General Knowledge & Acronyms"
+    }
+];
+
+// ===================================================
+// GLOBAL VARIABLES
+// ===================================================
+let selectedTime = 60;
+let selectedQCount = 10;
+let selectedChapters = new Set();
+let quizQuestions = [];
+let currentQIndex = 0;
+let score = 0;
+let wrongCount = 0;
+let skippedCount = 0;
+let timerInterval = null;
+let timeLeft = 60;
+let totalTimeTaken = 0;
+let quizStartTime = null;
+let userAnswers = [];
+let answered = false;
+let lastSetup = null;
+
+// ===================================================
+// INITIALIZE
+// ===================================================
+window.onload = function() {
+    buildChapterGrid();
+    buildStudyContent();
+    buildStudyFilter();
+};
+
+// ===================================================
+// NAVIGATION
+// ===================================================
+function showPage(page) {
+    document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
+    document.querySelectorAll('.nav-btn').forEach(b => b.classList.remove('active'));
+    document.getElementById('page-' + page).classList.add('active');
+    
+    const navBtns = document.querySelectorAll('.nav-btn');
+    const pageMap = { home: 0, setup: 1, study: 2 };
+    if (pageMap[page] !== undefined) navBtns[pageMap[page]].classList.add('active');
+    
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+// ===================================================
+// SETUP FUNCTIONS
+// ===================================================
+function selectTime(el, time) {
+    document.querySelectorAll('.time-option').forEach(t => t.classList.remove('selected'));
+    el.classList.add('selected');
+    selectedTime = time;
+}
+
+function selectQCount(el, count) {
+    document.querySelectorAll('.q-option').forEach(q => q.classList.remove('selected'));
+    el.classList.add('selected');
+    selectedQCount = count;
+}
+
+function getChapters() {
+    const chapters = new Set();
+    questionBank.forEach(q => chapters.add(q.chapter));
+    return [...chapters];
+}
+
+function buildChapterGrid() {
+    const grid = document.getElementById('chapterGrid');
+    const chapters = getChapters();
+    grid.innerHTML = '';
+    chapters.forEach(ch => {
+        const count = questionBank.filter(q => q.chapter === ch).length;
+        const div = document.createElement('div');
+        div.className = 'chapter-item selected';
+        div.dataset.chapter = ch;
+        div.onclick = () => toggleChapter(div, ch);
+        div.innerHTML = `
+            <div class="chapter-check"></div>
+            <div class="chapter-name">${ch} <span style="color:var(--accent);font-weight:700;">(${count})</span></div>
+        `;
+        selectedChapters.add(ch);
+        grid.appendChild(div);
+    });
+}
+
+function toggleChapter(el, ch) {
+    if (selectedChapters.has(ch)) {
+        selectedChapters.delete(ch);
+        el.classList.remove('selected');
+    } else {
+        selectedChapters.add(ch);
+        el.classList.add('selected');
+    }
+}
+
+function toggleAllChapters() {
+    const items = document.querySelectorAll('.chapter-item');
+    const allSelected = selectedChapters.size === getChapters().length;
+    if (allSelected) {
+        selectedChapters.clear();
+        items.forEach(i => i.classList.remove('selected'));
+    } else {
+        getChapters().forEach(ch => selectedChapters.add(ch));
+        items.forEach(i => i.classList.add('selected'));
+    }
+}
+
+function startQuiz() {
+    const alert = document.getElementById('setupAlert');
+    if (selectedChapters.size === 0) {
+        alert.innerHTML = '<div class="alert alert-warning">⚠️ Please select at least one chapter!</div>';
+        return;
+    }
+    alert.innerHTML = '';
+
+    // Filter questions
+    let pool = questionBank.filter(q => selectedChapters.has(q.chapter));
+    pool = shuffle([...pool]);
+    
+    const maxQ = Math.min(selectedQCount === 999 ? pool.length : selectedQCount, pool.length);
+    quizQuestions = pool.slice(0, maxQ);
+
+    // Save setup for retry
+    lastSetup = {
+        time: selectedTime,
+        qCount: selectedQCount,
+        chapters: new Set(selectedChapters),
+        questions: [...quizQuestions]
+    };
+
+    initQuiz();
+    showPage('quiz');
+}
+
+function retryQuiz() {
+    if (!lastSetup) { showPage('setup'); return; }
+    quizQuestions = shuffle([...lastSetup.questions]);
+    initQuiz();
+    showPage('quiz');
+}
+
+// ===================================================
+// QUIZ ENGINE
+// ===================================================
+function initQuiz() {
+    currentQIndex = 0;
+    score = 0;
+    wrongCount = 0;
+    skippedCount = 0;
+    userAnswers = [];
+    totalTimeTaken = 0;
+    quizStartTime = Date.now();
+    loadQuestion();
+}
+
+function shuffle(arr) {
+    for (let i = arr.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [arr[i], arr[j]] = [arr[j], arr[i]];
+    }
+    return arr;
+}
+
+function loadQuestion() {
+    if (currentQIndex >= quizQuestions.length) {
+        finishQuiz();
+        return;
+    }
+
+    answered = false;
+    const q = quizQuestions[currentQIndex];
+    const total = quizQuestions.length;
+
+    // Update header
+    document.getElementById('qCounter').textContent = `Question ${currentQIndex + 1} / ${total}`;
+    document.getElementById('qChapterTag').textContent = q.chapter;
+    document.getElementById('questionTopic').textContent = q.topic;
+    document.getElementById('questionText').textContent = q.question;
+    document.getElementById('qTopicLabel').textContent = q.topic;
+
+    // Progress
+    const pct = Math.round((currentQIndex / total) * 100);
+    document.getElementById('progressFill').style.width = pct + '%';
+    document.getElementById('progressPercent').textContent = pct + '%';
+
+    // Live scores
+    document.getElementById('liveCorrect').textContent = score;
+    document.getElementById('liveWrong').textContent = wrongCount;
+    document.getElementById('liveSkipped').textContent = skippedCount;
+
+    // Buttons
+    document.getElementById('nextBtn').style.display = 'none';
+    document.getElementById('finishBtn').style.display = 'none';
+    document.querySelector('.btn-skip').style.display = 'block';
+
+    // Options
+    const opts = shuffle([...q.options]);
+    const grid = document.getElementById('optionsGrid');
+    grid.innerHTML = '';
+    const letters = ['A', 'B', 'C', 'D'];
+    opts.forEach((opt, i) => {
+        const btn = document.createElement('button');
+        btn.className = 'option-btn';
+        btn.innerHTML = `<span class="option-letter">${letters[i]}</span><span>${opt}</span>`;
+        btn.onclick = () => selectAnswer(btn, opt, q);
+        grid.appendChild(btn);
+    });
+
+    // Timer
+    startTimer(selectedTime, q);
+}
+
+function startTimer(duration, q) {
+    if (timerInterval) clearInterval(timerInterval);
+    timeLeft = duration;
+    updateTimerUI(timeLeft, duration);
+
+    timerInterval = setInterval(() => {
+        timeLeft--;
+        updateTimerUI(timeLeft, duration);
+
+        if (timeLeft <= 0) {
+            clearInterval(timerInterval);
+            if (!answered) {
+                timeUpAutoSkip(q);
+            }
+        }
+    }, 1000);
+}
+
+function updateTimerUI(remaining, total) {
+    const circumference = 188.5;
+    const offset = circumference - (remaining / total) * circumference;
+    const progress = document.getElementById('timerProgress');
+    const text = document.getElementById('timerText');
+
+    progress.style.strokeDashoffset = offset;
+
+    const pct = remaining / total;
+    if (pct > 0.5) {
+        progress.style.stroke = '#28a745';
+    } else if (pct > 0.25) {
+        progress.style.stroke = '#ffc107';
+    } else {
+        progress.style.stroke = '#dc3545';
+    }
+
+    if (remaining >= 60) {
+        const m = Math.floor(remaining / 60);
+        const s = remaining % 60;
+        text.textContent = m + ':' + (s < 10 ? '0' : '') + s;
+    } else {
+        text.textContent = remaining;
+    }
+}
+
+function timeUpAutoSkip(q) {
+    answered = true;
+    skippedCount++;
+    userAnswers.push({ q, selected: null, status: 'skipped' });
+    document.querySelectorAll('.option-btn').forEach(btn => {
+        btn.disabled = true;
+        const text = btn.querySelector('span:last-child').textContent;
+        if (text === q.answer) {
+            btn.classList.add('correct');
+        }
+        btn.classList.add('skipped');
+    });
+    document.querySelector('.btn-skip').style.display = 'none';
+    showNextOrFinish();
+    document.getElementById('liveSkipped').textContent = skippedCount;
+}
+
+function selectAnswer(btn, selected, q) {
+    if (answered) return;
+    answered = true;
+    clearInterval(timerInterval);
+
+    const timeTaken = selectedTime - timeLeft;
+    totalTimeTaken += timeTaken;
+
+    const isCorrect = selected === q.answer;
+
+    if (isCorrect) {
+        score++;
+        btn.classList.add('correct');
+        userAnswers.push({ q, selected, status: 'correct' });
+        showFeedback(true);
+    } else {
+        wrongCount++;
+        btn.classList.add('wrong');
+        userAnswers.push({ q, selected, status: 'wrong' });
+        showFeedback(false);
+    }
+
+    // Show correct answer
+    document.querySelectorAll('.option-btn').forEach(b => {
+        b.disabled = true;
+        const t = b.querySelector('span:last-child').textContent;
+        if (t === q.answer) b.classList.add('correct');
+    });
+
+    document.querySelector('.btn-skip').style.display = 'none';
+    document.getElementById('liveCorrect').textContent = score;
+    document.getElementById('liveWrong').textContent = wrongCount;
+
+    showNextOrFinish();
+}
+
+function showFeedback(correct) {
+    const overlay = document.getElementById('feedbackOverlay');
+    const icon = document.getElementById('feedbackIcon');
+    const text = document.getElementById('feedbackText');
+    icon.textContent = correct ? '✅' : '❌';
+    text.textContent = correct ? 'Correct!' : 'Wrong!';
+    text.style.color = correct ? '#28a745' : '#dc3545';
+    overlay.classList.add('show');
+    setTimeout(() => overlay.classList.remove('show'), 800);
+}
+
+function showNextOrFinish() {
+    if (currentQIndex >= quizQuestions.length - 1) {
+        document.getElementById('finishBtn').style.display = 'block';
+    } else {
+        document.getElementById('nextBtn').style.display = 'block';
+    }
+}
+
+function skipQuestion() {
+    if (answered) return;
+    clearInterval(timerInterval);
+    const q = quizQuestions[currentQIndex];
+    skippedCount++;
+    userAnswers.push({ q, selected: null, status: 'skipped' });
+    document.getElementById('liveSkipped').textContent = skippedCount;
+
+    // Show correct
+    document.querySelectorAll('.option-btn').forEach(b => {
+        b.disabled = true;
+        const t = b.querySelector('span:last-child').textContent;
+        if (t === q.answer) b.classList.add('correct');
+        else b.classList.add('skipped');
+    });
+
+    document.querySelector('.btn-skip').style.display = 'none';
+    answered = true;
+    showNextOrFinish();
+}
+
+function nextQuestion() {
+    currentQIndex++;
+    loadQuestion();
+}
+
+function finishQuiz() {
+    clearInterval(timerInterval);
+    
+    // If user clicks finish before last question is answered
+    if (!answered && currentQIndex < quizQuestions.length) {
+        const remaining = quizQuestions.slice(currentQIndex);
+        remaining.forEach(q => {
+            userAnswers.push({ q, selected: null, status: 'skipped' });
+            skippedCount++;
+        });
+    }
+
+    totalTimeTaken = Math.floor((Date.now() - quizStartTime) / 1000);
+    showResults();
+    showPage('results');
+}
+
+// ===================================================
+// RESULTS
+// ===================================================
+function showResults() {
+    const total = quizQuestions.length;
+    const pct = total > 0 ? Math.round((score / total) * 100) : 0;
+
+    // Score circle
+    document.getElementById('finalScore').textContent = score;
+    document.getElementById('finalTotal').textContent = '/ ' + total;
+    document.getElementById('scorePercent').textContent = pct + '%';
+
+    // Grade
+    let grade, emoji, msg;
+    if (pct >= 90) { grade = 'Excellent! Grade A+'; emoji = '🏆'; msg = 'Outstanding performance!'; }
+    else if (pct >= 75) { grade = 'Very Good! Grade A'; emoji = '🌟'; msg = 'Great work! Keep it up!'; }
+    else if (pct >= 60) { grade = 'Good! Grade B'; emoji = '👍'; msg = 'Good performance! Review wrong answers.'; }
+    else if (pct >= 40) { grade = 'Average! Grade C'; emoji = '📚'; msg = 'Keep studying! You can do better.'; }
+    else { grade = 'Needs Improvement! Grade D'; emoji = '💪'; msg = 'Don\'t give up! Study harder.'; }
+
+    document.getElementById('resultEmoji').textContent = emoji + ' Quiz Complete!';
+    document.getElementById('resultMessage').textContent = msg;
+    document.getElementById('scoreGrade').textContent = grade;
+
+    // Stats
+    document.getElementById('finalCorrect').textContent = score;
+    document.getElementById('finalWrong').textContent = wrongCount;
+    document.getElementById('finalSkipped').textContent = skippedCount;
+    
+    const mins = Math.floor(totalTimeTaken / 60);
+    const secs = totalTimeTaken % 60;
+    document.getElementById('finalTime').textContent = mins + ':' + (secs < 10 ? '0' : '') + secs;
+
+    // Review
+    buildReview();
+}
+
+function buildReview() {
+    const list = document.getElementById('reviewList');
+    list.innerHTML = '';
+    
+    userAnswers.forEach((ans, i) => {
+        const { q, selected, status } = ans;
+        const opts = shuffle([...q.options]);
+        
+        const div = document.createElement('div');
+        div.className = `review-item review-${status}`;
+        
+        const badgeMap = {
+            correct: '<span class="review-badge badge-correct">✅ Correct</span>',
+            wrong: '<span class="review-badge badge-wrong">❌ Wrong</span>',
+            skipped: '<span class="review-badge badge-skipped">⏭️ Skipped</span>'
+        };
+
+        let optsHtml = '';
+        opts.forEach(opt => {
+            let cls = '';
+            if (opt === q.answer) cls = 'r-correct';
+            else if (opt === selected && status === 'wrong') cls = 'r-wrong-selected';
+            optsHtml += `<div class="review-option ${cls}">${opt === q.answer ? '✓ ' : opt === selected ? '✗ ' : ''}${opt}</div>`;
+        });
+
+        div.innerHTML = `
+            <div class="review-item-header">
+                <div class="review-q-num">Q${i + 1}.</div>
+                ${badgeMap[status]}
+            </div>
+            <div class="review-question">${q.question}</div>
+            <div class="review-options">${optsHtml}</div>
+            ${status === 'wrong' || status === 'skipped' ? `
+                <div style="padding:8px 12px; background:#e8f5e9; border-radius:6px; font-size:0.85rem; color:#1b5e20; margin-top:8px;">
+                    <strong>✅ Correct Answer:</strong> ${q.answer}
+                </div>` : ''}
+            <div class="review-topic">📂 ${q.chapter} → ${q.topic}</div>
+        `;
+        list.appendChild(div);
+    });
+}
+
+// ===================================================
+// STUDY MODE
+// ===================================================
+function getTopics(chapter) {
+    const topics = new Set();
+    questionBank.filter(q => q.chapter === chapter).forEach(q => topics.add(q.topic));
+    return [...topics];
+}
+
+function buildStudyContent(filter = '', chapterFilter = 'all') {
+    const container = document.getElementById('studyContent');
+    container.innerHTML = '';
+    
+    const chapters = getChapters();
+    
+    chapters.forEach(chapter => {
+        if (chapterFilter !== 'all' && chapter !== chapterFilter) return;
+        
+        const topics = getTopics(chapter);
+        let chapterHasContent = false;
+        let chapHtml = '';
+
+        topics.forEach(topic => {
+            const qs = questionBank.filter(q => q.chapter === chapter && q.topic === topic && 
+                (filter === '' || q.question.toLowerCase().includes(filter.toLowerCase()) || q.answer.toLowerCase().includes(filter.toLowerCase())));
+            
+            if (qs.length === 0) return;
+            chapterHasContent = true;
+
+            chapHtml += `<div class="topic-section">
+                <div class="topic-title">📌 ${topic}</div>`;
+            
+            qs.forEach(q => {
+                chapHtml += `
+                <div class="qa-item">
+                    <div class="qa-question" onclick="toggleAnswer(this)">
+                        <span>${q.question}</span>
+                        <span class="qa-toggle">▼</span>
+                    </div>
+                    <div class="qa-answer">${q.answer}</div>
+                </div>`;
+            });
+            chapHtml += `</div>`;
+        });
+
+        if (!chapterHasContent) return;
+
+        const chapterDiv = document.createElement('div');
+        chapterDiv.className = 'study-chapter';
+        const qCount = questionBank.filter(q => q.chapter === chapter).length;
+        chapterDiv.innerHTML = `
+            <div class="chapter-header open" onclick="toggleChapterStudy(this)">
+                <h3>📚 ${chapter}</h3>
+                <div style="display:flex;align-items:center;gap:10px;">
+                    <span class="chapter-count">${qCount} Questions</span>
+                    <span class="chapter-toggle">▼</span>
+                </div>
+            </div>
+            <div class="chapter-body open">${chapHtml}</div>
+        `;
+        container.appendChild(chapterDiv);
+    });
+
+    if (container.innerHTML === '') {
+        container.innerHTML = '<div style="text-align:center;color:white;padding:40px;font-size:1.1rem;">No questions found matching your search.</div>';
+    }
+}
+
+function buildStudyFilter() {
+    const sel = document.getElementById('studyChapterFilter');
+    getChapters().forEach(ch => {
+        const opt = document.createElement('option');
+        opt.value = ch;
+        opt.textContent = ch;
+        sel.appendChild(opt);
+    });
+}
+
+function toggleAnswer(el) {
+    const answer = el.nextElementSibling;
+    const toggle = el.querySelector('.qa-toggle');
+    answer.classList.toggle('open');
+    toggle.textContent = answer.classList.contains('open') ? '▲' : '▼';
+}
+
+function toggleChapterStudy(el) {
+    el.classList.toggle('open');
+    el.nextElementSibling.classList.toggle('open');
+}
+
+function filterStudy() {
+    const search = document.getElementById('studySearch').value;
+    const chFilter = document.getElementById('studyChapterFilter').value;
+    buildStudyContent(search, chFilter);
+}
+
+console.log('✅ Postal Quiz App Loaded! Total Questions:', questionBank.length);
+</script>
+</body>
+</html>
