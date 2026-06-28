@@ -1465,9 +1465,7 @@
                 padding-bottom: calc(var(--bottom-nav) + 20px);
             }
 
-            .quiz-action-bar {
-                padding-bottom: calc(var(--bottom-nav) + 8px);
-            }
+            
 
             .quiz-topbar {
                 top: var(--nav-height);
@@ -1916,12 +1914,53 @@ function showPage(page) {
     const quizTab = document.getElementById('bnav-quiz');
     if (page === 'quiz') quizTab.style.display = 'flex';
 
+    // Hide bottom nav during quiz for a focused view
+    const bottomNav = document.querySelector('.bottom-nav');
+    if (bottomNav) {
+        const isMobile = window.matchMedia("(max-width: 640px)").matches;
+        bottomNav.style.display = (page === 'quiz' && isMobile) ? 'none' : 'block';
+    }
+
+    // Fullscreen logic for quiz page
+    if (page === 'quiz') {
+        const elem = document.documentElement;
+        if (elem.requestFullscreen) {
+            elem.requestFullscreen();
+        } else if (elem.mozRequestFullScreen) { /* Firefox */
+            elem.mozRequestFullScreen();
+        } else if (elem.webkitRequestFullscreen) { /* Chrome, Safari and Opera */
+            elem.webkitRequestFullscreen();
+        } else if (elem.msRequestFullscreen) { /* IE/Edge */
+            elem.msRequestFullscreen();
+        }
+    } else {
+        if (document.exitFullscreen) {
+            document.exitFullscreen();
+        } else if (document.mozCancelFullScreen) { /* Firefox */
+            document.mozCancelFullScreen();
+        } else if (document.webkitExitFullscreen) { /* Chrome, Safari and Opera */
+            document.webkitExitFullscreen();
+        } else if (document.msExitFullscreen) { /* IE/Edge */
+            document.msExitFullscreen();
+        }
+    }
+
     window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 
 function confirmExit() {
     if (confirm('Exit quiz? Your progress will be lost.')) {
         clearInterval(timerInterval);
+        // Exit fullscreen when exiting the quiz
+        if (document.exitFullscreen) {
+            document.exitFullscreen();
+        } else if (document.mozCancelFullScreen) { /* Firefox */
+            document.mozCancelFullScreen();
+        } else if (document.webkitExitFullscreen) { /* Chrome, Safari and Opera */
+            document.webkitExitFullscreen();
+        } else if (document.msExitFullscreen) { /* IE/Edge */
+            document.msExitFullscreen();
+        }
         showPage('home');
     }
 }
