@@ -1883,6 +1883,8 @@ let quizStartTime = null;
 let userAnswers = [];
 let answered = false;
 let lastSetup = null;
+let skipTracker = new Map(); // tracks how many times each question has been skipped
+let originalQuestionCount = 0; // the original number of questions in the quiz
 
 // ===================================================
 // INIT
@@ -1934,15 +1936,19 @@ function showPage(page) {
             elem.msRequestFullscreen();
         }
     } else {
-        if (document.exitFullscreen) {
-            document.exitFullscreen();
-        } else if (document.mozCancelFullScreen) { /* Firefox */
-            document.mozCancelFullScreen();
-        } else if (document.webkitExitFullscreen) { /* Chrome, Safari and Opera */
-            document.webkitExitFullscreen();
-        } else if (document.msExitFullscreen) { /* IE/Edge */
-            document.msExitFullscreen();
-        }
+        try {
+            if (document.fullscreenElement || document.webkitFullscreenElement || document.mozFullScreenElement || document.msFullscreenElement) {
+                if (document.exitFullscreen) {
+                    document.exitFullscreen();
+                } else if (document.mozCancelFullScreen) {
+                    document.mozCancelFullScreen();
+                } else if (document.webkitExitFullscreen) {
+                    document.webkitExitFullscreen();
+                } else if (document.msExitFullscreen) {
+                    document.msExitFullscreen();
+                }
+            }
+        } catch(e) { /* ignore fullscreen exit errors */ }
     }
 
     window.scrollTo({ top: 0, behavior: 'smooth' });
@@ -1952,15 +1958,19 @@ function confirmExit() {
     if (confirm('Exit quiz? Your progress will be lost.')) {
         clearInterval(timerInterval);
         // Exit fullscreen when exiting the quiz
-        if (document.exitFullscreen) {
-            document.exitFullscreen();
-        } else if (document.mozCancelFullScreen) { /* Firefox */
-            document.mozCancelFullScreen();
-        } else if (document.webkitExitFullscreen) { /* Chrome, Safari and Opera */
-            document.webkitExitFullscreen();
-        } else if (document.msExitFullscreen) { /* IE/Edge */
-            document.msExitFullscreen();
-        }
+        try {
+            if (document.fullscreenElement || document.webkitFullscreenElement || document.mozFullScreenElement || document.msFullscreenElement) {
+                if (document.exitFullscreen) {
+                    document.exitFullscreen();
+                } else if (document.mozCancelFullScreen) {
+                    document.mozCancelFullScreen();
+                } else if (document.webkitExitFullscreen) {
+                    document.webkitExitFullscreen();
+                } else if (document.msExitFullscreen) {
+                    document.msExitFullscreen();
+                }
+            }
+        } catch(e) { /* ignore */ }
         showPage('home');
     }
 }
@@ -2045,6 +2055,13 @@ function startQuiz() {
     alertEl.innerHTML = '';
 
     let pool = questionBank.filter(q => selectedChapters.has(q.chapter));
+    // Deduplicate by question text to prevent repeated questions
+    const seen = new Set();
+    pool = pool.filter(q => {
+        if (seen.has(q.question)) return false;
+        seen.add(q.question);
+        return true;
+    });
     pool = shuffle([...pool]);
     const max = Math.min(selectedQCount === 999 ? pool.length : selectedQCount, pool.length);
     quizQuestions = pool.slice(0, max);
@@ -2078,6 +2095,8 @@ function initQuiz() {
     userAnswers = [];
     totalTimeTaken = 0;
     quizStartTime = Date.now();
+    skipTracker = new Map();
+    originalQuestionCount = quizQuestions.length;
     loadQuestion();
 }
 
@@ -2094,13 +2113,15 @@ function loadQuestion() {
 
     answered = false;
     const q = quizQuestions[currentQIndex];
-    const total = quizQuestions.length;
+    // Use original count for display, so progress reflects the real quiz length
+    const answeredSoFar = userAnswers.length;
+    const displayTotal = originalQuestionCount;
 
-    document.getElementById('qNumLabel').textContent = `Question ${currentQIndex + 1} of ${total}`;
+    document.getElementById('qNumLabel').textContent = `Question ${answeredSoFar + 1} of ${displayTotal}`;
     document.getElementById('qTopicLabel').textContent = q.topic;
     document.getElementById('qTopicBadge').textContent = '📌 ' + q.topic;
     document.getElementById('questionText').textContent = q.question;
-    document.getElementById('qProgressFill').style.width = Math.round((currentQIndex / total) * 100) + '%';
+    document.getElementById('qProgressFill').style.width = Math.round((answeredSoFar / displayTotal) * 100) + '%';
 
     document.getElementById('liveCorrect').textContent = score;
     document.getElementById('liveWrong').textContent = wrongCount;
@@ -2168,18 +2189,35 @@ function updateTimer(remaining, total) {
 
 function timeUpSkip(q) {
     answered = true;
-    skippedCount++;
-    userAnswers.push({ q, selected: null, status: 'skipped' });
-    document.getElementById('liveSkipped').textContent = skippedCount;
+    clearInterval(timerInterval);
 
-    document.querySelectorAll('.opt-btn').forEach(btn => {
-        btn.disabled = true;
-        if (btn.querySelector('.opt-text').textContent === q.correctOption) btn.classList.add('correct');
-        else btn.classList.add('skipped');
-    });
+    // Check how many times this question has been skipped already
+    const qKey = q.question; // use question text as unique key
+    const timesSkipped = skipTracker.get(qKey) || 0;
 
-    document.getElementById('skipBtn').style.display = 'none';
-    showNextOrFinish();
+    if (timesSkipped >= 2) {
+        // Max skip limit reached — mark as skipped permanently
+        skippedCount++;
+        userAnswers.push({ q, selected: null, status: 'skipped' });
+        document.getElementById('liveSkipped').textContent = skippedCount;
+
+        // Show the correct answer since they've had multiple chances
+        document.querySelectorAll('.opt-btn').forEach(btn => {
+            btn.disabled = true;
+            if (btn.querySelector('.opt-text').textContent === q.correctOption) btn.classList.add('correct');
+            else btn.classList.add('skipped');
+        });
+
+        document.getElementById('skipBtn').style.display = 'none';
+        showNextOrFinish();
+    } else {
+        // Move question to end of queue without revealing the answer
+        skipTracker.set(qKey, timesSkipped + 1);
+        quizQuestions.splice(currentQIndex, 1);
+        quizQuestions.push(q);
+        // Don't increment currentQIndex — the next question is now at the same index
+        loadQuestion();
+    }
 }
 
 function selectAnswer(btn, selected, q) {
@@ -2234,18 +2272,34 @@ function skipQuestion() {
     if (answered) return;
     clearInterval(timerInterval);
     const q = quizQuestions[currentQIndex];
-    skippedCount++;
-    userAnswers.push({ q, selected: null, status: 'skipped' });
-    document.getElementById('liveSkipped').textContent = skippedCount;
 
-    document.querySelectorAll('.opt-btn').forEach(b => {
-        b.disabled = true;
-        if (b.querySelector('.opt-text').textContent === q.correctOption) b.classList.add('correct');
-    });
+    // Check how many times this question has been skipped already
+    const qKey = q.question;
+    const timesSkipped = skipTracker.get(qKey) || 0;
 
-    answered = true;
-    document.getElementById('skipBtn').style.display = 'none';
-    showNextOrFinish();
+    if (timesSkipped >= 2) {
+        // Max skip limit reached — mark as permanently skipped
+        skippedCount++;
+        userAnswers.push({ q, selected: null, status: 'skipped' });
+        document.getElementById('liveSkipped').textContent = skippedCount;
+
+        // Show the correct answer since they've exhausted their skips
+        document.querySelectorAll('.opt-btn').forEach(b => {
+            b.disabled = true;
+            if (b.querySelector('.opt-text').textContent === q.correctOption) b.classList.add('correct');
+        });
+
+        answered = true;
+        document.getElementById('skipBtn').style.display = 'none';
+        showNextOrFinish();
+    } else {
+        // Move question to the end of the queue — don't reveal the answer
+        skipTracker.set(qKey, timesSkipped + 1);
+        quizQuestions.splice(currentQIndex, 1);
+        quizQuestions.push(q);
+        // Don't increment currentQIndex — the next question slides into this index
+        loadQuestion();
+    }
 }
 
 function nextQuestion() {
@@ -2255,11 +2309,11 @@ function nextQuestion() {
 
 function finishQuiz() {
     clearInterval(timerInterval);
-    if (!answered && currentQIndex < quizQuestions.length) {
-        for (let i = currentQIndex; i < quizQuestions.length; i++) {
-            userAnswers.push({ q: quizQuestions[i], selected: null, status: 'skipped' });
-            skippedCount++;
-        }
+    // Mark any remaining unanswered questions as skipped
+    const startIdx = answered ? currentQIndex + 1 : currentQIndex;
+    for (let i = startIdx; i < quizQuestions.length; i++) {
+        userAnswers.push({ q: quizQuestions[i], selected: null, status: 'skipped' });
+        skippedCount++;
     }
     totalTimeTaken = Math.floor((Date.now() - quizStartTime) / 1000);
     buildResults();
@@ -2270,7 +2324,7 @@ function finishQuiz() {
 // RESULTS
 // ===================================================
 function buildResults() {
-    const total = quizQuestions.length;
+    const total = originalQuestionCount;
     const pct = total > 0 ? Math.round((score / total) * 100) : 0;
 
     document.getElementById('resultPct').textContent = pct + '%';
