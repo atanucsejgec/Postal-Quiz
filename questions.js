@@ -3598,7 +3598,2107 @@ topic: "Clause 205 & 206: Camp Articles and Special Bags"
     ],
     chapter: "Set 4",
     topic: "Treatment of Injurious and Prohibited Articles"
-  }
+  },
+    {
+id: 313,
+question: "What does the expression 'Postmaster General' include?",
+answer: "Principal Chief PMG, Chief PMG, Regional PMG, Director Postal Services, and any officer exercising their powers.",
+correctOption: "Principal Chief PMG, Chief PMG, Regional PMG, Director Postal Services, and any officer exercising their powers",
+options: [
+"Only Principal Chief Postmaster General",
+"Only Chief Postmaster General",
+"Only Regional Postmaster General",
+"Principal Chief PMG, Chief PMG, Regional PMG, Director Postal Services, and any officer exercising their powers"
+],
+chapter: "Set 5 (Volume 5)",
+topic: "Organization of Postal Services"
+},
+{
+id: 314,
+question: "Railway Mail Service (RMS) is responsible for which of the following?",
+answer: "Carriage of mails by rail, road, river & air; and collection & distribution of mails received from post offices, mail offices and sections.",
+correctOption: "Carriage of mails by rail, road, river & air; and collection & distribution of mails received from post offices, mail offices and sections",
+options: [
+"Carrying mails by rail only",
+"Collection of mails from foreign countries only",
+"Distribution of mails to customers directly",
+"Carriage of mails by rail, road, river & air; and collection & distribution of mails received from post offices, mail offices and sections"
+],
+chapter: "Set 5 (Volume 5)",
+topic: "Railway Mail Service"
+},
+{
+id: 315,
+question: "Which service is responsible for the carriage of mails by rail, road, river and air?",
+answer: "Railway Mail Service (RMS).",
+correctOption: "Railway Mail Service (RMS)",
+options: [
+"Speed Post Service",
+"Railway Mail Service (RMS)",
+"Parcel Service",
+"Foreign Post Service"
+],
+chapter: "Set 5 (Volume 5)",
+topic: "Railway Mail Service"
+},
+{
+id: 316,
+question: "RMS is responsible for the collection and distribution of mails received from:",
+answer: "Post offices, mail offices and sections.",
+correctOption: "Post offices, mail offices and sections",
+options: [
+"Foreign countries only",
+"Customers directly",
+"Government offices only",
+"Post offices, mail offices and sections"
+],
+chapter: "Set 5 (Volume 5)",
+topic: "Railway Mail Service"
+},
+{
+id: 317,
+question: "All officers in a Division are subordinate to which of the following?",
+answer: "Superintendent.",
+correctOption: "Superintendent",
+options: [
+"Head Postmaster",
+"Chief Postmaster General",
+"Postmaster General",
+"Superintendent"
+],
+chapter: "Set 5 (Volume 5)",
+topic: "Organization of Postal Services"
+},
+{
+id: 318,
+question: "Administrative charge of a Division is under the control of:",
+answer: "Superintendent.",
+correctOption: "Superintendent",
+options: [
+"Chief Postmaster General",
+"Postmaster General",
+"Head Postmaster",
+"Superintendent"
+],
+chapter: "Set 5 (Volume 5)",
+topic: "Organization of Postal Services"
+},
+{
+id: 319,
+question: "The Superintendent Post is immediately subordinate to:",
+answer: "Postmaster General or Chief PMG.",
+correctOption: "Postmaster General or Chief PMG",
+options: [
+"Head Postmaster",
+"Director Postal Services",
+"Postmaster General or Chief PMG",
+"Inspector Posts"
+],
+chapter: "Set 5 (Volume 5)",
+topic: "Organization of Postal Services"
+},
+{
+id: 320,
+question: "A main group of post offices consisting of itself and a number of sub and branch offices placed under its jurisdiction is called:",
+answer: "Head Post Office.",
+correctOption: "Head Post Office",
+options: [
+"Sub Post Office",
+"Branch Post Office",
+"General Post Office",
+"Head Post Office"
+],
+chapter: "Set 5 (Volume 5)",
+topic: "Types of Post Offices"
+},
+{
+id: 321,
+question: "Who is the officer in charge of a Head Office?",
+answer: "Head Postmaster.",
+correctOption: "Head Postmaster",
+options: [
+"Superintendent",
+"Chief Postmaster General",
+"Postmaster General",
+"Head Postmaster"
+],
+chapter: "Set 5 (Volume 5)",
+topic: "Types of Post Offices"
+},
+{
+id: 322,
+question: "Important Head Post Offices are identified as:",
+answer: "VSAT (Very Small Aperture Terminal) Stations.",
+correctOption: "VSAT (Very Small Aperture Terminal) Stations",
+options: [
+"Extended Satellite Money Order Offices",
+"Transit Mail Offices",
+"VSAT (Very Small Aperture Terminal) Stations",
+"Nodal Post Offices"
+],
+chapter: "Set 5 (Volume 5)",
+topic: "Types of Post Offices"
+},
+{
+id: 323,
+question: "What is the full form of VSAT?",
+answer: "Very Small Aperture Terminal.",
+correctOption: "Very Small Aperture Terminal",
+options: [
+"Very Simple Aperture Terminal",
+"Very Small Aperture Terminal",
+"Virtual Satellite Aperture Terminal",
+"Very Secure Aperture Terminal"
+],
+chapter: "Set 5 (Volume 5)",
+topic: "Types of Post Offices"
+},
+{
+id: 324,
+question: "ESMO stands for:",
+answer: "Extended Satellite Money Order.",
+correctOption: "Extended Satellite Money Order",
+options: [
+"Extended Service Money Order",
+"Extra Satellite Mail Order",
+"Extended Satellite Money Order",
+"Electronic Satellite Mail Operation"
+],
+chapter: "Set 5 (Volume 5)",
+topic: "Types of Post Offices"
+},
+{
+id: 325,
+question: "Which of the following involves electronic transmission of written material using computer terminals connected through VSAT?",
+answer: "Hybrid Mail Service.",
+correctOption: "Hybrid Mail Service",
+options: [
+"Speed Post Service",
+"Hybrid Mail Service",
+"ESMO Service",
+"Foreign Post Service"
+],
+chapter: "Set 5 (Volume 5)",
+topic: "Types of Post Offices"
+},
+{
+id: 326,
+question: "GPO (General Post Office) is:",
+answer: "A first class head office situated at the headquarters of the Head of Circle (Chief PMG).",
+correctOption: "A first class head office situated at the headquarters of the Head of Circle (Chief PMG)",
+options: [
+"A second class head office at district headquarters",
+"A sub post office at state capital",
+"A first class head office situated at the headquarters of the Head of Circle (Chief PMG)",
+"Any head post office in the city"
+],
+chapter: "Set 5 (Volume 5)",
+topic: "Types of Post Offices"
+},
+{
+id: 327,
+question: "First Class Head Offices are under the control and supervision of:",
+answer: "Chief Postmaster (Senior Time Scale Officer).",
+correctOption: "Chief Postmaster (Senior Time Scale Officer)",
+options: [
+"Postmaster General",
+"Inspector Posts",
+"Chief Postmaster (Senior Time Scale Officer)",
+"Superintendent"
+],
+chapter: "Set 5 (Volume 5)",
+topic: "Types of Post Offices"
+},
+{
+id: 328,
+question: "Which kind of Head Offices come under the control and supervision of Chief Postmaster?",
+answer: "First Class Head Offices.",
+correctOption: "First Class Head Offices",
+options: [
+"Second Class Head Offices",
+"Branch Offices",
+"First Class Head Offices",
+"Sub Post Offices"
+],
+chapter: "Set 5 (Volume 5)",
+topic: "Types of Post Offices"
+},
+{
+id: 329,
+question: "Second Class Head Offices come under the control and supervision of:",
+answer: "Group B Officer.",
+correctOption: "Group B Officer",
+options: [
+"Chief Postmaster General",
+"Chief Postmaster",
+"Group B Officer",
+"Postmaster General"
+],
+chapter: "Set 5 (Volume 5)",
+topic: "Types of Post Offices"
+},
+{
+id: 330,
+question: "The head of Second Class Head Offices reports to:",
+answer: "Senior Superintendent.",
+correctOption: "Senior Superintendent",
+options: [
+"Chief Postmaster General",
+"Senior Superintendent",
+"Chief Postmaster",
+"Director Postal Services"
+],
+chapter: "Set 5 (Volume 5)",
+topic: "Types of Post Offices"
+},
+{
+id: 331,
+question: "A sub office situated in a town where there is also a Head Office is called:",
+answer: "Town Sub Office.",
+correctOption: "Town Sub Office",
+options: [
+"Branch Office",
+"Town Sub Office",
+"Nodal Post Office",
+"Sorting Sub Office"
+],
+chapter: "Set 5 (Volume 5)",
+topic: "Types of Post Offices"
+},
+{
+id: 332,
+question: "Which is the correct sequence of post offices from highest to lowest category?",
+answer: "Head Office → Sub Office → Branch Office.",
+correctOption: "Head Office → Sub Office → Branch Office",
+options: [
+"Sub Office → Head Office → Branch Office",
+"Branch Office → Sub Office → Head Office",
+"Head Office → Sub Office → Branch Office",
+"Head Office → Branch Office → Sub Office"
+],
+chapter: "Set 5 (Volume 5)",
+topic: "Types of Post Offices"
+},
+{
+id: 333,
+question: "The account office of a Branch Office can be:",
+answer: "Either Head Office or Sub Office.",
+correctOption: "Either Head Office or Sub Office",
+options: [
+"Only Head Office",
+"Only Sub Office",
+"Either Head Office or Sub Office",
+"General Post Office only"
+],
+chapter: "Set 5 (Volume 5)",
+topic: "Types of Post Offices"
+},
+{
+id: 334,
+question: "A Branch Office situated in a town where there is also a Head Office is called:",
+answer: "Town Branch Office.",
+correctOption: "Town Branch Office",
+options: [
+"Sub Office",
+"Town Branch Office",
+"Nodal Branch Office",
+"Sorting Branch Office"
+],
+chapter: "Set 5 (Volume 5)",
+topic: "Types of Post Offices"
+},
+{
+id: 335,
+question: "A Transit Office is:",
+answer: "A post office situated on a line of mail communication which receives and sorts bags intended for offices in advance without opening them.",
+correctOption: "A post office situated on a line of mail communication which receives and sorts bags intended for offices in advance without opening them",
+options: [
+"A sorting section of RMS",
+"A mail section of RMS",
+"A post office situated on a line of mail communication which receives and sorts bags intended for offices in advance without opening them",
+"A railway mail service section on tour"
+],
+chapter: "Set 5 (Volume 5)",
+topic: "Types of Post Offices"
+},
+{
+id: 336,
+question: "Bags opened in a Transit Office are called:",
+answer: "Transit Bags.",
+correctOption: "Transit Bags",
+options: [
+"Station Bags",
+"Sorting Bags",
+"Transit Bags",
+"Direct Bags"
+],
+chapter: "Set 5 (Volume 5)",
+topic: "Mail Bags"
+},
+{
+id: 337,
+question: "Which office reduces the number of loose bags?",
+answer: "Transit Office (Paravaahan Karyalay).",
+correctOption: "Transit Office (Paravaahan Karyalay)",
+options: [
+"Sorting Office",
+"Transit Mail Office",
+"Transit Office (Paravaahan Karyalay)",
+"Head Office"
+],
+chapter: "Set 5 (Volume 5)",
+topic: "Types of Post Offices"
+},
+{
+id: 338,
+question: "Transit Mail Office is a branch of:",
+answer: "Railway Mail Service (RMS).",
+correctOption: "Railway Mail Service (RMS)",
+options: [
+"Head Post Office",
+"Department of Posts directly",
+"Sub Post Office",
+"Railway Mail Service (RMS)"
+],
+chapter: "Set 5 (Volume 5)",
+topic: "Railway Mail Service"
+},
+{
+id: 339,
+question: "In Transit Mail Office, sorting of letters is:",
+answer: "Not done.",
+correctOption: "Not done",
+options: [
+"Done daily",
+"Done weekly",
+"Done on requirement",
+"Not done"
+],
+chapter: "Set 5 (Volume 5)",
+topic: "Railway Mail Service"
+},
+{
+id: 340,
+question: "Who is the officer in charge of a Transit Mail Office?",
+answer: "Mail Agent or Mail Guard.",
+correctOption: "Mail Agent or Mail Guard",
+options: [
+"Head Postmaster",
+"Head Sorting Assistant",
+"Mail Agent or Mail Guard",
+"Superintendent RMS"
+],
+chapter: "Set 5 (Volume 5)",
+topic: "Railway Mail Service"
+},
+{
+id: 341,
+question: "What is the full form of CTMO?",
+answer: "Computerized Transit Mail Office.",
+correctOption: "Computerized Transit Mail Office",
+options: [
+"Central Transit Mail Office",
+"Computerized Transit Mail Office",
+"Combined Transit Mail Office",
+"City Transit Mail Office"
+],
+chapter: "Set 5 (Volume 5)",
+topic: "Railway Mail Service"
+},
+{
+id: 342,
+question: "What is the work of a Sorting Office?",
+answer: "Opening sorting mail bags received and disposing of their contents.",
+correctOption: "Opening sorting mail bags received and disposing of their contents",
+options: [
+"Opening all mail bags received regardless of type",
+"Preparing salary bills for the division",
+"Opening sorting mail bags received and disposing of their contents",
+"Distributing letters directly to customers"
+],
+chapter: "Set 5 (Volume 5)",
+topic: "Types of Post Offices"
+},
+{
+id: 343,
+question: "What is the use of Sorting Offices?",
+answer: "All of the above - Simplify sorting work, reduce bags exchanged, and reduce weight of mails carried on mail lines.",
+correctOption: "All of the above",
+options: [
+"Simplify sorting work of other offices only",
+"Reduce the number of bags exchanged between post offices only",
+"Reduce the weight of mails carried on mail lines only",
+"All of the above"
+],
+chapter: "Set 5 (Volume 5)",
+topic: "Types of Post Offices"
+},
+{
+id: 344,
+question: "What is the full form of AMPC?",
+answer: "Automatic Mail Processing Centre.",
+correctOption: "Automatic Mail Processing Centre",
+options: [
+"Automatic Mail Processing Centre",
+"Advanced Mail Processing Centre",
+"Automated Mail Printing Centre",
+"Automatic Mail Parcel Centre"
+],
+chapter: "Set 5 (Volume 5)",
+topic: "Types of Post Offices"
+},
+{
+id: 345,
+question: "Which machines are present in AMPC?",
+answer: "Letter Sorting Machines and Mixed Mail Sort Machines.",
+correctOption: "Letter Sorting Machines and Mixed Mail Sort Machines",
+options: [
+"Only Letter Sorting Machines",
+"Only Mixed Mail Sort Machines",
+"Parcel sorting machines only",
+"Letter Sorting Machines and Mixed Mail Sort Machines"
+],
+chapter: "Set 5 (Volume 5)",
+topic: "Types of Post Offices"
+},
+{
+id: 346,
+question: "Computerized Registration Centre (CRC) can be situated:",
+answer: "In the mail office itself or in a separate location.",
+correctOption: "In the mail office itself or in a separate location",
+options: [
+"In the mail office itself or in a separate location",
+"Only in the Head Post Office",
+"Only in the Sub Post Office",
+"Only at Circle Headquarters"
+],
+chapter: "Set 5 (Volume 5)",
+topic: "Types of Post Offices"
+},
+{
+id: 347,
+question: "Computerized Registration Centre is the registration branch of:",
+answer: "Mail Office.",
+correctOption: "Mail Office",
+options: [
+"Head Post Office",
+"Sub Post Office",
+"Mail Office",
+"General Post Office"
+],
+chapter: "Set 5 (Volume 5)",
+topic: "Types of Post Offices"
+},
+{
+id: 348,
+question: "A Sorting Sub Office is:",
+answer: "A sub office selected due to its position at or near the junction of several mail lines.",
+correctOption: "A sub office selected due to its position at or near the junction of several mail lines",
+options: [
+"A sub office selected due to heavy mail traffic",
+"A sub office selected due to its position at or near the junction of several mail lines",
+"A sub office at district headquarters",
+"A sub office attached to RMS"
+],
+chapter: "Set 5 (Volume 5)",
+topic: "Types of Post Offices"
+},
+{
+id: 349,
+question: "Nodal Post Offices in important cities and towns are authorized to:",
+answer: "Receive letters from neighboring post offices.",
+correctOption: "Receive letters from neighboring post offices",
+options: [
+"Handle foreign mail independently",
+"Receive letters from neighboring post offices",
+"Issue money orders only",
+"Process registered articles only"
+],
+chapter: "Set 5 (Volume 5)",
+topic: "Types of Post Offices"
+},
+{
+id: 350,
+question: "Nodal Post Offices sort mails as per the sorting diagram given by:",
+answer: "RMS Superintendent.",
+correctOption: "RMS Superintendent",
+options: [
+"Head Postmaster",
+"Superintendent Posts",
+"RMS Superintendent",
+"Chief Postmaster General"
+],
+chapter: "Set 5 (Volume 5)",
+topic: "Types of Post Offices"
+},
+{
+id: 351,
+question: "Which of the following reduces the peak hour pressure in local sorting offices?",
+answer: "Nodal Post Office.",
+correctOption: "Nodal Post Office",
+options: [
+"Transit Mail Office",
+"Transit Office",
+"Nodal Post Office",
+"Sorting Sub Office"
+],
+chapter: "Set 5 (Volume 5)",
+topic: "Types of Post Offices"
+},
+{
+id: 352,
+question: "Central Bagging Unit is a branch of:",
+answer: "RMS Office.",
+correctOption: "RMS Office",
+options: [
+"Head Post Office",
+"Sub Post Office",
+"RMS Office",
+"General Post Office"
+],
+chapter: "Set 5 (Volume 5)",
+topic: "Railway Mail Service"
+},
+{
+id: 353,
+question: "What does a Central Bagging Unit do?",
+answer: "Groups bundles prepared by post offices/mail offices and encloses them in direct bags.",
+correctOption: "Groups bundles prepared by post offices/mail offices and encloses them in direct bags",
+options: [
+"Sorts letters and parcels for delivery",
+"Issues money orders to customers",
+"Delivers mail to customers directly",
+"Groups bundles prepared by post offices/mail offices and encloses them in direct bags"
+],
+chapter: "Set 5 (Volume 5)",
+topic: "Railway Mail Service"
+},
+{
+id: 354,
+question: "What is the full form of RLO?",
+answer: "Returned Letter Office.",
+correctOption: "Returned Letter Office",
+options: [
+"Return Letter Office",
+"Returned Letter Office",
+"Rejected Letter Office",
+"Redirected Letter Office"
+],
+chapter: "Set 5 (Volume 5)",
+topic: "Returned Letter Office"
+},
+{
+id: 355,
+question: "Where is the Returned Letter Office (RLO) situated?",
+answer: "Headquarters of Postal Circle.",
+correctOption: "Headquarters of Postal Circle",
+options: [
+"Headquarters of Postal Circle",
+"District Headquarters",
+"Divisional Headquarters",
+"Sub Divisional Headquarters"
+],
+chapter: "Set 5 (Volume 5)",
+topic: "Returned Letter Office"
+},
+{
+id: 356,
+question: "Returned Letter Office deals with:",
+answer: "Unclaimed, refused articles, articles without address, and articles with unreadable/incomplete address.",
+correctOption: "Unclaimed, refused articles, articles without address, and articles with unreadable/incomplete address",
+options: [
+"Speed post articles only",
+"Registered articles only",
+"Foreign mail only",
+"Unclaimed, refused articles, articles without address, and articles with unreadable/incomplete address"
+],
+chapter: "Set 5 (Volume 5)",
+topic: "Returned Letter Office"
+},
+{
+id: 357,
+question: "An unregistered article is kept in RLO for how long before disposal?",
+answer: "1 month.",
+correctOption: "1 month",
+options: [
+"15 days",
+"2 months",
+"1 month",
+"6 months"
+],
+chapter: "Set 5 (Volume 5)",
+topic: "Returned Letter Office"
+},
+{
+id: 358,
+question: "A registered article is kept in RLO for:",
+answer: "3 months.",
+correctOption: "3 months",
+options: [
+"1 month",
+"6 months",
+"3 months",
+"2 months"
+],
+chapter: "Set 5 (Volume 5)",
+topic: "Returned Letter Office"
+},
+{
+id: 359,
+question: "A parcel in RLO is kept for:",
+answer: "3 months.",
+correctOption: "3 months",
+options: [
+"1 month",
+"6 months",
+"3 months",
+"2 months"
+],
+chapter: "Set 5 (Volume 5)",
+topic: "Returned Letter Office"
+},
+{
+id: 360,
+question: "How are unregistered and registered articles disposed of in RLO?",
+answer: "By shredding method.",
+correctOption: "By shredding method",
+options: [
+"Sent to foreign countries",
+"Returned to sender",
+"Sold by auction",
+"By shredding method"
+],
+chapter: "Set 5 (Volume 5)",
+topic: "Returned Letter Office"
+},
+{
+id: 361,
+question: "How are parcels disposed of in RLO?",
+answer: "By auction method.",
+correctOption: "By auction method",
+options: [
+"By shredding method",
+"By returning to sender",
+"By sending to foreign countries",
+"By auction method"
+],
+chapter: "Set 5 (Volume 5)",
+topic: "Returned Letter Office"
+},
+{
+id: 362,
+question: "Transcription Centre is situated:",
+answer: "Normally at the headquarters of Circle or at any other convenient Sorting Office in the Circle.",
+correctOption: "Normally at the headquarters of Circle or at any other convenient Sorting Office in the Circle",
+options: [
+"In any post office convenient for sorting",
+"In the branch office near Circle HQ",
+"Normally at the headquarters of Circle or at any other convenient Sorting Office in the Circle",
+"At district headquarters only"
+],
+chapter: "Set 5 (Volume 5)",
+topic: "Types of Post Offices"
+},
+{
+id: 363,
+question: "What does a Transcription Centre do?",
+answer: "Transcribes into English the address written in regional language on postal articles.",
+correctOption: "Transcribes into English the address written in regional language on postal articles",
+options: [
+"Translates foreign language mail to Hindi",
+"Sorts registered articles by region",
+"Transcribes into English the address written in regional language on postal articles",
+"Issues money orders for regional offices"
+],
+chapter: "Set 5 (Volume 5)",
+topic: "Types of Post Offices"
+},
+{
+id: 364,
+question: "Transcription Centre is a cell established in:",
+answer: "Sorting Office.",
+correctOption: "Sorting Office",
+options: [
+"Sorting Office",
+"Head Post Office",
+"Mail Office",
+"Sub Post Office"
+],
+chapter: "Set 5 (Volume 5)",
+topic: "Types of Post Offices"
+},
+{
+id: 365,
+question: "Which of the following may NOT be an Office of Exchange?",
+answer: "Mail Office.",
+correctOption: "Mail Office",
+options: [
+"Post Office",
+"Mail Office",
+"Sorting Office",
+"Section"
+],
+chapter: "Set 5 (Volume 5)",
+topic: "Office of Exchange"
+},
+{
+id: 366,
+question: "Office of Exchange of Transit is situated at:",
+answer: "Border (Boundary).",
+correctOption: "Border (Boundary)",
+options: [
+"Circle Headquarters",
+"District Headquarters",
+"Division Headquarters",
+"Border (Boundary)"
+],
+chapter: "Set 5 (Volume 5)",
+topic: "Office of Exchange"
+},
+{
+id: 367,
+question: "What is the function of Office of Exchange of Transit?",
+answer: "Only exchanges mails with carrier or officials of foreign administration.",
+correctOption: "Only exchanges mails with carrier or officials of foreign administration",
+options: [
+"Opens and closes foreign mail bags regularly",
+"Assesses customs duty on foreign mail",
+"Only exchanges mails with carrier or officials of foreign administration",
+"Sorts letters for foreign countries"
+],
+chapter: "Set 5 (Volume 5)",
+topic: "Office of Exchange"
+},
+{
+id: 368,
+question: "Which Office of Exchange is involved in assessment of customs duty on foreign mails?",
+answer: "Foreign Post Office.",
+correctOption: "Foreign Post Office",
+options: [
+"Office of Exchange of Transit",
+"Sorting Office",
+"Transit Mail Office",
+"Foreign Post Office"
+],
+chapter: "Set 5 (Volume 5)",
+topic: "Office of Exchange"
+},
+{
+id: 369,
+question: "Sub Foreign Post Office is an exchange office:",
+answer: "False.",
+correctOption: "False",
+options: [
+"True",
+"False",
+"Only sometimes",
+"Depends on location"
+],
+chapter: "Set 5 (Volume 5)",
+topic: "Office of Exchange"
+},
+{
+id: 370,
+question: "Transit Sections are which kind of offices of Railway Mail Service?",
+answer: "Travelling (Mobile) offices.",
+correctOption: "Travelling (Mobile) offices",
+options: [
+"Stationary offices",
+"Travelling (Mobile) offices",
+"Foreign exchange offices",
+"Sorting offices"
+],
+chapter: "Set 5 (Volume 5)",
+topic: "Railway Mail Service"
+},
+{
+id: 371,
+question: "Which is the stationary office of Railway Mail Service?",
+answer: "Mail Office.",
+correctOption: "Mail Office",
+options: [
+"Transit Section",
+"Mail Office",
+"Record Office",
+"Sorting Section"
+],
+chapter: "Set 5 (Volume 5)",
+topic: "Railway Mail Service"
+},
+{
+id: 372,
+question: "Mail Offices are of how many types?",
+answer: "Two.",
+correctOption: "Two",
+options: [
+"Three",
+"Two",
+"Four",
+"Five"
+],
+chapter: "Set 5 (Volume 5)",
+topic: "Railway Mail Service"
+},
+{
+id: 373,
+question: "Which are the two types of Mail Offices?",
+answer: "Sorting Mail Office and Transit Mail Office.",
+correctOption: "Sorting Mail Office and Transit Mail Office",
+options: [
+"Transit Mail Office and Record Office",
+"Sorting Mail Office and Transit Mail Office",
+"Sorting Mail Office and Sub Record Office",
+"Head Record Office and Sub Record Office"
+],
+chapter: "Set 5 (Volume 5)",
+topic: "Railway Mail Service"
+},
+{
+id: 374,
+question: "Which office deals with closed bags only?",
+answer: "Transit Mail Office.",
+correctOption: "Transit Mail Office",
+options: [
+"Sorting Mail Office",
+"Transit Mail Office",
+"Record Office",
+"Head Record Office"
+],
+chapter: "Set 5 (Volume 5)",
+topic: "Railway Mail Service"
+},
+{
+id: 375,
+question: "A firm posting 5000 unregistered or 250 registered articles at a time is called:",
+answer: "Bulk Mailer.",
+correctOption: "Bulk Mailer",
+options: [
+"Mass Mailer",
+"Bulk Mailer",
+"Speed Mailer",
+"Corporate Mailer"
+],
+chapter: "Set 5 (Volume 5)",
+topic: "Types of Post Offices"
+},
+{
+id: 376,
+question: "Each Bulk Mailer is supplied with:",
+answer: "Customized Sorting List.",
+correctOption: "Customized Sorting List",
+options: [
+"A sorting machine",
+"A special stamp",
+"Customized Sorting List",
+"A franking machine"
+],
+chapter: "Set 5 (Volume 5)",
+topic: "Types of Post Offices"
+},
+{
+id: 377,
+question: "Mass Mailing Centres are opened for:",
+answer: "Bulk mailers who regularly post a maximum number of letters.",
+correctOption: "Bulk mailers who regularly post a maximum number of letters",
+options: [
+"Bulk mailers who regularly post a maximum number of letters",
+"Customers sending foreign mail",
+"Speed post customers only",
+"Registered article customers"
+],
+chapter: "Set 5 (Volume 5)",
+topic: "Types of Post Offices"
+},
+{
+id: 378,
+question: "Press Sorting Office is situated at:",
+answer: "On the premises of the newspaper (press).",
+correctOption: "On the premises of the newspaper (press)",
+options: [
+"Post Office premises",
+"RMS Office premises",
+"On the premises of the newspaper (press)",
+"Circle Headquarters"
+],
+chapter: "Set 5 (Volume 5)",
+topic: "Types of Post Offices"
+},
+{
+id: 379,
+question: "The entire expenditure towards wages for the establishment of Press Sorting Office (except stationery) is borne by:",
+answer: "Newspaper Publisher.",
+correctOption: "Newspaper Publisher",
+options: [
+"Department of Posts",
+"State Government",
+"Newspaper Publisher",
+"Central Government"
+],
+chapter: "Set 5 (Volume 5)",
+topic: "Types of Post Offices"
+},
+{
+id: 380,
+question: "Record Office is which kind of office of RMS?",
+answer: "Stationary Office.",
+correctOption: "Stationary Office",
+options: [
+"Travelling Office",
+"Stationary Office",
+"Exchange Office",
+"Sorting Office"
+],
+chapter: "Set 5 (Volume 5)",
+topic: "Railway Mail Service"
+},
+{
+id: 381,
+question: "Head Record Office is situated at:",
+answer: "Headquarters of RMS Division.",
+correctOption: "Headquarters of RMS Division",
+options: [
+"Circle Headquarters",
+"Sub Divisional Headquarters",
+"District Headquarters",
+"Headquarters of RMS Division"
+],
+chapter: "Set 5 (Volume 5)",
+topic: "Railway Mail Service"
+},
+{
+id: 382,
+question: "In addition to ordinary duties of a Record Office, which office prepares salary and contingent bills for the entire division?",
+answer: "Head Record Office.",
+correctOption: "Head Record Office",
+options: [
+"Sub Record Office",
+"Circle Record Office",
+"Transit Mail Office",
+"Head Record Office"
+],
+chapter: "Set 5 (Volume 5)",
+topic: "Railway Mail Service"
+},
+{
+id: 383,
+question: "Sub Record Office is situated at:",
+answer: "Same station as Mail Office.",
+correctOption: "Same station as Mail Office",
+options: [
+"Circle Headquarters",
+"District Headquarters",
+"Same station as Mail Office",
+"Division Headquarters"
+],
+chapter: "Set 5 (Volume 5)",
+topic: "Railway Mail Service"
+},
+{
+id: 384,
+question: "Every Post Office (excluding Branch Offices and Extra Departmental Sub Offices) is defined as:",
+answer: "Unit Bag Office.",
+correctOption: "Unit Bag Office",
+options: [
+"District Bag Office",
+"Circle Bag Office",
+"Central Bag Office",
+"Unit Bag Office"
+],
+chapter: "Set 5 (Volume 5)",
+topic: "Bag Offices"
+},
+{
+id: 385,
+question: "On which date does the Superintendent give the maximum and minimum bag balance to Unit Bag Office?",
+answer: "1st July.",
+correctOption: "1st July",
+options: [
+"1st January",
+"1st April",
+"1st July",
+"1st October"
+],
+chapter: "Set 5 (Volume 5)",
+topic: "Bag Offices"
+},
+{
+id: 386,
+question: "Each Unit Bag Office maintains:",
+answer: "Day Bag Book.",
+correctOption: "Day Bag Book",
+options: [
+"Monthly Bag Report",
+"Annual Bag Statement",
+"Day Bag Book",
+"Weekly Bag Register"
+],
+chapter: "Set 5 (Volume 5)",
+topic: "Bag Offices"
+},
+{
+id: 387,
+question: "Which of the following works as District Bag Office?",
+answer: "Head Record Office, Sub Record Office, and (in exceptional cases) Head Office.",
+correctOption: "Head Record Office, Sub Record Office, and (in exceptional cases) Head Office",
+options: [
+"All Post Offices",
+"Branch Offices",
+"Head Record Office, Sub Record Office, and (in exceptional cases) Head Office",
+"All Sub Post Offices"
+],
+chapter: "Set 5 (Volume 5)",
+topic: "Bag Offices"
+},
+{
+id: 388,
+question: "The Postal Store Depot situated at headquarters of Postal Circle is known as:",
+answer: "Circle Bag Office.",
+correctOption: "Circle Bag Office",
+options: [
+"District Bag Office",
+"Unit Bag Office",
+"Circle Bag Office",
+"Central Bag Office"
+],
+chapter: "Set 5 (Volume 5)",
+topic: "Bag Offices"
+},
+{
+id: 389,
+question: "Which is the D-Section of Postal Directorate?",
+answer: "Central Bag Office.",
+correctOption: "Central Bag Office",
+options: [
+"District Bag Office",
+"Unit Bag Office",
+"Circle Bag Office",
+"Central Bag Office"
+],
+chapter: "Set 5 (Volume 5)",
+topic: "Bag Offices"
+},
+{
+id: 390,
+question: "Which office is responsible for procurement, distribution, repair and auction of bags?",
+answer: "Circle Bag Office.",
+correctOption: "Circle Bag Office",
+options: [
+"Central Bag Office",
+"District Bag Office",
+"Circle Bag Office",
+"Unit Bag Office"
+],
+chapter: "Set 5 (Volume 5)",
+topic: "Bag Offices"
+},
+{
+id: 391,
+question: "Which office does NOT deal with any bag physically?",
+answer: "Central Bag Office.",
+correctOption: "Central Bag Office",
+options: [
+"Circle Bag Office",
+"District Bag Office",
+"Unit Bag Office",
+"Central Bag Office"
+],
+chapter: "Set 5 (Volume 5)",
+topic: "Bag Offices"
+},
+{
+id: 392,
+question: "Any official in RMS other than supervising officers, mail guards and Class IV servants is known as:",
+answer: "Sorting Assistant.",
+correctOption: "Sorting Assistant",
+options: [
+"Mail Guard",
+"Mail Agent",
+"Sorting Assistant",
+"Record Officer"
+],
+chapter: "Set 5 (Volume 5)",
+topic: "Railway Mail Service"
+},
+{
+id: 393,
+question: "A Sorting Assistant who works with a Sorting Office over only a portion of its working hours to assist the set where work is heavy is called:",
+answer: "Subsidiary Sorting Assistant.",
+correctOption: "Subsidiary Sorting Assistant",
+options: [
+"Extra Sorting Assistant",
+"Additional Sorting Assistant",
+"Subsidiary Sorting Assistant",
+"Assistant Mail Guard"
+],
+chapter: "Set 5 (Volume 5)",
+topic: "Railway Mail Service"
+},
+{
+id: 394,
+question: "RMS Sorting Assistants who work together throughout the beat of the same section in both directions are known as:",
+answer: "Set of a Section.",
+correctOption: "Set of a Section",
+options: [
+"Mail Office Set",
+"Set of a Section",
+"Transit Section Set",
+"Record Office Team"
+],
+chapter: "Set 5 (Volume 5)",
+topic: "Railway Mail Service"
+},
+{
+id: 395,
+question: "The number of sets of a section is determined on the basis of:",
+answer: "Weekly Working Hours.",
+correctOption: "Weekly Working Hours",
+options: [
+"Number of staff",
+"Distance of route",
+"Weekly Working Hours",
+"Monthly mail volume"
+],
+chapter: "Set 5 (Volume 5)",
+topic: "Railway Mail Service"
+},
+{
+id: 396,
+question: "Each set of a Mail Office has:",
+answer: "Different working hours and different mail and sorting pattern.",
+correctOption: "Different working hours and different mail and sorting pattern",
+options: [
+"Same working hours as other sets",
+"Same mail and sorting pattern as other sets",
+"Different working hours and different mail and sorting pattern",
+"Same number of officials as other sets"
+],
+chapter: "Set 5 (Volume 5)",
+topic: "Railway Mail Service"
+},
+{
+id: 397,
+question: "A journey performed by a set of a section travelling on duty from one end of its beat to the other is called:",
+answer: "Trip (Phera).",
+correctOption: "Trip (Phera)",
+options: [
+"Tour",
+"Beat",
+"Trip (Phera)",
+"Route"
+],
+chapter: "Set 5 (Volume 5)",
+topic: "Railway Mail Service"
+},
+{
+id: 398,
+question: "A trip from the headquarters of the set towards its outstation is called:",
+answer: "Out-Trip.",
+correctOption: "Out-Trip",
+options: [
+"In-Trip",
+"Out-Trip",
+"Return Trip",
+"Connecting Trip"
+],
+chapter: "Set 5 (Volume 5)",
+topic: "Railway Mail Service"
+},
+{
+id: 399,
+question: "Articles intended for delivery from the post office to which they are sent are known as:",
+answer: "Station Articles.",
+correctOption: "Station Articles",
+options: [
+"Sorting Articles",
+"Transit Articles",
+"Through Articles",
+"Station Articles"
+],
+chapter: "Set 5 (Volume 5)",
+topic: "Mail Articles"
+},
+{
+id: 400,
+question: "A collection of faced unregistered articles of letter mail securely tied with a check slip at the top is called:",
+answer: "Labelled Bundle.",
+correctOption: "Labelled Bundle",
+options: [
+"Sorting Bundle",
+"Station Bundle",
+"Labelled Bundle",
+"Territorial Bundle"
+],
+chapter: "Set 5 (Volume 5)",
+topic: "Mail Articles"
+},
+{
+id: 401,
+question: "Station Bundles are prepared when the number of articles (paid or unpaid) exceeds:",
+answer: "14.",
+correctOption: "14",
+options: [
+"10",
+"20",
+"14",
+"25"
+],
+chapter: "Set 5 (Volume 5)",
+topic: "Mail Articles"
+},
+{
+id: 402,
+question: "Sorting Bundles are of how many types?",
+answer: "Two.",
+correctOption: "Two",
+options: [
+"Three",
+"Two",
+"Four",
+"Five"
+],
+chapter: "Set 5 (Volume 5)",
+topic: "Mail Articles"
+},
+{
+id: 403,
+question: "Express and Deferred Bundles are the types of:",
+answer: "Sorting Bundles.",
+correctOption: "Sorting Bundles",
+options: [
+"Station Bundles",
+"Sorting Bundles",
+"Territorial Bundles",
+"Labelled Bundles"
+],
+chapter: "Set 5 (Volume 5)",
+topic: "Mail Articles"
+},
+{
+id: 404,
+question: "Bundles which contain articles which can be disposed of later are known as:",
+answer: "Deferred Bundles.",
+correctOption: "Deferred Bundles",
+options: [
+"Express Bundles",
+"Station Bundles",
+"Deferred Bundles",
+"Territorial Bundles"
+],
+chapter: "Set 5 (Volume 5)",
+topic: "Mail Articles"
+},
+{
+id: 405,
+question: "When a sorting bundle is prepared for a state, a clearly defined tract of country or a foreign country it is termed as:",
+answer: "Territorial Bundle.",
+correctOption: "Territorial Bundle",
+options: [
+"Station Bundle",
+"Deferred Bundle",
+"Express Bundle",
+"Territorial Bundle"
+],
+chapter: "Set 5 (Volume 5)",
+topic: "Mail Articles"
+},
+{
+id: 406,
+question: "Territorial Bundle is prepared when the number of articles is:",
+answer: "More than 25.",
+correctOption: "More than 25",
+options: [
+"More than 14",
+"More than 25",
+"More than 10",
+"More than 50"
+],
+chapter: "Set 5 (Volume 5)",
+topic: "Mail Articles"
+},
+{
+id: 407,
+question: "Pink Check Slip is used for:",
+answer: "Ordinary Paid or Unpaid Bundles.",
+correctOption: "Ordinary Paid or Unpaid Bundles",
+options: [
+"Air Mail Bundles",
+"Territorial Bundles",
+"Ordinary Paid or Unpaid Bundles",
+"Sorting Bundles"
+],
+chapter: "Set 5 (Volume 5)",
+topic: "Check Slips"
+},
+{
+id: 408,
+question: "White Check Slip is used for:",
+answer: "Ordinary Sorting Bundles.",
+correctOption: "Ordinary Sorting Bundles",
+options: [
+"Ordinary paid/unpaid bundles",
+"Air mail bundles",
+"Ordinary Sorting Bundles",
+"Territorial bundles"
+],
+chapter: "Set 5 (Volume 5)",
+topic: "Check Slips"
+},
+{
+id: 409,
+question: "Blue Check Slip is used for:",
+answer: "Air Mail and Foreign Air Mail Bundles.",
+correctOption: "Air Mail and Foreign Air Mail Bundles",
+options: [
+"Ordinary sorting bundles",
+"Air Mail and Foreign Air Mail Bundles",
+"Territorial bundles",
+"Station bundles"
+],
+chapter: "Set 5 (Volume 5)",
+topic: "Check Slips"
+},
+{
+id: 410,
+question: "Check Slip is used to fix the responsibility for:",
+answer: "Missending of any article wrongly included in a labelled bundle.",
+correctOption: "Missending of any article wrongly included in a labelled bundle",
+options: [
+"Delivery of articles to customers",
+"Misrouting of articles between offices",
+"Missending of any article wrongly included in a labelled bundle",
+"Collection of postage from customers"
+],
+chapter: "Set 5 (Volume 5)",
+topic: "Check Slips"
+},
+{
+id: 411,
+question: "Money Order Check Slip is printed on which form?",
+answer: "MO 70.",
+correctOption: "MO 70",
+options: [
+"MO 60",
+"MO 65",
+"MO 70",
+"MO 75"
+],
+chapter: "Set 5 (Volume 5)",
+topic: "Check Slips"
+},
+{
+id: 412,
+question: "Mail Bags are of how many types?",
+answer: "Three.",
+correctOption: "Three",
+options: [
+"Two",
+"Four",
+"Three",
+"Five"
+],
+chapter: "Set 5 (Volume 5)",
+topic: "Mail Bags"
+},
+{
+id: 413,
+question: "Which of the following is NOT a type of Mail Bag?",
+answer: "Transit Mail Bag.",
+correctOption: "Transit Mail Bag",
+options: [
+"Station Mail Bag",
+"Sorting Mail Bag",
+"Combined Mail Bag",
+"Transit Mail Bag"
+],
+chapter: "Set 5 (Volume 5)",
+topic: "Mail Bags"
+},
+{
+id: 414,
+question: "For a mail bag containing a registered bag with cash bag inside, which symbol is used in Due Mail List?",
+answer: "F.",
+correctOption: "F",
+options: [
+"P",
+"C",
+"R",
+"F"
+],
+chapter: "Set 5 (Volume 5)",
+topic: "Mail Bags"
+},
+{
+id: 415,
+question: "For a registered bag containing cash bag, which symbol is used in Due Mail List?",
+answer: "P.",
+correctOption: "P",
+options: [
+"F",
+"P",
+"C",
+"R"
+],
+chapter: "Set 5 (Volume 5)",
+topic: "Mail Bags"
+},
+{
+id: 416,
+question: "Air Mail Bag is used for articles to be carried under:",
+answer: "All Up (OLAP) Scheme.",
+correctOption: "All Up (OLAP) Scheme",
+options: [
+"Speed Post Scheme",
+"All Up (OLAP) Scheme",
+"Express Mail Service",
+"Foreign Post Scheme"
+],
+chapter: "Set 5 (Volume 5)",
+topic: "Mail Bags"
+},
+{
+id: 417,
+question: "If there are no articles for dispatch in an Air Mail Bag:",
+answer: "No need to close empty air mail bag, but a suitable entry should be made in delivery bill.",
+correctOption: "No need to close empty air mail bag, but a suitable entry should be made in delivery bill",
+options: [
+"An empty air mail bag must be closed and dispatched",
+"No need to close empty air mail bag, but a suitable entry should be made in delivery bill",
+"A nil report must be sent to PMG",
+"The bag should be sent to RLO"
+],
+chapter: "Set 5 (Volume 5)",
+topic: "Mail Bags"
+},
+{
+id: 418,
+question: "For closing an Air Mail Bag, which type of bag is used?",
+answer: "Blue double-cotton bag.",
+correctOption: "Blue double-cotton bag",
+options: [
+"Red cotton bag",
+"Blue double-cotton bag",
+"White jute bag",
+"Green canvas bag"
+],
+chapter: "Set 5 (Volume 5)",
+topic: "Mail Bags"
+},
+{
+id: 419,
+question: "The weight of an Air Mail Bag or Air Transit Bag should not exceed:",
+answer: "30 kg.",
+correctOption: "30 kg",
+options: [
+"20 kg",
+"25 kg",
+"30 kg",
+"35 kg"
+],
+chapter: "Set 5 (Volume 5)",
+topic: "Mail Bags"
+},
+{
+id: 420,
+question: "When an air parcel is sent inside an Air Mail Bag, the label of the bag should have which superscription?",
+answer: "CAP.",
+correctOption: "CAP",
+options: [
+"AP",
+"PAR",
+"AIR",
+"CAP"
+],
+chapter: "Set 5 (Volume 5)",
+topic: "Mail Bags"
+},
+{
+id: 421,
+question: "If the number of articles for Air Mail Bag is less than ___ and there is no insured article or parcel, an Air Mail Cover should be used instead:",
+answer: "50.",
+correctOption: "50",
+options: [
+"25",
+"40",
+"50",
+"100"
+],
+chapter: "Set 5 (Volume 5)",
+topic: "Mail Bags"
+},
+{
+id: 422,
+question: "Registered Bundles are made up when number of registered articles exceeds:",
+answer: "2.",
+correctOption: "2",
+options: [
+"1",
+"5",
+"2",
+"10"
+],
+chapter: "Set 5 (Volume 5)",
+topic: "Mail Articles"
+},
+{
+id: 423,
+question: "In sorting, registered bundles are treated as:",
+answer: "Single registered article.",
+correctOption: "Single registered article",
+options: [
+"Multiple registered articles",
+"Single registered article",
+"Unregistered articles",
+"Parcel articles"
+],
+chapter: "Set 5 (Volume 5)",
+topic: "Mail Articles"
+},
+{
+id: 424,
+question: "A Registered Bundle is a collection of:",
+answer: "Faced uninsured registered articles of letter mail placed with registered list.",
+correctOption: "Faced uninsured registered articles of letter mail placed with registered list",
+options: [
+"Insured articles of all categories",
+"Faced uninsured registered articles of letter mail placed with registered list",
+"Unregistered parcels of all sizes",
+"Speed post articles of letter mail"
+],
+chapter: "Set 5 (Volume 5)",
+topic: "Mail Articles"
+},
+{
+id: 425,
+question: "Insured Bundle is made up when number of insured articles is:",
+answer: "More than 1 (i.e., at least 2).",
+correctOption: "More than 1 (i.e., at least 2)",
+options: [
+"More than 5",
+"More than 1 (i.e., at least 2)",
+"More than 10",
+"More than 25"
+],
+chapter: "Set 5 (Volume 5)",
+topic: "Mail Articles"
+},
+{
+id: 426,
+question: "Insured Letter Bag is made up when number of insured letters and insured bundles exceeds:",
+answer: "10.",
+correctOption: "10",
+options: [
+"5",
+"25",
+"10",
+"50"
+],
+chapter: "Set 5 (Volume 5)",
+topic: "Mail Bags"
+},
+{
+id: 427,
+question: "A Parcel Bag contains:",
+answer: "Ordinary registered parcels, VP parcels, insured bags and parcel list.",
+correctOption: "Ordinary registered parcels, VP parcels, insured bags and parcel list",
+options: [
+"Only ordinary registered parcels",
+"Only VP parcels",
+"Only insured bags",
+"Ordinary registered parcels, VP parcels, insured bags and parcel list"
+],
+chapter: "Set 5 (Volume 5)",
+topic: "Mail Bags"
+},
+{
+id: 428,
+question: "Parcel Bags are:",
+answer: "Not due bags; prepared when needed and treated as unusual mail when dispatched.",
+correctOption: "Not due bags; prepared when needed and treated as unusual mail when dispatched",
+options: [
+"Due bags dispatched daily",
+"Not due bags; prepared when needed and treated as unusual mail when dispatched",
+"Sent daily compulsorily to all offices",
+"Prepared and dispatched weekly"
+],
+chapter: "Set 5 (Volume 5)",
+topic: "Mail Bags"
+},
+{
+id: 429,
+question: "The purpose of Insured Bag is to:",
+answer: "Give cover to insured parcels including insured VP parcels to afford them greater security.",
+correctOption: "Give cover to insured parcels including insured VP parcels to afford them greater security",
+options: [
+"Send cash to sub offices",
+"Give cover to insured parcels including insured VP parcels to afford them greater security",
+"Store registered bundles safely",
+"Carry money orders between offices"
+],
+chapter: "Set 5 (Volume 5)",
+topic: "Mail Bags"
+},
+{
+id: 430,
+question: "Insured Bag belongs to which category?",
+answer: "Neither due bag nor unusual bag.",
+correctOption: "Neither due bag nor unusual bag",
+options: [
+"Due Bag",
+"Neither due bag nor unusual bag",
+"Unusual Bag",
+"Station Bag"
+],
+chapter: "Set 5 (Volume 5)",
+topic: "Mail Bags"
+},
+{
+id: 431,
+question: "Account Bag is used between:",
+answer: "Sub Office and Head Office.",
+correctOption: "Sub Office and Head Office",
+options: [
+"Head Office and Branch Office",
+"Sub Office and Head Office",
+"Two Head Offices",
+"RMS Office and Post Office"
+],
+chapter: "Set 5 (Volume 5)",
+topic: "Mail Bags"
+},
+{
+id: 432,
+question: "When Account Bag is sent by Head Office to Sub Office, it contains:",
+answer: "Sub Office Slip.",
+correctOption: "Sub Office Slip",
+options: [
+"SO Daily Account",
+"Sub Office Slip",
+"Parcel List",
+"Registered List"
+],
+chapter: "Set 5 (Volume 5)",
+topic: "Mail Bags"
+},
+{
+id: 433,
+question: "When Account Bag is sent by Sub Office to Head Office, it contains:",
+answer: "SO Daily Account.",
+correctOption: "SO Daily Account",
+options: [
+"Sub Office Slip",
+"SO Daily Account",
+"Cash Bag",
+"Money Order Bundle"
+],
+chapter: "Set 5 (Volume 5)",
+topic: "Mail Bags"
+},
+{
+id: 434,
+question: "Branch Office Bags are:",
+answer: "Due Bags.",
+correctOption: "Due Bags",
+options: [
+"Unusual Bags",
+"Due Bags",
+"Prepared only when required",
+"Sent weekly"
+],
+chapter: "Set 5 (Volume 5)",
+topic: "Mail Bags"
+},
+{
+id: 435,
+question: "Cash Bag is used for:",
+answer: "Enclosing remittances of cash between post offices.",
+correctOption: "Enclosing remittances of cash between post offices",
+options: [
+"Sending registered articles between offices",
+"Enclosing remittances of cash between post offices",
+"Sending foreign mail articles",
+"Carrying insured parcels"
+],
+chapter: "Set 5 (Volume 5)",
+topic: "Mail Bags"
+},
+{
+id: 436,
+question: "Cash Bags are:",
+answer: "Not Due Bags (prepared only when cash is to be sent).",
+correctOption: "Not Due Bags (prepared only when cash is to be sent)",
+options: [
+"Due Bags dispatched daily",
+"Not Due Bags (prepared only when cash is to be sent)",
+"Unusual Bags only",
+"Sent daily compulsorily"
+],
+chapter: "Set 5 (Volume 5)",
+topic: "Mail Bags"
+},
+{
+id: 437,
+question: "Special Bag is used to enclose correspondence of:",
+answer: "High officers of Government or Director General of Posts when on tour.",
+correctOption: "High officers of Government or Director General of Posts when on tour",
+options: [
+"All postal employees on duty",
+"High officers of Government or Director General of Posts when on tour",
+"Foreign postal departments",
+"Postmasters of Head Offices"
+],
+chapter: "Set 5 (Volume 5)",
+topic: "Mail Bags"
+},
+{
+id: 438,
+question: "Camp Bag is used by Headquarters Office to enclose:",
+answer: "Office files and other official papers for high officers.",
+correctOption: "Office files and other official papers for high officers",
+options: [
+"Cash remittances for officers",
+"Registered articles for officers",
+"Office files and other official papers for high officers",
+"Money orders for high officers"
+],
+chapter: "Set 5 (Volume 5)",
+topic: "Mail Bags"
+},
+{
+id: 439,
+question: "A railway station where beats of two transit sections join and mails brought by one are handed over to other is known as:",
+answer: "Changing Station (Badli Station).",
+correctOption: "Changing Station (Badli Station)",
+options: [
+"Junction Station",
+"Connecting Station",
+"Changing Station (Badli Station)",
+"Terminal Station"
+],
+chapter: "Set 5 (Volume 5)",
+topic: "Railway Mail Service"
+},
+{
+id: 440,
+question: "An RMS section working in a train in immediate connection with another train in which another RMS section works is known as:",
+answer: "Connecting Section.",
+correctOption: "Connecting Section",
+options: [
+"Connecting Station",
+"Changing Section",
+"Transit Section",
+"Connecting Section"
+],
+chapter: "Set 5 (Volume 5)",
+topic: "Railway Mail Service"
+},
+{
+id: 441,
+question: "Overtime Duty is ordered by:",
+answer: "Superintendent, Assistant Superintendent, Inspector, or Record Officer.",
+correctOption: "Superintendent, Assistant Superintendent, Inspector, or Record Officer",
+options: [
+"Postmaster General",
+"Head Postmaster",
+"Superintendent, Assistant Superintendent, Inspector, or Record Officer",
+"Chief Postmaster General"
+],
+chapter: "Set 5 (Volume 5)",
+topic: "Railway Mail Service"
+},
+{
+id: 442,
+question: "Rest Houses are provided at Terminal and Changing Stations for the accommodation of:",
+answer: "Mail Guards, Mail Agents, or Van PAs.",
+correctOption: "Mail Guards, Mail Agents, or Van PAs",
+options: [
+"Postmasters",
+"Superintendents",
+"Postal Assistants",
+"Mail Guards, Mail Agents, or Van PAs"
+],
+chapter: "Set 5 (Volume 5)",
+topic: "Railway Mail Service"
+},
+{
+id: 443,
+question: "When a lot of bags are available for distinct places, which bag is used to enclose them all?",
+answer: "Cage Transit Bag.",
+correctOption: "Cage Transit Bag",
+options: [
+"Transit Bag",
+"Station Bag",
+"Cage Transit Bag",
+"Combined Bag"
+],
+chapter: "Set 5 (Volume 5)",
+topic: "Mail Bags"
+},
+{
+id: 444,
+question: "The key of a Cage Transit Bag is always sent in:",
+answer: "Sealed Cover.",
+correctOption: "Sealed Cover",
+options: [
+"Open condition",
+"Registered bag",
+"Sealed Cover",
+"Mail bag"
+],
+chapter: "Set 5 (Volume 5)",
+topic: "Mail Bags"
+},
+{
+id: 445,
+question: "A packet containing newspapers intended for sale by a news agent and marked for delivery from RMS Van at the railway station to which it is addressed is called:",
+answer: "Press Packet.",
+correctOption: "Press Packet",
+options: [
+"Station Packet",
+"Sorting Packet",
+"Press Packet",
+"Transit Packet"
+],
+chapter: "Set 5 (Volume 5)",
+topic: "Mail Articles"
+},
+{
+id: 446,
+question: "A Orders are issued by:",
+answer: "Superintendent RMS.",
+correctOption: "Superintendent RMS",
+options: [
+"Head Postmaster",
+"Chief Postmaster General",
+"Superintendent RMS",
+"Postmaster General"
+],
+chapter: "Set 5 (Volume 5)",
+topic: "Railway Mail Service"
+},
+{
+id: 447,
+question: "A Orders are related to:",
+answer: "Changes in Sorting List.",
+correctOption: "Changes in Sorting List",
+options: [
+"Changes in staff postings",
+"Changes in Sorting List",
+"Overtime duty assignments",
+"Camp bag arrangements"
+],
+chapter: "Set 5 (Volume 5)",
+topic: "Railway Mail Service"
+},
+{
+id: 448,
+question: "B Orders are issued by whom?",
+answer: "Superintendent RMS.",
+correctOption: "Superintendent RMS",
+options: [
+"Head Postmaster",
+"Superintendent RMS",
+"Chief Postmaster General",
+"Director General Posts"
+],
+chapter: "Set 5 (Volume 5)",
+topic: "Railway Mail Service"
+},
+{
+id: 449,
+question: "Orders issued in connection with disposal of camp articles and camp bags for higher officials on tour are called:",
+answer: "TB Orders.",
+correctOption: "TB Orders",
+options: [
+"A Orders",
+"C Orders",
+"TB Orders",
+"D Orders"
+],
+chapter: "Set 5 (Volume 5)",
+topic: "Railway Mail Service"
+},
+{
+id: 450,
+question: "Which document shows details of bags to be received and dispatched by a Mail Office or Transit Section?",
+answer: "Due Mail List.",
+correctOption: "Due Mail List",
+options: [
+"Sorting List",
+"Due Mail List",
+"Work Papers",
+"Trial Card"
+],
+chapter: "Set 5 (Volume 5)",
+topic: "Railway Mail Service"
+},
+{
+id: 451,
+question: "Which list shows for what offices mail bags and registered bags are to be made up, and to what offices parcel mail articles may be sent direct?",
+answer: "Sorting List.",
+correctOption: "Sorting List",
+options: [
+"Due Mail List",
+"Registered List",
+"Sorting List",
+"Parcel List"
+],
+chapter: "Set 5 (Volume 5)",
+topic: "Railway Mail Service"
+},
+{
+id: 452,
+question: "Which term comprises all bags, articles and documents which must be dispatched everyday or at regular intervals?",
+answer: "Due Mail.",
+correctOption: "Due Mail",
+options: [
+"Unusual Mail",
+"Station Mail",
+"Due Mail",
+"Sorting Mail"
+],
+chapter: "Set 5 (Volume 5)",
+topic: "Mail Articles"
+},
+{
+id: 453,
+question: "The side of an article on which the address is written is known as:",
+answer: "Face.",
+correctOption: "Face",
+options: [
+"Back",
+"Face",
+"Label",
+"Front Panel"
+],
+chapter: "Set 5 (Volume 5)",
+topic: "Mail Articles"
+},
+{
+id: 454,
+question: "An arrangement of articles with the address side upwards and addresses standing in the same direction is known as:",
+answer: "Facing.",
+correctOption: "Facing",
+options: [
+"Sorting",
+"Facing",
+"Bundling",
+"Labelling"
+],
+chapter: "Set 5 (Volume 5)",
+topic: "Mail Articles"
+},
+{
+id: 455,
+question: "In relation to RMS sections, 'Beat' means:",
+answer: "The railway or river steamer line over which the section works.",
+correctOption: "The railway or river steamer line over which the section works",
+options: [
+"Working hours of a set",
+"The railway or river steamer line over which the section works",
+"The number of bags handled daily",
+"The duty period of a set"
+],
+chapter: "Set 5 (Volume 5)",
+topic: "Railway Mail Service"
+},
+{
+id: 456,
+question: "Letters presented at the window of Post Office or posted in letter box after prescribed hours of closing the mail, but within the interval allowed, with prescribed late fee paid are called:",
+answer: "Late Letters.",
+correctOption: "Late Letters",
+options: [
+"Too Late Letters",
+"Late Letters",
+"Refused Letters",
+"Detained Letters"
+],
+chapter: "Set 5 (Volume 5)",
+topic: "Mail Articles"
+},
+{
+id: 457,
+question: "Which letters are stamped 'Detained - Late Fee Not Paid' and detained till next dispatch?",
+answer: "Too Late Letters.",
+correctOption: "Too Late Letters",
+options: [
+"Late Letters",
+"Too Late Letters",
+"Refused Letters",
+"Unclaimed Letters"
+],
+chapter: "Set 5 (Volume 5)",
+topic: "Mail Articles"
+},
+{
+id: 458,
+question: "An article erroneously forwarded by an office to another office other than the office of destination is called:",
+answer: "Missent Article.",
+correctOption: "Missent Article",
+options: [
+"Missent Article",
+"Misdirected Article",
+"Refused Article",
+"Undelivered Article"
+],
+chapter: "Set 5 (Volume 5)",
+topic: "Mail Articles"
+},
+{
+id: 459,
+question: "If incorrect destination has been written in English by the office of posting, the letter is called:",
+answer: "Misdirected Article.",
+correctOption: "Misdirected Article",
+options: [
+"Missent Article",
+"Misdirected Article",
+"Returned Article",
+"Refused Article"
+],
+chapter: "Set 5 (Volume 5)",
+topic: "Mail Articles"
+},
+{
+id: 460,
+question: "Trial Card is:",
+answer: "A Service Post Card.",
+correctOption: "A Service Post Card",
+options: [
+"A customer complaint card",
+"A Service Post Card",
+"A registered article",
+"A money order form"
+],
+chapter: "Set 5 (Volume 5)",
+topic: "Mail Articles"
+},
+{
+id: 461,
+question: "Trial Card should NOT be included in:",
+answer: "Station Bundle.",
+correctOption: "Station Bundle",
+options: [
+"Sorting Bundle",
+"Deferred Bundle",
+"Station Bundle",
+"Territorial Bundle"
+],
+chapter: "Set 5 (Volume 5)",
+topic: "Mail Articles"
+},
+{
+id: 462,
+question: "Trial Card is made on which form?",
+answer: "M26A.",
+correctOption: "M26A",
+options: [
+"M26",
+"M26A",
+"MO70",
+"M27"
+],
+chapter: "Set 5 (Volume 5)",
+topic: "Mail Articles"
+},
 
 
 ];
