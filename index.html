@@ -1864,7 +1864,10 @@
 
 
 <script src="questions.js"></script>
+<script src="questions2.js"></script>
 <script>
+// Combine question banks
+const allQuestions = [...questionBank, ...questionBank1];
 // ===================================================
 // STATE
 // ===================================================
@@ -1993,7 +1996,7 @@ function selectQCount(el, count) {
 }
 
 function getChapters() {
-    return [...new Set(questionBank.map(q => q.chapter))];
+    return [...new Set(allQuestions.map(q => q.chapter))];
 }
 
 function buildChapterList() {
@@ -2001,7 +2004,7 @@ function buildChapterList() {
     list.innerHTML = '';
     const chapters = getChapters();
     chapters.forEach(ch => {
-        const count = questionBank.filter(q => q.chapter === ch).length;
+        const count = allQuestions.filter(q => q.chapter === ch).length;
         const item = document.createElement('div');
         item.className = 'chapter-list-item checked';
         item.dataset.chapter = ch;
@@ -2054,7 +2057,7 @@ function startQuiz() {
     }
     alertEl.innerHTML = '';
 
-    let pool = questionBank.filter(q => selectedChapters.has(q.chapter));
+    let pool = allQuestions.filter(q => selectedChapters.has(q.chapter));
     // Deduplicate by question text to prevent repeated questions
     const seen = new Set();
     pool = pool.filter(q => {
@@ -2407,12 +2410,12 @@ function buildStudyContent(filter = '', chFilter = 'all') {
 
     chapters.forEach(chapter => {
         if (chFilter !== 'all' && chapter !== chFilter) return;
-        const topics = [...new Set(questionBank.filter(q => q.chapter === chapter).map(q => q.topic))];
+        const topics = [...new Set(allQuestions.filter(q => q.chapter === chapter).map(q => q.topic))];
         let hasContent = false;
         let bodyHtml = '';
 
         topics.forEach(topic => {
-            const qs = questionBank.filter(q =>
+            const qs = allQuestions.filter(q =>
                 q.chapter === chapter && q.topic === topic &&
                 (filter === '' ||
                     q.question.toLowerCase().includes(filter.toLowerCase()) ||
@@ -2438,7 +2441,7 @@ function buildStudyContent(filter = '', chFilter = 'all') {
 
         if (!hasContent) return;
 
-        const qCount = questionBank.filter(q => q.chapter === chapter).length;
+        const qCount = allQuestions.filter(q => q.chapter === chapter).length;
         const block = document.createElement('div');
         block.className = 'study-chapter-block';
         block.innerHTML = `
