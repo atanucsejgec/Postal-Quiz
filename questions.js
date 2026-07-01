@@ -8415,5 +8415,455 @@ options: [
 chapter: "Set 6 (Volume 5)",
 topic: "Trial Card"
 },
+    {
+id: 657,
+question: "When was the Pradhan Mantri Suraksha Bima Yojana (PMSBY) launched?",
+answer: "The Pradhan Mantri Suraksha Bima Yojana (PMSBY) was launched in May 2015.",
+correctOption: "May 2015",
+options: ["May 2014", "May 2015", "June 2015", "April 2016"],
+chapter: "Set 7 (Product and Services- Janasurakhshs Yojna)",
+topic: "Pradhan Mantri Suraksha Bima Yojana (PMSBY)"
+},
+{
+id: 658,
+question: "What type of scheme is the Pradhan Mantri Suraksha Bima Yojana (PMSBY)?",
+answer: "PMSBY is an Accidental Death & Disability Insurance Scheme.",
+correctOption: "Accidental Death & Disability Insurance Scheme",
+options: ["Life Insurance Scheme", "Health Insurance Scheme", "Accidental Death & Disability Insurance Scheme", "Pension Scheme"],
+chapter: "Set 7 (Product and Services- Janasurakhshs Yojna)",
+topic: "Pradhan Mantri Suraksha Bima Yojana (PMSBY)"
+},
+{
+id: 659,
+question: "What is the target age group for enrolling in PMSBY?",
+answer: "The target age group for PMSBY is 18-70 years for individuals with a bank or PO savings account.",
+correctOption: "18 to 70 years",
+options: ["18 to 40 years", "18 to 50 years", "18 to 60 years", "18 to 70 years"],
+chapter: "Set 7 (Product and Services- Janasurakhshs Yojna)",
+topic: "Pradhan Mantri Suraksha Bima Yojana (PMSBY)"
+},
+{
+id: 660,
+question: "What is the annual premium for the PMSBY scheme?",
+answer: "The premium for PMSBY is ₹20 per annum.",
+correctOption: "₹20",
+options: ["₹12", "₹20", "₹330", "₹436"],
+chapter: "Set 7 (Product and Services- Janasurakhshs Yojna)",
+topic: "Pradhan Mantri Suraksha Bima Yojana (PMSBY)"
+},
+{
+id: 661,
+question: "How is the premium for PMSBY paid by the subscriber?",
+answer: "The premium is deducted via auto-debit from the subscriber's account.",
+correctOption: "Auto-debit from the account",
+options: ["Cash deposit at the bank", "Auto-debit from the account", "Online credit card payment", "Cheque payment"],
+chapter: "Set 7 (Product and Services- Janasurakhshs Yojna)",
+topic: "Pradhan Mantri Suraksha Bima Yojana (PMSBY)"
+},
+{
+id: 662,
+question: "What is the coverage period for the PMSBY scheme?",
+answer: "The coverage period is 1 year, running from 1st June to 31st May.",
+correctOption: "1st June to 31st May",
+options: ["1st April to 31st March", "1st January to 31st December", "1st June to 31st May", "1st July to 30th June"],
+chapter: "Set 7 (Product and Services- Janasurakhshs Yojna)",
+topic: "Pradhan Mantri Suraksha Bima Yojana (PMSBY)"
+},
+{
+id: 663,
+question: "Under PMSBY, what is the sum insured in the event of accidental death?",
+answer: "The sum insured for death under PMSBY is ₹2,00,000.",
+correctOption: "₹2,00,000",
+options: ["₹1,00,000", "₹1,50,000", "₹2,00,000", "₹5,00,000"],
+chapter: "Set 7 (Product and Services- Janasurakhshs Yojna)",
+topic: "Pradhan Mantri Suraksha Bima Yojana (PMSBY)"
+},
+{
+id: 664,
+question: "What is the compensation under PMSBY for total disability?",
+answer: "The sum insured for total disability is ₹2,00,000.",
+correctOption: "₹2,00,000",
+options: ["₹50,000", "₹1,00,000", "₹1,50,000", "₹2,00,000"],
+chapter: "Set 7 (Product and Services- Janasurakhshs Yojna)",
+topic: "Pradhan Mantri Suraksha Bima Yojana (PMSBY)"
+},
+{
+id: 665,
+question: "How is 'total disability' defined under the PMSBY scheme?",
+answer: "Total disability is defined as the loss of both eyes, both hands/feet, etc.",
+correctOption: "Loss of both eyes, both hands/feet, etc.",
+options: ["Loss of one eye or one hand", "Loss of both eyes, both hands/feet, etc.", "Minor fractures", "Hospitalization for more than 30 days"],
+chapter: "Set 7 (Product and Services- Janasurakhshs Yojna)",
+topic: "Pradhan Mantri Suraksha Bima Yojana (PMSBY)"
+},
+{
+id: 666,
+question: "What is the sum insured for partial disability under PMSBY?",
+answer: "The sum insured for partial disability is ₹1,00,000.",
+correctOption: "₹1,00,000",
+options: ["₹50,000", "₹1,00,000", "₹1,50,000", "₹2,00,000"],
+chapter: "Set 7 (Product and Services- Janasurakhshs Yojna)",
+topic: "Pradhan Mantri Suraksha Bima Yojana (PMSBY)"
+},
+{
+id: 667,
+question: "Which of the following defines 'partial disability' under PMSBY?",
+answer: "Partial disability is defined as the loss of one eye or one hand/foot.",
+correctOption: "Loss of one eye or one hand/foot",
+options: ["Loss of one eye or one hand/foot", "Loss of both eyes", "Loss of both hands", "Permanent paralysis"],
+chapter: "Set 7 (Product and Services- Janasurakhshs Yojna)",
+topic: "Pradhan Mantri Suraksha Bima Yojana (PMSBY)"
+},
+{
+id: 668,
+question: "At what age does the cover under PMSBY terminate?",
+answer: "The cover terminates if the subscriber turns 70 years old.",
+correctOption: "70 years",
+options: ["50 years", "60 years", "65 years", "70 years"],
+chapter: "Set 7 (Product and Services- Janasurakhshs Yojna)",
+topic: "Pradhan Mantri Suraksha Bima Yojana (PMSBY)"
+},
+{
+id: 669,
+question: "What happens if a person has multiple enrolments under PMSBY?",
+answer: "If there is a duplicate enrolment, only one claim is allowed.",
+correctOption: "Only one claim is allowed",
+options: ["They get multiple payouts", "Only one claim is allowed", "The premium is refunded", "The accounts are frozen"],
+chapter: "Set 7 (Product and Services- Janasurakhshs Yojna)",
+topic: "Pradhan Mantri Suraksha Bima Yojana (PMSBY)"
+},
+{
+id: 670,
+question: "If an individual opts out of PMSBY, can they rejoin later?",
+answer: "People can re-join the PMSBY scheme even after opting out earlier.",
+correctOption: "Yes, people can re-join even after opting out earlier",
+options: ["No, exit is permanent", "Yes, people can re-join even after opting out earlier", "Yes, but with a penalty fee", "Only if they open a new bank account"],
+chapter: "Set 7 (Product and Services- Janasurakhshs Yojna)",
+topic: "Pradhan Mantri Suraksha Bima Yojana (PMSBY)"
+},
+{
+id: 671,
+question: "When is the PMSBY premium preferably debited annually?",
+answer: "The premium is debited annually, preferably in May.",
+correctOption: "May",
+options: ["January", "March", "May", "June"],
+chapter: "Set 7 (Product and Services- Janasurakhshs Yojna)",
+topic: "Pradhan Mantri Suraksha Bima Yojana (PMSBY)"
+},
+{
+id: 672,
+question: "When was the Pradhan Mantri Jeevan Jyoti Bima Yojana (PMJJBY) launched?",
+answer: "PMJJBY was launched in May 2015.",
+correctOption: "May 2015",
+options: ["August 2014", "May 2015", "June 2015", "May 2016"],
+chapter: "Set 7 (Product and Services- Janasurakhshs Yojna)",
+topic: "Pradhan Mantri Jeevan Jyoti Bima Yojana (PMJJBY)"
+},
+{
+id: 673,
+question: "What type of insurance does PMJJBY provide?",
+answer: "PMJJBY is a Life Insurance Scheme that covers death due to any cause.",
+correctOption: "Life Insurance Scheme (for death due to any cause)",
+options: ["Health Insurance", "Accidental Death Insurance only", "Life Insurance Scheme (for death due to any cause)", "Property Insurance"],
+chapter: "Set 7 (Product and Services- Janasurakhshs Yojna)",
+topic: "Pradhan Mantri Jeevan Jyoti Bima Yojana (PMJJBY)"
+},
+{
+id: 674,
+question: "Which entities offer the PMJJBY scheme?",
+answer: "PMJJBY is offered through LIC and other approved Life Insurance companies.",
+correctOption: "LIC and other approved Life Insurance companies",
+options: ["Only the Post Office", "LIC and other approved Life Insurance companies", "State Bank of India only", "Reserve Bank of India"],
+chapter: "Set 7 (Product and Services- Janasurakhshs Yojna)",
+topic: "Pradhan Mantri Jeevan Jyoti Bima Yojana (PMJJBY)"
+},
+{
+id: 675,
+question: "What is the entry age limit for the PMJJBY scheme?",
+answer: "The age limit for entry into PMJJBY is 18 to 50 years.",
+correctOption: "18 to 50 years",
+options: ["18 to 40 years", "18 to 50 years", "18 to 60 years", "18 to 70 years"],
+chapter: "Set 7 (Product and Services- Janasurakhshs Yojna)",
+topic: "Pradhan Mantri Jeevan Jyoti Bima Yojana (PMJJBY)"
+},
+{
+id: 676,
+question: "What is the current annual premium for the PMJJBY scheme?",
+answer: "The current premium for PMJJBY is ₹436 per annum.",
+correctOption: "₹436",
+options: ["₹20", "₹330", "₹436", "₹500"],
+chapter: "Set 7 (Product and Services- Janasurakhshs Yojna)",
+topic: "Pradhan Mantri Jeevan Jyoti Bima Yojana (PMJJBY)"
+},
+{
+id: 677,
+question: "What was the earlier premium amount for the PMJJBY scheme before it was revised?",
+answer: "The premium for PMJJBY was earlier ₹330 per annum.",
+correctOption: "₹330",
+options: ["₹20", "₹330", "₹400", "₹436"],
+chapter: "Set 7 (Product and Services- Janasurakhshs Yojna)",
+topic: "Pradhan Mantri Jeevan Jyoti Bima Yojana (PMJJBY)"
+},
+{
+id: 678,
+question: "Under PMJJBY, what is the cover amount provided upon death?",
+answer: "The cover amount is ₹2,00,000 on death for any reason.",
+correctOption: "₹2,00,000",
+options: ["₹1,00,000", "₹1,50,000", "₹2,00,000", "₹5,00,000"],
+chapter: "Set 7 (Product and Services- Janasurakhshs Yojna)",
+topic: "Pradhan Mantri Jeevan Jyoti Bima Yojana (PMJJBY)"
+},
+{
+id: 679,
+question: "Under PMJJBY, when does the risk cover officially start?",
+answer: "The risk cover starts from the date of premium debit.",
+correctOption: "From the date of premium debit",
+options: ["On the 1st of June every year", "From the date of account opening", "From the date of premium debit", "30 days after enrolment"],
+chapter: "Set 7 (Product and Services- Janasurakhshs Yojna)",
+topic: "Pradhan Mantri Jeevan Jyoti Bima Yojana (PMJJBY)"
+},
+{
+id: 680,
+question: "In PMJJBY, what is the policy regarding multiple enrolments?",
+answer: "In the case of multiple enrolments, the benefit is allowed under only one account.",
+correctOption: "Benefit is allowed under only one account",
+options: ["Payout is doubled", "Benefit is allowed under only one account", "Both accounts are cancelled", "Premiums are refunded"],
+chapter: "Set 7 (Product and Services- Janasurakhshs Yojna)",
+topic: "Pradhan Mantri Jeevan Jyoti Bima Yojana (PMJJBY)"
+},
+{
+id: 681,
+question: "How often does the PMJJBY scheme require renewal?",
+answer: "Renewal is required every year for the PMJJBY scheme.",
+correctOption: "Every year",
+options: ["Every 6 months", "Every year", "Every 3 years", "Every 5 years"],
+chapter: "Set 7 (Product and Services- Janasurakhshs Yojna)",
+topic: "Pradhan Mantri Jeevan Jyoti Bima Yojana (PMJJBY)"
+},
+{
+id: 682,
+question: "What happens if a PMJJBY subscriber has an insufficient balance during auto-debit?",
+answer: "Cover ends in the case of closure of the account or insufficient balance.",
+correctOption: "The cover ends",
+options: ["The bank loans the premium amount", "The cover ends", "The cover continues with a penalty", "The premium is deducted the following month automatically"],
+chapter: "Set 7 (Product and Services- Janasurakhshs Yojna)",
+topic: "Pradhan Mantri Jeevan Jyoti Bima Yojana (PMJJBY)"
+},
+{
+id: 683,
+question: "Who administers the Atal Pension Yojana (APY)?",
+answer: "APY is administered by PFRDA (Pension Fund Regulatory and Development Authority).",
+correctOption: "PFRDA",
+options: ["LIC", "RBI", "PFRDA", "SEBI"],
+chapter: "Set 7 (Product and Services- Janasurakhshs Yojna)",
+topic: "Atal Pension Yojana (APY)"
+},
+{
+id: 684,
+question: "Through which system is the Atal Pension Yojana (APY) administered?",
+answer: "APY is administered through the NPS (National Pension System).",
+correctOption: "National Pension System (NPS)",
+options: ["Public Provident Fund (PPF)", "National Pension System (NPS)", "Employees' Provident Fund (EPF)", "Unit Linked Insurance Plan (ULIP)"],
+chapter: "Set 7 (Product and Services- Janasurakhshs Yojna)",
+topic: "Atal Pension Yojana (APY)"
+},
+{
+id: 685,
+question: "What is the age eligibility criteria for joining the Atal Pension Yojana (APY)?",
+answer: "The age criteria for joining APY is 18 to 40 years.",
+correctOption: "18 to 40 years",
+options: ["18 to 40 years", "18 to 50 years", "18 to 60 years", "21 to 55 years"],
+chapter: "Set 7 (Product and Services- Janasurakhshs Yojna)",
+topic: "Atal Pension Yojana (APY)"
+},
+{
+id: 686,
+question: "How many APY accounts is a single person allowed to have?",
+answer: "Only one APY account per person is allowed.",
+correctOption: "Only one APY account per person allowed",
+options: ["Two", "One per bank account", "Only one APY account per person allowed", "Unlimited"],
+chapter: "Set 7 (Product and Services- Janasurakhshs Yojna)",
+topic: "Atal Pension Yojana (APY)"
+},
+{
+id: 687,
+question: "At what age does a subscriber begin receiving their monthly pension under APY?",
+answer: "The monthly pension begins from age 60.",
+correctOption: "60 years",
+options: ["50 years", "55 years", "60 years", "65 years"],
+chapter: "Set 7 (Product and Services- Janasurakhshs Yojna)",
+topic: "Atal Pension Yojana (APY)"
+},
+{
+id: 688,
+question: "What is the range of fixed monthly pension options available under APY?",
+answer: "The fixed pension options range from ₹1,000 to ₹5,000.",
+correctOption: "₹1,000 to ₹5,000",
+options: ["₹500 to ₹2,000", "₹1,000 to ₹5,000", "₹2,000 to ₹10,000", "₹5,000 to ₹20,000"],
+chapter: "Set 7 (Product and Services- Janasurakhshs Yojna)",
+topic: "Atal Pension Yojana (APY)"
+},
+{
+id: 689,
+question: "Which of the following is NOT a fixed pension option under APY?",
+answer: "The fixed pension options are ₹1000, ₹2000, ₹3000, ₹4000, and ₹5000. ₹6,000 is not an option.",
+correctOption: "₹6,000",
+options: ["₹1,000", "₹3,000", "₹4,000", "₹6,000"],
+chapter: "Set 7 (Product and Services- Janasurakhshs Yojna)",
+topic: "Atal Pension Yojana (APY)"
+},
+{
+id: 690,
+question: "Under APY, what does the monthly contribution amount depend on?",
+answer: "The monthly contribution varies by the entry age of the subscriber.",
+correctOption: "Entry age",
+options: ["Income level", "Entry age", "Marital status", "State of residence"],
+chapter: "Set 7 (Product and Services- Janasurakhshs Yojna)",
+topic: "Atal Pension Yojana (APY)"
+},
+{
+id: 691,
+question: "What is the government's co-contribution under the APY scheme?",
+answer: "The government contributes 50% of the subscriber's contribution or ₹1000 per annum, whichever is lower.",
+correctOption: "50% of subscriber's contribution or ₹1000 per annum, whichever is lower",
+options: ["100% of subscriber's contribution or ₹2000, whichever is lower", "50% of subscriber's contribution or ₹1000 per annum, whichever is lower", "Fixed ₹1000 per annum regardless of contribution", "25% of the total corpus"],
+chapter: "Set 7 (Product and Services- Janasurakhshs Yojna)",
+topic: "Atal Pension Yojana (APY)"
+},
+{
+id: 692,
+question: "Which of the following individuals is ineligible for the government's co-contribution in APY?",
+answer: "The conditions for the government contribution state the individual must not be an income tax payer.",
+correctOption: "An income tax payer",
+options: ["A person working in the unorganized sector", "An income tax payer", "A person with a basic savings account", "A person aged 25"],
+chapter: "Set 7 (Product and Services- Janasurakhshs Yojna)",
+topic: "Atal Pension Yojana (APY)"
+},
+{
+id: 693,
+question: "Another condition to receive the government co-contribution in APY is that the subscriber must NOT be covered by:",
+answer: "To get the government contribution, the subscriber must not be covered by any statutory social security scheme.",
+correctOption: "Any statutory social security scheme",
+options: ["Any private life insurance", "Any statutory social security scheme", "A health insurance plan", "A mutual fund scheme"],
+chapter: "Set 7 (Product and Services- Janasurakhshs Yojna)",
+topic: "Atal Pension Yojana (APY)"
+},
+{
+id: 694,
+question: "What must a subscriber do to start receiving their APY pension upon completing 60 years?",
+answer: "Upon completion of 60 years, the subscriber must submit a request to their associated bank to begin receiving their monthly pension.",
+correctOption: "Submit a request to their associated bank",
+options: ["Nothing, it starts automatically", "Submit a request to their associated bank", "Apply online through the PFRDA website", "Visit the local post office to open a new account"],
+chapter: "Set 7 (Product and Services- Janasurakhshs Yojna)",
+topic: "Atal Pension Yojana (APY)"
+},
+{
+id: 695,
+question: "Under APY, can a subscriber receive a higher monthly pension than the guaranteed minimum?",
+answer: "The subscriber can receive a higher monthly pension if the investment returns earned on their corpus are better than the guaranteed returns.",
+correctOption: "Yes, if the investment returns earned on their corpus are better than the guaranteed returns",
+options: ["No, the pension is strictly fixed", "Yes, if the subscriber makes extra lump-sum payments at age 59", "Yes, if the investment returns earned on their corpus are better than the guaranteed returns", "Yes, if inflation exceeds 10%"],
+chapter: "Set 7 (Product and Services- Janasurakhshs Yojna)",
+topic: "Atal Pension Yojana (APY)"
+},
+{
+id: 696,
+question: "Under APY, who is the default nominee to receive the spousal benefit?",
+answer: "The spouse is the default nominee for the spousal benefit.",
+correctOption: "The spouse",
+options: ["The eldest child", "The spouse", "The parents", "A legal heir appointed by a court"],
+chapter: "Set 7 (Product and Services- Janasurakhshs Yojna)",
+topic: "Atal Pension Yojana (APY)"
+},
+{
+id: 697,
+question: "What is the spousal benefit provided under APY after the subscriber's death?",
+answer: "After the subscriber's death, the spouse is entitled to receive the exact same amount of monthly pension for the rest of their life.",
+correctOption: "The exact same amount of monthly pension for the rest of their life",
+options: ["50% of the monthly pension for life", "A one-time lump sum payment", "The exact same amount of monthly pension for the rest of their life", "A refund of premiums paid"],
+chapter: "Set 7 (Product and Services- Janasurakhshs Yojna)",
+topic: "Atal Pension Yojana (APY)"
+},
+{
+id: 698,
+question: "Under APY, what does the registered nominee receive after the death of BOTH the subscriber and the spouse?",
+answer: "After the death of both the subscriber and the spouse, the registered nominee is eligible for the return of the entire accumulated pension wealth (corpus).",
+correctOption: "The return of the entire accumulated pension wealth (corpus)",
+options: ["A continued monthly pension", "50% of the pension amount", "The return of the entire accumulated pension wealth (corpus)", "A fixed sum of ₹2,00,000"],
+chapter: "Set 7 (Product and Services- Janasurakhshs Yojna)",
+topic: "Atal Pension Yojana (APY)"
+},
+{
+id: 699,
+question: "The corpus returned to the nominee under APY represents the wealth built up until the subscriber reached what age?",
+answer: "The nominee receives the entire accumulated pension wealth (corpus) that was built up until the subscriber reached the age of 60.",
+correctOption: "Age 60",
+options: ["Age of death", "Age 40", "Age 60", "Age 70"],
+chapter: "Set 7 (Product and Services- Janasurakhshs Yojna)",
+topic: "Atal Pension Yojana (APY)"
+},
+{
+id: 700,
+question: "What is the general rule regarding exiting the APY scheme before the age of 60?",
+answer: "Exit before 60 years of age is generally not permitted.",
+correctOption: "It is generally not permitted",
+options: ["It is permitted at any time with a 10% penalty", "It is generally not permitted", "It is allowed after 5 years of continuous contribution", "It is only allowed if the subscriber leaves the country"],
+chapter: "Set 7 (Product and Services- Janasurakhshs Yojna)",
+topic: "Atal Pension Yojana (APY)"
+},
+{
+id: 701,
+question: "Under what exceptional circumstances may PFRDA permit an early exit from APY?",
+answer: "Exit before 60 may be permitted by PFRDA only in exceptional circumstances, i.e., in the event of the death of the beneficiary or terminal disease.",
+correctOption: "Death of beneficiary or terminal disease",
+options: ["Buying a house or marriage", "Job loss or bankruptcy", "Death of beneficiary or terminal disease", "Relocation to another state"],
+chapter: "Set 7 (Product and Services- Janasurakhshs Yojna)",
+topic: "Atal Pension Yojana (APY)"
+},
+{
+id: 702,
+question: "What happens if an APY subscriber dies before reaching 60 years of age?",
+answer: "In case of death before 60 years, the entire accumulated corpus under APY will be returned to the spouse/nominee.",
+correctOption: "The entire accumulated corpus is returned to the spouse/nominee",
+options: ["The account is closed and funds are forfeited", "The spouse automatically starts receiving the pension immediately", "The entire accumulated corpus is returned to the spouse/nominee", "The nominee must continue paying the premiums until age 60"],
+chapter: "Set 7 (Product and Services- Janasurakhshs Yojna)",
+topic: "Atal Pension Yojana (APY)"
+},
+{
+id: 703,
+question: "If an APY subscriber dies before the age of 60, is a pension payable to the spouse or nominee?",
+answer: "In case of death before 60 years, pension shall not be payable to the spouse/nominee (only the corpus is returned).",
+correctOption: "No, pension shall not be payable",
+options: ["Yes, immediately", "Yes, but only after the subscriber would have turned 60", "No, pension shall not be payable", "Yes, but at a 50% reduced rate"],
+chapter: "Set 7 (Product and Services- Janasurakhshs Yojna)",
+topic: "Atal Pension Yojana (APY)"
+},
+{
+id: 704,
+question: "Which of the following schemes require the subscriber to have a bank or post office savings account?",
+answer: "Both PMSBY and APY explicitly list a bank or PO savings account as an eligibility requirement.",
+correctOption: "PMSBY and APY",
+options: ["PMSBY only", "APY only", "PMSBY and APY", "None of the above"],
+chapter: "Set 7 (Product and Services- Janasurakhshs Yojna)",
+topic: "Janasurakhsha Yojana - Comparison"
+},
+{
+id: 705,
+question: "Which of the following schemes offers a fixed coverage amount of exactly ₹2,00,000 for any death?",
+answer: "PMJJBY offers a cover amount of ₹2,00,000 on death for any reason, whereas PMSBY requires the death to be accidental.",
+correctOption: "PMJJBY",
+options: ["PMJJBY", "PMSBY", "APY", "Both PMJJBY and PMSBY"],
+chapter: "Set 7 (Product and Services- Janasurakhshs Yojna)",
+topic: "Janasurakhsha Yojana - Comparison"
+},
+{
+id: 706,
+question: "What is common regarding the launch month and year for PMSBY, PMJJBY, and APY?",
+answer: "PMSBY, PMJJBY, and APY were all launched in May 2015.",
+correctOption: "All were launched in May 2015",
+options: ["All were launched in April 2014", "All were launched in May 2015", "All were launched in June 2015", "They were all launched in different years"],
+chapter: "Set 7 (Product and Services- Janasurakhshs Yojna)",
+topic: "Janasurakhsha Yojana - Comparison"
+},
 
 ];
