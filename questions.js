@@ -10265,7 +10265,727 @@ topic: "Janasurakhsha Yojana - Comparison"
     ],
     chapter: "Set 7 (Product and Services- Retail Post)",
     topic: "Passenger Reservation System (PRS)"
-  }
+  },
+    {
+id: 807,
+question: "When did Postal Life Insurance (PLI) officially start?",
+answer: "Postal Life Insurance (PLI) started on 1st February 1884.",
+correctOption: "1st February 1884",
+options: ["1st April 1884", "1st February 1884", "24th March 1995", "1st January 1888"],
+chapter: "Set 7 (Product and Services- Insurance)",
+topic: "PLI History and Introduction"
+},
+{
+id: 808,
+question: "Initially, PLI was exclusively available to which group of employees?",
+answer: "PLI was initially started for Postal employees.",
+correctOption: "Postal employees",
+options: ["Female employees", "Telegraph employees", "Postal employees", "Defence personnel"],
+chapter: "Set 7 (Product and Services- Insurance)",
+topic: "PLI History and Introduction"
+},
+{
+id: 809,
+question: "In which year was PLI extended to Telegraph employees?",
+answer: "PLI was extended to Telegraph employees in the year 1888.",
+correctOption: "1888",
+options: ["1884", "1888", "1894", "1995"],
+chapter: "Set 7 (Product and Services- Insurance)",
+topic: "PLI History and Introduction"
+},
+{
+id: 810,
+question: "When were female employees allowed to avail of PLI benefits?",
+answer: "PLI was extended to female employees in 1894.",
+correctOption: "1894",
+options: ["1888", "1894", "1995", "1884"],
+chapter: "Set 7 (Product and Services- Insurance)",
+topic: "PLI History and Introduction"
+},
+{
+id: 811,
+question: "Which of the following is considered the oldest life insurer in India?",
+answer: "Postal Life Insurance (PLI) is the oldest life insurer in India.",
+correctOption: "Postal Life Insurance (PLI)",
+options: ["Gram Suraksha", "Postal Life Insurance (PLI)", "Rural Postal Life Insurance (RPLI)", "State Bank of India"],
+chapter: "Set 7 (Product and Services- Insurance)",
+topic: "PLI History and Introduction"
+},
+{
+id: 812,
+question: "Which of the following professionals is NOT explicitly listed as eligible for PLI?",
+answer: "Eligible professionals include doctors, engineers, CAs, MBAs, and lawyers. Actors are not explicitly listed.",
+correctOption: "Actors",
+options: ["Doctors", "Engineers", "Actors", "Lawyers"],
+chapter: "Set 7 (Product and Services- Insurance)",
+topic: "PLI History and Introduction"
+},
+{
+id: 813,
+question: "What is another name for the PLI 'Suraksha' policy?",
+answer: "The Suraksha policy under PLI is also known as Whole Life Assurance.",
+correctOption: "Whole Life Assurance",
+options: ["Convertible Whole Life Assurance", "Endowment Assurance", "Joint Life Assurance", "Whole Life Assurance"],
+chapter: "Set 7 (Product and Services- Insurance)",
+topic: "PLI - Suraksha (Whole Life Assurance)"
+},
+{
+id: 814,
+question: "What is the minimum and maximum entry age for the PLI Suraksha policy?",
+answer: "The entry age for the Suraksha (Whole Life Assurance) policy is 19 to 55 years.",
+correctOption: "19 - 55 years",
+options: ["19 - 45 years", "19 - 50 years", "19 - 55 years", "20 - 55 years"],
+chapter: "Set 7 (Product and Services- Insurance)",
+topic: "PLI - Suraksha (Whole Life Assurance)"
+},
+{
+id: 815,
+question: "What is the maximum Sum Assured allowed under the PLI Suraksha policy?",
+answer: "The sum assured for Suraksha ranges from ₹20,000 to ₹50 lakh.",
+correctOption: "₹50 lakh",
+options: ["₹20 lakh", "₹30 lakh", "₹40 lakh", "₹50 lakh"],
+chapter: "Set 7 (Product and Services- Insurance)",
+topic: "PLI - Suraksha (Whole Life Assurance)"
+},
+{
+id: 816,
+question: "At what age is the sum assured and bonus paid to the insurant under the Suraksha policy if they survive?",
+answer: "The policy pays the sum assured plus bonus on death or on attaining 80 years.",
+correctOption: "80 years",
+options: ["60 years", "70 years", "80 years", "100 years"],
+chapter: "Set 7 (Product and Services- Insurance)",
+topic: "PLI - Suraksha (Whole Life Assurance)"
+},
+{
+id: 817,
+question: "After how many years can a policyholder take a loan against a PLI Suraksha policy?",
+answer: "A loan can be taken after 4 years under the Suraksha policy.",
+correctOption: "4 years",
+options: ["3 years", "4 years", "5 years", "No loan facility is available"],
+chapter: "Set 7 (Product and Services- Insurance)",
+topic: "PLI - Suraksha (Whole Life Assurance)"
+},
+{
+id: 818,
+question: "What is the latest declared bonus rate for the PLI Suraksha policy?",
+answer: "The last declared bonus for Suraksha is ₹76/- per 1000 sum assured per year.",
+correctOption: "₹76/- per 1000 sum assured per year",
+options: ["₹52/- per 1000 sum assured per year", "₹48/- per 1000 sum assured per year", "₹60/- per 1000 sum assured per year", "₹76/- per 1000 sum assured per year"],
+chapter: "Set 7 (Product and Services- Insurance)",
+topic: "PLI - Suraksha (Whole Life Assurance)"
+},
+{
+id: 819,
+question: "Until what age can a PLI Suraksha policy be converted into an Endowment plan?",
+answer: "The Suraksha policy can be converted to an Endowment plan till age 59.",
+correctOption: "Age 59",
+options: ["Age 50", "Age 55", "Age 59", "Age 60"],
+chapter: "Set 7 (Product and Services- Insurance)",
+topic: "PLI - Suraksha (Whole Life Assurance)"
+},
+{
+id: 820,
+question: "What is the alternate name for the PLI 'Suvidha' policy?",
+answer: "The Suvidha policy is also known as Convertible Whole Life Assurance.",
+correctOption: "Convertible Whole Life Assurance",
+options: ["Whole Life Assurance", "Convertible Whole Life Assurance", "Anticipated Endowment Assurance", "Joint Life Assurance"],
+chapter: "Set 7 (Product and Services- Insurance)",
+topic: "PLI - Suvidha (Convertible Whole Life Assurance)"
+},
+{
+id: 821,
+question: "At what point can the PLI Suvidha policy be converted into an Endowment Assurance?",
+answer: "The Suvidha policy can convert to Endowment after 5 years (before the 6th year).",
+correctOption: "After 5 years (before the 6th year)",
+options: ["After 3 years", "After 4 years", "After 5 years (before the 6th year)", "Any time before maturity"],
+chapter: "Set 7 (Product and Services- Insurance)",
+topic: "PLI - Suvidha (Convertible Whole Life Assurance)"
+},
+{
+id: 822,
+question: "What happens if a PLI Suvidha policyholder does not convert the policy into an Endowment plan?",
+answer: "If not converted, the Suvidha policy continues as a Whole Life Policy.",
+correctOption: "It continues as a Whole Life Policy",
+options: ["The policy is terminated", "It continues as an Anticipated Endowment Policy", "It continues as a Whole Life Policy", "The policy becomes paid-up"],
+chapter: "Set 7 (Product and Services- Insurance)",
+topic: "PLI - Suvidha (Convertible Whole Life Assurance)"
+},
+{
+id: 823,
+question: "What is the maximum entry age for a PLI Suvidha policy?",
+answer: "The entry age for the Suvidha policy is 19 to 50 years.",
+correctOption: "50 years",
+options: ["40 years", "45 years", "50 years", "55 years"],
+chapter: "Set 7 (Product and Services- Insurance)",
+topic: "PLI - Suvidha (Convertible Whole Life Assurance)"
+},
+{
+id: 824,
+question: "After how many years of a PLI Suvidha policy can a surrender be made?",
+answer: "The policy can be surrendered after 3 years.",
+correctOption: "3 years",
+options: ["2 years", "3 years", "4 years", "5 years"],
+chapter: "Set 7 (Product and Services- Insurance)",
+topic: "PLI - Suvidha (Convertible Whole Life Assurance)"
+},
+{
+id: 825,
+question: "Under the PLI Suvidha policy, if surrendered before 5 years, what happens to the bonus?",
+answer: "There is no bonus if surrendered before 5 years.",
+correctOption: "No bonus is paid",
+options: ["50% bonus is paid", "No bonus is paid", "Full bonus is paid", "Only terminal bonus is paid"],
+chapter: "Set 7 (Product and Services- Insurance)",
+topic: "PLI - Suvidha (Convertible Whole Life Assurance)"
+},
+{
+id: 826,
+question: "What is another name for the PLI 'Santosh' policy?",
+answer: "The Santosh policy is known as Endowment Assurance.",
+correctOption: "Endowment Assurance",
+options: ["Children Policy", "Whole Life Assurance", "Endowment Assurance", "Convertible Whole Life Assurance"],
+chapter: "Set 7 (Product and Services- Insurance)",
+topic: "PLI - Santosh (Endowment Assurance)"
+},
+{
+id: 827,
+question: "Which of the following is NOT an available maturity age for the PLI Santosh policy?",
+answer: "The available maturity ages for Santosh are 35, 40, 45, 50, 55, 58, and 60. Age 65 is not an option.",
+correctOption: "65",
+options: ["35", "40", "45", "65"],
+chapter: "Set 7 (Product and Services- Insurance)",
+topic: "PLI - Santosh (Endowment Assurance)"
+},
+{
+id: 828,
+question: "After how many years can a loan be taken out against a PLI Santosh policy?",
+answer: "A loan can be taken after 3 years under the Santosh policy.",
+correctOption: "3 years",
+options: ["2 years", "3 years", "4 years", "5 years"],
+chapter: "Set 7 (Product and Services- Insurance)",
+topic: "PLI - Santosh (Endowment Assurance)"
+},
+{
+id: 829,
+question: "What is the declared bonus rate for the PLI Santosh policy?",
+answer: "The last declared bonus for the Santosh policy is ₹52/- per 1000 sum assured per year.",
+correctOption: "₹52/- per 1000 sum assured",
+options: ["₹48/- per 1000 sum assured", "₹52/- per 1000 sum assured", "₹60/- per 1000 sum assured", "₹76/- per 1000 sum assured"],
+chapter: "Set 7 (Product and Services- Insurance)",
+topic: "PLI - Santosh (Endowment Assurance)"
+},
+{
+id: 830,
+question: "What is the minimum Sum Assured for the PLI Santosh plan?",
+answer: "The sum assured for the Santosh plan is ₹20,000 to ₹50 lakh.",
+correctOption: "₹20,000",
+options: ["₹10,000", "₹20,000", "₹50,000", "₹1,00,000"],
+chapter: "Set 7 (Product and Services- Insurance)",
+topic: "PLI - Santosh (Endowment Assurance)"
+},
+{
+id: 831,
+question: "What type of policy is 'Yugal Suraksha' under PLI?",
+answer: "Yugal Suraksha is a Joint Life Assurance policy.",
+correctOption: "Joint Life Assurance",
+options: ["Anticipated Endowment Assurance", "Endowment Assurance", "Joint Life Assurance", "Convertible Whole Life Assurance"],
+chapter: "Set 7 (Product and Services- Insurance)",
+topic: "PLI - Yugal Suraksha (Joint Life Assurance)"
+},
+{
+id: 832,
+question: "What is the minimum entry age requirement for spouses in the Yugal Suraksha policy?",
+answer: "The age of the spouse for Yugal Suraksha is between 21 to 45 years.",
+correctOption: "21 years",
+options: ["19 years", "20 years", "21 years", "25 years"],
+chapter: "Set 7 (Product and Services- Insurance)",
+topic: "PLI - Yugal Suraksha (Joint Life Assurance)"
+},
+{
+id: 833,
+question: "In the Yugal Suraksha policy, what is the maximum age allowed for the elder spouse?",
+answer: "The elder spouse must not be over 45 years in the Yugal Suraksha policy.",
+correctOption: "45 years",
+options: ["40 years", "45 years", "50 years", "55 years"],
+chapter: "Set 7 (Product and Services- Insurance)",
+topic: "PLI - Yugal Suraksha (Joint Life Assurance)"
+},
+{
+id: 834,
+question: "What is the available policy term duration for Yugal Suraksha?",
+answer: "The term for Yugal Suraksha is 5 to 20 years.",
+correctOption: "5 to 20 years",
+options: ["5 to 10 years", "5 to 15 years", "5 to 20 years", "10 to 20 years"],
+chapter: "Set 7 (Product and Services- Insurance)",
+topic: "PLI - Yugal Suraksha (Joint Life Assurance)"
+},
+{
+id: 835,
+question: "What is the bonus rate applied to the Yugal Suraksha policy?",
+answer: "The bonus for Yugal Suraksha is the same as EA(Santosh), which is ₹52/-.",
+correctOption: "Same as EA (Santosh)",
+options: ["Same as WLA (Suraksha)", "Same as EA (Santosh)", "₹48/- per 1000 sum assured", "₹76/- per 1000 sum assured"],
+chapter: "Set 7 (Product and Services- Insurance)",
+topic: "PLI - Yugal Suraksha (Joint Life Assurance)"
+},
+{
+id: 836,
+question: "Are both spouses required to be PLI eligible to purchase Yugal Suraksha?",
+answer: "It is a joint life policy for spouses where one must be PLI eligible.",
+correctOption: "No, at least one must be PLI eligible",
+options: ["Yes, both must be eligible", "No, at least one must be PLI eligible", "No, neither needs to be PLI eligible", "Yes, and both must be government employees"],
+chapter: "Set 7 (Product and Services- Insurance)",
+topic: "PLI - Yugal Suraksha (Joint Life Assurance)"
+},
+{
+id: 837,
+question: "Which PLI policy is known as the Money-Back Policy?",
+answer: "Sumangal is the Anticipated Endowment Assurance/Money-Back Policy.",
+correctOption: "Sumangal",
+options: ["Suraksha", "Suvidha", "Sumangal", "Santosh"],
+chapter: "Set 7 (Product and Services- Insurance)",
+topic: "PLI - Sumangal (Anticipated Endowment Assurance)"
+},
+{
+id: 838,
+question: "What are the available term lengths for the PLI Sumangal policy?",
+answer: "The terms for Sumangal are 15 & 20 years.",
+correctOption: "15 and 20 years",
+options: ["10 and 15 years", "15 and 20 years", "20 and 25 years", "10, 15, and 20 years"],
+chapter: "Set 7 (Product and Services- Insurance)",
+topic: "PLI - Sumangal (Anticipated Endowment Assurance)"
+},
+{
+id: 839,
+question: "What is the maximum entry age for a 20-year term PLI Sumangal policy?",
+answer: "For a 20-year term in Sumangal, the eligibility is 19-40 years.",
+correctOption: "40 years",
+options: ["40 years", "45 years", "50 years", "55 years"],
+chapter: "Set 7 (Product and Services- Insurance)",
+topic: "PLI - Sumangal (Anticipated Endowment Assurance)"
+},
+{
+id: 840,
+question: "In a 15-year Sumangal policy, when are the 20% survival payouts made?",
+answer: "For the 15-year term, payouts are 20% at 6, 9, 12 yrs, plus 40% at maturity.",
+correctOption: "6, 9, and 12 years",
+options: ["5, 10, and 15 years", "6, 9, and 12 years", "8, 12, and 16 years", "4, 7, and 10 years"],
+chapter: "Set 7 (Product and Services- Insurance)",
+topic: "PLI - Sumangal (Anticipated Endowment Assurance)"
+},
+{
+id: 841,
+question: "In a 20-year Sumangal policy, at what intervals are the 20% survival payouts given?",
+answer: "For the 20-year term, payouts are 20% at 8, 12, 16 yrs, plus 40% at maturity.",
+correctOption: "8, 12, and 16 years",
+options: ["5, 10, and 15 years", "6, 9, and 12 years", "8, 12, and 16 years", "10, 15, and 18 years"],
+chapter: "Set 7 (Product and Services- Insurance)",
+topic: "PLI - Sumangal (Anticipated Endowment Assurance)"
+},
+{
+id: 842,
+question: "What percentage of the Sum Assured is paid at maturity for both 15-year and 20-year Sumangal policies?",
+answer: "Both terms pay 40% at maturity.",
+correctOption: "40%",
+options: ["20%", "40%", "60%", "80%"],
+chapter: "Set 7 (Product and Services- Insurance)",
+topic: "PLI - Sumangal (Anticipated Endowment Assurance)"
+},
+{
+id: 843,
+question: "What is the declared bonus rate for the PLI Sumangal policy?",
+answer: "The last declared bonus for Sumangal is ₹48/- per 1000 sum assured per year.",
+correctOption: "₹48/- per 1000 sum assured",
+options: ["₹45/- per 1000 sum assured", "₹48/- per 1000 sum assured", "₹52/- per 1000 sum assured", "₹76/- per 1000 sum assured"],
+chapter: "Set 7 (Product and Services- Insurance)",
+topic: "PLI - Sumangal (Anticipated Endowment Assurance)"
+},
+{
+id: 844,
+question: "What is the maximum number of children that can be covered under the Bal Jeevan Bima policy for a PLI policyholder?",
+answer: "The policy provides life cover for a max. of 2 children of a PLI policyholder.",
+correctOption: "2",
+options: ["1", "2", "3", "Unlimited"],
+chapter: "Set 7 (Product and Services- Insurance)",
+topic: "PLI - Bal Jeevan Bima (Children Policy)"
+},
+{
+id: 845,
+question: "What is the eligible age limit for a child under the PLI Bal Jeevan Bima policy?",
+answer: "The age for the child must be 5-20 years.",
+correctOption: "5 - 20 years",
+options: ["1 - 15 years", "5 - 15 years", "5 - 20 years", "10 - 20 years"],
+chapter: "Set 7 (Product and Services- Insurance)",
+topic: "PLI - Bal Jeevan Bima (Children Policy)"
+},
+{
+id: 846,
+question: "What is the maximum age limit for a parent to purchase a Bal Jeevan Bima policy?",
+answer: "The parent must be ≤ 45 years of age.",
+correctOption: "45 years",
+options: ["40 years", "45 years", "50 years", "55 years"],
+chapter: "Set 7 (Product and Services- Insurance)",
+topic: "PLI - Bal Jeevan Bima (Children Policy)"
+},
+{
+id: 847,
+question: "What is the maximum Sum Assured limit under the PLI Bal Jeevan Bima policy?",
+answer: "The maximum Sum Assured for PLI Bal Jeevan Bima is ₹3 lakh.",
+correctOption: "₹3 lakh",
+options: ["₹1 lakh", "₹2 lakh", "₹3 lakh", "₹5 lakh"],
+chapter: "Set 7 (Product and Services- Insurance)",
+topic: "PLI - Bal Jeevan Bima (Children Policy)"
+},
+{
+id: 848,
+question: "What happens to the premium of the Bal Jeevan Bima policy if the parent dies?",
+answer: "There is no premium if the parent dies.",
+correctOption: "No further premium needs to be paid",
+options: ["The premium is doubled", "The child must pay the premium", "No further premium needs to be paid", "The policy is immediately surrendered"],
+chapter: "Set 7 (Product and Services- Insurance)",
+topic: "PLI - Bal Jeevan Bima (Children Policy)"
+},
+{
+id: 849,
+question: "Are loans and surrender facilities available for the Bal Jeevan Bima policy?",
+answer: "For the Bal Jeevan Bima policy, there is no loan and no surrender.",
+correctOption: "No loan and no surrender facility is available",
+options: ["Loan is available, surrender is not", "Surrender is available, loan is not", "Both loan and surrender are available after 3 years", "No loan and no surrender facility is available"],
+chapter: "Set 7 (Product and Services- Insurance)",
+topic: "PLI - Bal Jeevan Bima (Children Policy)"
+},
+{
+id: 850,
+question: "For a policy that has a duration of less than three years, after how many unpaid premia will the policy lapse?",
+answer: "In case of policies of less than three years duration, if more than six premia are not paid, the policy lapses.",
+correctOption: "More than 6 premia",
+options: ["More than 3 premia", "More than 6 premia", "More than 9 premia", "More than 12 premia"],
+chapter: "Set 7 (Product and Services- Insurance)",
+topic: "Lapsing of Policies"
+},
+{
+id: 851,
+question: "For a policy that has a duration of more than three years, after how many unpaid premia does the policy lapse?",
+answer: "In case of policies of more than three years duration, if more than twelve premia are not paid, the policy lapses.",
+correctOption: "More than 12 premia",
+options: ["More than 6 premia", "More than 12 premia", "More than 18 premia", "More than 24 premia"],
+chapter: "Set 7 (Product and Services- Insurance)",
+topic: "Lapsing of Policies"
+},
+{
+id: 852,
+question: "When was Rural Postal Life Insurance (RPLI) launched?",
+answer: "RPLI was launched on 24 March 1995.",
+correctOption: "24th March 1995",
+options: ["1st February 1884", "24th March 1995", "1st April 1999", "15th August 1947"],
+chapter: "Set 7 (Product and Services- Insurance)",
+topic: "RPLI History and Introduction"
+},
+{
+id: 853,
+question: "Which committee's recommendations led to the launch of RPLI?",
+answer: "RPLI was based on the Malhotra Committee recommendations.",
+correctOption: "Malhotra Committee",
+options: ["Rangarajan Committee", "Malhotra Committee", "Kelkar Committee", "Narasimham Committee"],
+chapter: "Set 7 (Product and Services- Insurance)",
+topic: "RPLI History and Introduction"
+},
+{
+id: 854,
+question: "What was the primary purpose of launching RPLI?",
+answer: "The purpose was to provide insurance in rural India, especially for weaker sections and women workers.",
+correctOption: "To provide insurance in rural India, especially for weaker sections and women workers",
+options: ["To provide insurance exclusively for government officials", "To provide insurance to defense personnel", "To provide insurance in rural India, especially for weaker sections and women workers", "To provide insurance to urban IT professionals"],
+chapter: "Set 7 (Product and Services- Insurance)",
+topic: "RPLI History and Introduction"
+},
+{
+id: 855,
+question: "How many types of policies are offered under RPLI?",
+answer: "RPLI offers six types of policies.",
+correctOption: "6",
+options: ["4", "5", "6", "7"],
+chapter: "Set 7 (Product and Services- Insurance)",
+topic: "RPLI - Policies Overview"
+},
+{
+id: 856,
+question: "What is the minimum Sum Assured for most standard RPLI policies (like Gram Suraksha, Gram Suvidha, Gram Santosh)?",
+answer: "The sum assured for these RPLI policies ranges from ₹10,000 to ₹10 lakh.",
+correctOption: "₹10,000",
+options: ["₹5,000", "₹10,000", "₹20,000", "₹50,000"],
+chapter: "Set 7 (Product and Services- Insurance)",
+topic: "RPLI - Policies Overview"
+},
+{
+id: 857,
+question: "What is the maximum Sum Assured limit for standard RPLI policies like Gram Suraksha and Gram Santosh?",
+answer: "The maximum Sum Assured for these RPLI policies is ₹10 lakh.",
+correctOption: "₹10 lakh",
+options: ["₹10 lakh", "₹20 lakh", "₹50 lakh", "₹1 crore"],
+chapter: "Set 7 (Product and Services- Insurance)",
+topic: "RPLI - Policies Overview"
+},
+{
+id: 858,
+question: "What is the RPLI equivalent of the PLI Suraksha policy?",
+answer: "Gram Suraksha is the Whole Life Assurance policy under RPLI, same as PLI's Suraksha.",
+correctOption: "Gram Suraksha",
+options: ["Gram Santosh", "Gram Suvidha", "Gram Suraksha", "Gram Priya"],
+chapter: "Set 7 (Product and Services- Insurance)",
+topic: "RPLI - Gram Suraksha (Whole Life Assurance)"
+},
+{
+id: 859,
+question: "What is the declared bonus rate for the RPLI Gram Suraksha policy?",
+answer: "The last declared bonus for Gram Suraksha is ₹60/- per 1000 sum assured per year.",
+correctOption: "₹60/- per 1000 sum assured",
+options: ["₹48/- per 1000 sum assured", "₹52/- per 1000 sum assured", "₹60/- per 1000 sum assured", "₹76/- per 1000 sum assured"],
+chapter: "Set 7 (Product and Services- Insurance)",
+topic: "RPLI - Gram Suraksha (Whole Life Assurance)"
+},
+{
+id: 860,
+question: "After how many years can a policyholder surrender an RPLI Gram Suraksha policy?",
+answer: "The surrender for WLA-RPLI (Gram Suraksha) is after 3 years.",
+correctOption: "3 years",
+options: ["2 years", "3 years", "4 years", "5 years"],
+chapter: "Set 7 (Product and Services- Insurance)",
+topic: "RPLI - Gram Suraksha (Whole Life Assurance)"
+},
+{
+id: 861,
+question: "After how many years can a loan be taken against an RPLI Gram Suraksha policy?",
+answer: "The loan for WLA-RPLI (Gram Suraksha) is available after 4 years.",
+correctOption: "4 years",
+options: ["3 years", "4 years", "5 years", "Cannot take a loan"],
+chapter: "Set 7 (Product and Services- Insurance)",
+topic: "RPLI - Gram Suraksha (Whole Life Assurance)"
+},
+{
+id: 862,
+question: "What is the age eligibility for the RPLI Gram Suvidha policy?",
+answer: "Eligibility for Gram Suvidha is 19-45 years.",
+correctOption: "19 - 45 years",
+options: ["19 - 40 years", "19 - 45 years", "19 - 50 years", "19 - 55 years"],
+chapter: "Set 7 (Product and Services- Insurance)",
+topic: "RPLI - Gram Suvidha (Convertible Whole Life Assurance)"
+},
+{
+id: 863,
+question: "During which years can the RPLI Gram Suvidha policy be converted to an Endowment Assurance?",
+answer: "Gram Suvidha is convertible to Endowment Assurance between the 5th-6th year.",
+correctOption: "Between 5th-6th year",
+options: ["Between 3rd-4th year", "Between 4th-5th year", "Between 5th-6th year", "After 6 years"],
+chapter: "Set 7 (Product and Services- Insurance)",
+topic: "RPLI - Gram Suvidha (Convertible Whole Life Assurance)"
+},
+{
+id: 864,
+question: "After how many years can a loan be taken against an RPLI Gram Suvidha policy?",
+answer: "The loan for CWLA-RPLI (Gram Suvidha) is available after 4 years.",
+correctOption: "4 years",
+options: ["2 years", "3 years", "4 years", "5 years"],
+chapter: "Set 7 (Product and Services- Insurance)",
+topic: "RPLI - Gram Suvidha (Convertible Whole Life Assurance)"
+},
+{
+id: 865,
+question: "What is the name of the Endowment Assurance policy under RPLI?",
+answer: "Gram Santosh is the Endowment Assurance policy under RPLI.",
+correctOption: "Gram Santosh",
+options: ["Gram Priya", "Gram Sumangal", "Gram Santosh", "Gram Suraksha"],
+chapter: "Set 7 (Product and Services- Insurance)",
+topic: "RPLI - Gram Santosh (Endowment Assurance)"
+},
+{
+id: 866,
+question: "Which maturity age is NOT available for the RPLI Gram Santosh policy?",
+answer: "Maturity ages for Gram Santosh are 35, 40, 45, 50, 55, 58, 60 years. Age 65 is not listed.",
+correctOption: "65 years",
+options: ["40 years", "50 years", "55 years", "65 years"],
+chapter: "Set 7 (Product and Services- Insurance)",
+topic: "RPLI - Gram Santosh (Endowment Assurance)"
+},
+{
+id: 867,
+question: "What is the bonus rate for the RPLI Gram Santosh policy?",
+answer: "The bonus for Gram Santosh is ₹48/- per 1000 sum assured per year.",
+correctOption: "₹48/- per 1000 sum assured",
+options: ["₹45/- per 1000 sum assured", "₹48/- per 1000 sum assured", "₹52/- per 1000 sum assured", "₹60/- per 1000 sum assured"],
+chapter: "Set 7 (Product and Services- Insurance)",
+topic: "RPLI - Gram Santosh (Endowment Assurance)"
+},
+{
+id: 868,
+question: "After how many years can a loan and surrender be done for the RPLI Gram Santosh policy?",
+answer: "For EA-RPLI (Gram Santosh), both loan and surrender are available after 3 years.",
+correctOption: "Loan after 3 years, Surrender after 3 years",
+options: ["Loan after 3 years, Surrender after 3 years", "Loan after 4 years, Surrender after 3 years", "Loan after 3 years, Surrender after 4 years", "Loan after 5 years, Surrender after 5 years"],
+chapter: "Set 7 (Product and Services- Insurance)",
+topic: "RPLI - Gram Santosh (Endowment Assurance)"
+},
+{
+id: 869,
+question: "What is the policy term duration for the RPLI Gram Priya policy?",
+answer: "Gram Priya is a 10-Year Rural PLI policy.",
+correctOption: "10 years",
+options: ["5 years", "10 years", "15 years", "20 years"],
+chapter: "Set 7 (Product and Services- Insurance)",
+topic: "RPLI - Gram Priya (10-Year Rural PLI)"
+},
+{
+id: 870,
+question: "What is the minimum entry age for the RPLI Gram Priya policy?",
+answer: "The eligibility age for Gram Priya is 20-45 years, making 20 the minimum.",
+correctOption: "20 years",
+options: ["18 years", "19 years", "20 years", "21 years"],
+chapter: "Set 7 (Product and Services- Insurance)",
+topic: "RPLI - Gram Priya (10-Year Rural PLI)"
+},
+{
+id: 871,
+question: "In the Gram Priya policy, at which years are the 20% payouts given?",
+answer: "The payouts in Gram Priya are 20% in the 4th & 7th year.",
+correctOption: "4th and 7th year",
+options: ["3rd and 6th year", "4th and 7th year", "5th and 8th year", "4th and 8th year"],
+chapter: "Set 7 (Product and Services- Insurance)",
+topic: "RPLI - Gram Priya (10-Year Rural PLI)"
+},
+{
+id: 872,
+question: "What percentage of payout, along with bonus, is provided in the 10th year of the Gram Priya policy?",
+answer: "A payout of 60% + bonus is given in the 10th year.",
+correctOption: "60%",
+options: ["40%", "50%", "60%", "80%"],
+chapter: "Set 7 (Product and Services- Insurance)",
+topic: "RPLI - Gram Priya (10-Year Rural PLI)"
+},
+{
+id: 873,
+question: "What is the bonus rate for the RPLI Gram Priya policy?",
+answer: "The bonus for Gram Priya is ₹45/- per 1000 sum assured per year.",
+correctOption: "₹45/- per 1000 sum assured",
+options: ["₹45/- per 1000 sum assured", "₹48/- per 1000 sum assured", "₹52/- per 1000 sum assured", "₹60/- per 1000 sum assured"],
+chapter: "Set 7 (Product and Services- Insurance)",
+topic: "RPLI - Gram Priya (10-Year Rural PLI)"
+},
+{
+id: 874,
+question: "What is the name of the Anticipated Endowment Assurance policy under RPLI?",
+answer: "Gram Sumangal is the Anticipated Endowment Assurance under RPLI.",
+correctOption: "Gram Sumangal",
+options: ["Gram Priya", "Gram Santosh", "Gram Sumangal", "Bal Jeevan Bima"],
+chapter: "Set 7 (Product and Services- Insurance)",
+topic: "RPLI - Gram Sumangal (Anticipated Endowment Assurance)"
+},
+{
+id: 875,
+question: "What are the policy terms available for RPLI Gram Sumangal?",
+answer: "The policy terms for Gram Sumangal are 15 or 20 years.",
+correctOption: "15 or 20 years",
+options: ["10 or 15 years", "15 or 20 years", "20 or 25 years", "10 or 20 years"],
+chapter: "Set 7 (Product and Services- Insurance)",
+topic: "RPLI - Gram Sumangal (Anticipated Endowment Assurance)"
+},
+{
+id: 876,
+question: "What is the bonus rate for the RPLI Gram Sumangal policy?",
+answer: "The bonus for Gram Sumangal is ₹45/- per 1000 sum assured per year.",
+correctOption: "₹45/- per 1000 sum assured",
+options: ["₹45/- per 1000 sum assured", "₹48/- per 1000 sum assured", "₹52/- per 1000 sum assured", "₹60/- per 1000 sum assured"],
+chapter: "Set 7 (Product and Services- Insurance)",
+topic: "RPLI - Gram Sumangal (Anticipated Endowment Assurance)"
+},
+{
+id: 877,
+question: "Is surrender available for the RPLI Gram Sumangal policy?",
+answer: "For Gram Sumangal, surrender is N/A.",
+correctOption: "No (N/A)",
+options: ["Yes, after 3 years", "Yes, after 5 years", "No (N/A)", "Yes, but only with a penalty"],
+chapter: "Set 7 (Product and Services- Insurance)",
+topic: "RPLI - Gram Sumangal (Anticipated Endowment Assurance)"
+},
+{
+id: 878,
+question: "What is the maximum Sum Assured allowed for the RPLI Bal Jeevan Bima policy?",
+answer: "The maximum Sum Assured for RPLI Bal Jeevan Bima is ₹1 lakh.",
+correctOption: "₹1 lakh",
+options: ["₹50,000", "₹1 lakh", "₹3 lakh", "₹10 lakh"],
+chapter: "Set 7 (Product and Services- Insurance)",
+topic: "RPLI - Bal Jeevan Bima (Children Policy)"
+},
+{
+id: 879,
+question: "What is the minimum age for a child to be eligible for the RPLI Bal Jeevan Bima policy?",
+answer: "The eligibility age for children is 5-20 years.",
+correctOption: "5 years",
+options: ["1 year", "3 years", "5 years", "7 years"],
+chapter: "Set 7 (Product and Services- Insurance)",
+topic: "RPLI - Bal Jeevan Bima (Children Policy)"
+},
+{
+id: 880,
+question: "Which RPLI policy has the provision where the premium is waived upon the parent's death?",
+answer: "In the Bal Jeevan Bima policy, the premium is waived on the parent's death.",
+correctOption: "Bal Jeevan Bima",
+options: ["Gram Suraksha", "Gram Suvidha", "Gram Sumangal", "Bal Jeevan Bima"],
+chapter: "Set 7 (Product and Services- Insurance)",
+topic: "RPLI - Bal Jeevan Bima (Children Policy)"
+},
+{
+id: 881,
+question: "Under the PLI Non-Medical Scheme, what is the maximum age allowed on the next birthday?",
+answer: "The age on next birthday must not exceed 40 years for the Non-Medical Scheme (PLI).",
+correctOption: "40 years",
+options: ["35 years", "40 years", "45 years", "50 years"],
+chapter: "Set 7 (Product and Services- Insurance)",
+topic: "Important Rules, Rebates, and Miscellaneous Points"
+},
+{
+id: 882,
+question: "What is the maximum sum assured limit under the PLI Non-Medical Scheme?",
+answer: "Under PLI Non-Medical Scheme, the sum assured shall not exceed ₹2,00,000/- (Rupees two Lakh).",
+correctOption: "₹2,00,000",
+options: ["₹1,00,000", "₹2,00,000", "₹3,00,000", "₹5,00,000"],
+chapter: "Set 7 (Product and Services- Insurance)",
+topic: "Important Rules, Rebates, and Miscellaneous Points"
+},
+{
+id: 883,
+question: "What is the maximum aggregated sum assured limit of a non-medical RPLI policy?",
+answer: "The maximum aggregated sum assured limit of non-medical RPLI policy is amended to Rs.100,000/- (Rs. One lakh).",
+correctOption: "₹1,00,000",
+options: ["₹50,000", "₹1,00,000", "₹2,00,000", "₹5,00,000"],
+chapter: "Set 7 (Product and Services- Insurance)",
+topic: "Important Rules, Rebates, and Miscellaneous Points"
+},
+{
+id: 884,
+question: "What rebate is allowed if the premia for 12 months are paid in advance?",
+answer: "A rebate @ 2% shall be allowed if the premia for 12 months are paid in advance.",
+correctOption: "2%",
+options: ["0.5%", "1%", "2%", "5%"],
+chapter: "Set 7 (Product and Services- Insurance)",
+topic: "Important Rules, Rebates, and Miscellaneous Points"
+},
+{
+id: 885,
+question: "A rebate of 0.5% for paying premia 3 months in advance is applicable to which scheme?",
+answer: "A rebate of 0.5% is allowed if premia for 3 months are paid in advance, and this is applicable only for RPLI.",
+correctOption: "Only RPLI",
+options: ["Both PLI and RPLI", "Only PLI", "Only RPLI", "Only Bal Jeevan Bima"],
+chapter: "Set 7 (Product and Services- Insurance)",
+topic: "Important Rules, Rebates, and Miscellaneous Points"
+},
+{
+id: 886,
+question: "Who approves the issue of a Duplicate Policy Document if the sum assured is above ₹10 Lakh?",
+answer: "Above Rs.10 Lakh Sum Assured, the duplicate policy document will be approved by the Head of Division.",
+correctOption: "Head of Division",
+options: ["CPC", "Head of Division", "The Postmaster General", "Branch Postmaster"],
+chapter: "Set 7 (Product and Services- Insurance)",
+topic: "Important Rules, Rebates, and Miscellaneous Points"
+},
 
 
     
