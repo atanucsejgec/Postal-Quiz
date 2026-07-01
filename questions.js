@@ -9565,7 +9565,708 @@ topic: "Janasurakhsha Yojana - Comparison"
     ],
     chapter: "Set 7 (Product and Services- Remittance)",
     topic: "International Money Transfer Service (IMTS)"
+  },
+    {
+    id: 757,
+    question: "What is the primary purpose of Retail Post?",
+    answer: "Through Retail Post, the Department offers convenience to the public by making third-party products and services available in their nearest Post Offices.",
+    correctOption: "To make third-party products and services available to the public in their nearest Post Offices",
+    options: [
+      "To deliver international parcels",
+      "To make third-party products and services available to the public in their nearest Post Offices",
+      "To exclusively sell life insurance",
+      "To manage internal postal employee benefits"
+    ],
+    chapter: "Set 7 (Product and Services- Retail Post)",
+    topic: "Retail Post"
+  },
+  {
+    id: 758,
+    question: "Which of the following is NOT a service offered under Retail Post?",
+    answer: "The key services offered under Retail Post include Bill Collection, Form Sales, Ticket Sales, Product Sales, and Verification Services.",
+    correctOption: "International Speed Post",
+    options: [
+      "Bill Collection",
+      "Form Sales",
+      "International Speed Post",
+      "Verification Services"
+    ],
+    chapter: "Set 7 (Product and Services- Retail Post)",
+    topic: "Retail Post"
+  },
+  {
+    id: 759,
+    question: "Under Retail Post, how are collected payments transferred to the third-party biller?",
+    answer: "The e-Payment system is used for transferring collected payments to the third-party (biller) via a Biller ID.",
+    correctOption: "e-Payment system via Biller ID",
+    options: [
+      "Cash on Delivery",
+      "Cheque deposit",
+      "e-Payment system via Biller ID",
+      "Direct Bank Transfer (NEFT)"
+    ],
+    chapter: "Set 7 (Product and Services- Retail Post)",
+    topic: "Retail Post"
+  },
+  {
+    id: 760,
+    question: "Address verification for banks and telecom providers falls under which category of Retail Post services?",
+    answer: "Address verification for banks, telecom providers, etc., is categorized under Verification Services in Retail Post.",
+    correctOption: "Verification Services",
+    options: [
+      "Bill Collection",
+      "Product Sales",
+      "Ticket Sales",
+      "Verification Services"
+    ],
+    chapter: "Set 7 (Product and Services- Retail Post)",
+    topic: "Retail Post"
+  },
+  {
+    id: 761,
+    question: "What is one of the main objectives of Retail Post?",
+    answer: "One of the main objectives of Retail Post is to transform Post Offices into one-stop shops.",
+    correctOption: "To transform Post Offices into one-stop shops",
+    options: [
+      "To transform Post Offices into one-stop shops",
+      "To reduce the number of postmen",
+      "To stop the delivery of standard mail",
+      "To limit digital services"
+    ],
+    chapter: "Set 7 (Product and Services- Retail Post)",
+    topic: "Retail Post"
+  },
+  {
+    id: 762,
+    question: "Sale of Railway Reservation Tickets under Retail Post is categorized as:",
+    answer: "The sale of Railway Reservation Tickets falls under the \"Ticket Sales\" category of Retail Post.",
+    correctOption: "Ticket Sales",
+    options: [
+      "Product Sales",
+      "Ticket Sales",
+      "Form Sales",
+      "Bill Collection"
+    ],
+    chapter: "Set 7 (Product and Services- Retail Post)",
+    topic: "Retail Post"
+  },
+  {
+    id: 763,
+    question: "Sale of Rakhi envelopes and philately items is an example of which Retail Post service?",
+    answer: "The sale of Rakhi envelopes and philately items is an example of \"Product Sales\".",
+    correctOption: "Product Sales",
+    options: [
+      "Form Sales",
+      "Verification Services",
+      "Product Sales",
+      "Bill Collection"
+    ],
+    chapter: "Set 7 (Product and Services- Retail Post)",
+    topic: "Retail Post"
+  },
+  {
+    id: 764,
+    question: "Retail Post aims to promote which type of partnership?",
+    answer: "One of the objectives of Retail Post is to promote public-private partnerships.",
+    correctOption: "Public-Private Partnerships",
+    options: [
+      "Government-to-Government (G2G)",
+      "Public-Private Partnerships",
+      "International Trade Partnerships",
+      "Exclusive Private Monopolies"
+    ],
+    chapter: "Set 7 (Product and Services- Retail Post)",
+    topic: "Retail Post"
+  },
+  {
+    id: 765,
+    question: "How many Aadhaar Enrolment and Updation Centres has India Post established across the country?",
+    answer: "India Post has established 13,352 Aadhaar Enrolment and Updation Centres across the country.",
+    correctOption: "13,352",
+    options: [
+      "10,000",
+      "12,500",
+      "13,352",
+      "15,000"
+    ],
+    chapter: "Set 7 (Product and Services- Retail Post)",
+    topic: "Aadhaar Services"
+  },
+  {
+    id: 766,
+    question: "Which of the following is captured as biometric data during Aadhaar enrolment?",
+    answer: "Biometric data capture includes Photograph, Fingerprints (10), and Iris scan.",
+    correctOption: "Fingerprints and Iris scan",
+    options: [
+      "Name and DOB",
+      "Address and Email",
+      "Mobile Number",
+      "Fingerprints and Iris scan"
+    ],
+    chapter: "Set 7 (Product and Services- Retail Post)",
+    topic: "Aadhaar Services"
+  },
+  {
+    id: 767,
+    question: "What is the fee for Aadhaar enrolment for a child aged 0-5 years at a Post Office?",
+    answer: "Aadhaar enrolment for children aged 0-5 years is free of cost.",
+    correctOption: "₹0 (Free)",
+    options: [
+      "₹50",
+      "₹100",
+      "₹0 (Free)",
+      "₹25"
+    ],
+    chapter: "Set 7 (Product and Services- Retail Post)",
+    topic: "Aadhaar Services"
+  },
+  {
+    id: 768,
+    question: "What is the fee for Aadhaar enrolment for an adult (age > 5 years)?",
+    answer: "Aadhaar enrolment for individuals greater than 5 years old is free of cost.",
+    correctOption: "₹0 (Free)",
+    options: [
+      "₹50",
+      "₹100",
+      "₹0 (Free)",
+      "₹150"
+    ],
+    chapter: "Set 7 (Product and Services- Retail Post)",
+    topic: "Aadhaar Services"
+  },
+  {
+    id: 769,
+    question: "What is the fee for a mandatory biometric update for a child aged between 7 and 15 years?",
+    answer: "The fee for a mandatory biometric update for ages 7-15 and >17 years is ₹100.",
+    correctOption: "₹100",
+    options: [
+      "Free",
+      "₹50",
+      "₹100",
+      "₹150"
+    ],
+    chapter: "Set 7 (Product and Services- Retail Post)",
+    topic: "Aadhaar Services"
+  },
+  {
+    id: 770,
+    question: "What is the fee for a mandatory biometric update for an individual aged 16 years (15-<17)?",
+    answer: "A mandatory biometric update for individuals aged between 15 and <17 years is free.",
+    correctOption: "Free",
+    options: [
+      "Free",
+      "₹50",
+      "₹100",
+      "₹200"
+    ],
+    chapter: "Set 7 (Product and Services- Retail Post)",
+    topic: "Aadhaar Services"
+  },
+  {
+    id: 771,
+    question: "What is the cost of a demographic update (such as Name or DOB) at an Aadhaar Centre?",
+    answer: "A demographic update (one or more fields: Name, DOB, etc.) costs ₹50.",
+    correctOption: "₹50",
+    options: [
+      "Free",
+      "₹50",
+      "₹100",
+      "₹150"
+    ],
+    chapter: "Set 7 (Product and Services- Retail Post)",
+    topic: "Aadhaar Services"
+  },
+  {
+    id: 772,
+    question: "How much does a document update cost at a Post Office Aadhaar Centre?",
+    answer: "The service fee for a document update at an Aadhaar Centre is ₹50.",
+    correctOption: "₹50",
+    options: [
+      "Free",
+      "₹50",
+      "₹100",
+      "₹200"
+    ],
+    chapter: "Set 7 (Product and Services- Retail Post)",
+    topic: "Aadhaar Services"
+  },
+  {
+    id: 773,
+    question: "Which of the following falls under Demographic Updation?",
+    answer: "Demographic Updation includes Name, DOB, Mobile, Email, and Address.",
+    correctOption: "Address",
+    options: [
+      "Fingerprints",
+      "Photograph",
+      "Address",
+      "Iris scan"
+    ],
+    chapter: "Set 7 (Product and Services- Retail Post)",
+    topic: "Aadhaar Services"
+  },
+  {
+    id: 774,
+    question: "Do the service charges for Aadhaar services at Post Offices include GST?",
+    answer: "The document specifies that all Aadhaar service charges are inclusive of GST.",
+    correctOption: "Yes, all charges are inclusive of GST",
+    options: [
+      "No, GST is charged extra",
+      "Yes, all charges are inclusive of GST",
+      "GST is only applicable on demographic updates",
+      "GST is only applicable on biometric updates"
+    ],
+    chapter: "Set 7 (Product and Services- Retail Post)",
+    topic: "Aadhaar Services"
+  },
+  {
+    id: 775,
+    question: "What is the fee for an \"Other biometric update\" (with or without demographic update)?",
+    answer: "The fee for an \"Other biometric update (with/without demographic update)\" is ₹100.",
+    correctOption: "₹100",
+    options: [
+      "₹50",
+      "₹100",
+      "₹150",
+      "Free"
+    ],
+    chapter: "Set 7 (Product and Services- Retail Post)",
+    topic: "Aadhaar Services"
+  },
+  {
+    id: 776,
+    question: "What is the source of the Gangajal distributed by India Post?",
+    answer: "The source of the Gangajal provided by India Post is Gangotri.",
+    correctOption: "Gangotri",
+    options: [
+      "Haridwar",
+      "Rishikesh",
+      "Gangotri",
+      "Varanasi"
+    ],
+    chapter: "Set 7 (Product and Services- Retail Post)",
+    topic: "Gangajal Distribution"
+  },
+  {
+    id: 777,
+    question: "What is the online price for a single 250 ml pack of Gangajal?",
+    answer: "The online price (including Speed Post) for a 250 ml pack of Gangajal is ₹121.",
+    correctOption: "₹121",
+    options: [
+      "₹100",
+      "₹121",
+      "₹151",
+      "₹201"
+    ],
+    chapter: "Set 7 (Product and Services- Retail Post)",
+    topic: "Gangajal Distribution"
+  },
+  {
+    id: 778,
+    question: "What is the online price for two 250 ml packs (2 x 250 ml) of Gangajal?",
+    answer: "The online price for two 250 ml packs (2 x 250 ml) is ₹201.",
+    correctOption: "₹201",
+    options: [
+      "₹121",
+      "₹151",
+      "₹201",
+      "₹242"
+    ],
+    chapter: "Set 7 (Product and Services- Retail Post)",
+    topic: "Gangajal Distribution"
+  },
+  {
+    id: 779,
+    question: "What is the online price for four 250 ml packs (4 x 250 ml) of Gangajal?",
+    answer: "The online price for four 250 ml packs (4 x 250 ml) is ₹321.",
+    correctOption: "₹321",
+    options: [
+      "₹201",
+      "₹300",
+      "₹321",
+      "₹484"
+    ],
+    chapter: "Set 7 (Product and Services- Retail Post)",
+    topic: "Gangajal Distribution"
+  },
+  {
+    id: 780,
+    question: "Which tax is applicable on the sale of Gangajal through India Post?",
+    answer: "The document explicitly notes that \"No GST is charged on Gangajal\".",
+    correctOption: "No GST is charged",
+    options: [
+      "5% GST",
+      "12% GST",
+      "18% GST",
+      "No GST is charged"
+    ],
+    chapter: "Set 7 (Product and Services- Retail Post)",
+    topic: "Gangajal Distribution"
+  },
+  {
+    id: 781,
+    question: "When ordering Gangajal online, how are the delivery charges handled?",
+    answer: "The document states that Speed Post charges are included in online prices for Gangajal.",
+    correctOption: "Speed Post charges are included in the online prices",
+    options: [
+      "Delivered via standard mail for free",
+      "Speed Post charges are billed extra upon delivery",
+      "Speed Post charges are included in the online prices",
+      "Delivery must be picked up at the nearest Post Office"
+    ],
+    chapter: "Set 7 (Product and Services- Retail Post)",
+    topic: "Gangajal Distribution"
+  },
+  {
+    id: 782,
+    question: "Through which online portal can customers order Gangajal?",
+    answer: "Gangajal is available online for convenient access through the e-Postoffice Portal (https://www.epostoffice.gov.in).",
+    correctOption: "https://www.epostoffice.gov.in",
+    options: [
+      "www.indiapost.gov.in",
+      "https://www.epostoffice.gov.in",
+      "www.gangajal.gov.in",
+      "www.postofficeservices.in"
+    ],
+    chapter: "Set 7 (Product and Services- Retail Post)",
+    topic: "Gangajal Distribution"
+  },
+  {
+    id: 783,
+    question: "What does POPSK stand for?",
+    answer: "POPSK stands for Post Office Passport Seva Kendra.",
+    correctOption: "Post Office Passport Seva Kendra",
+    options: [
+      "Post Office Passport Seva Kendra",
+      "Post Office Public Service Kendra",
+      "Postal Office Processing Service Kendra",
+      "Public Online Passport Seva Kendra"
+    ],
+    chapter: "Set 7 (Product and Services- Retail Post)",
+    topic: "POPSK (Post Office Passport Seva Kendra)"
+  },
+  {
+    id: 784,
+    question: "POPSK is a joint initiative between the Department of Posts (DoP) and which other ministry?",
+    answer: "POPSK is a joint initiative between the Department of Posts (DoP) and the Ministry of External Affairs (MEA).",
+    correctOption: "Ministry of External Affairs (MEA)",
+    options: [
+      "Ministry of Home Affairs",
+      "Ministry of External Affairs (MEA)",
+      "Ministry of Railways",
+      "Ministry of Finance"
+    ],
+    chapter: "Set 7 (Product and Services- Retail Post)",
+    topic: "POPSK (Post Office Passport Seva Kendra)"
+  },
+  {
+    id: 785,
+    question: "What is the primary objective of setting up POPSKs?",
+    answer: "The objective of POPSK is to extend passport services to remote areas by using the vast Post Office network to reduce the need to travel long distances.",
+    correctOption: "To extend passport services to remote areas using the Post Office network",
+    options: [
+      "To issue visas for foreign nationals",
+      "To provide domestic travel tickets",
+      "To extend passport services to remote areas using the Post Office network",
+      "To deliver international mail faster"
+    ],
+    chapter: "Set 7 (Product and Services- Retail Post)",
+    topic: "POPSK (Post Office Passport Seva Kendra)"
+  },
+  {
+    id: 786,
+    question: "What is the total number of POPSKs set up across India?",
+    answer: "The total number of POPSKs set up is 450.",
+    correctOption: "450",
+    options: [
+      "214",
+      "333",
+      "429",
+      "450"
+    ],
+    chapter: "Set 7 (Product and Services- Retail Post)",
+    topic: "POPSK (Post Office Passport Seva Kendra)"
+  },
+  {
+    id: 787,
+    question: "What does PCC stand for in the context of POPSK?",
+    answer: "PCC stands for Police Clearance Certificate.",
+    correctOption: "Police Clearance Certificate",
+    options: [
+      "Police Clearance Certificate",
+      "Passport Clearance Certificate",
+      "Postal Clearance Code",
+      "Public Check Certificate"
+    ],
+    chapter: "Set 7 (Product and Services- Retail Post)",
+    topic: "POPSK (Post Office Passport Seva Kendra)"
+  },
+  {
+    id: 788,
+    question: "What is the purpose of a Police Clearance Certificate (PCC)?",
+    answer: "A PCC is issued to applicants who require a background check for employment, visa, or immigration purposes.",
+    correctOption: "A background check for employment, visa, or immigration purposes",
+    options: [
+      "For opening a bank account",
+      "A background check for employment, visa, or immigration purposes",
+      "To apply for a driving license",
+      "To purchase property"
+    ],
+    chapter: "Set 7 (Product and Services- Retail Post)",
+    topic: "POPSK (Post Office Passport Seva Kendra)"
+  },
+  {
+    id: 789,
+    question: "At how many POPSKs is the Police Clearance Certificate (PCC) facility available?",
+    answer: "The PCC Facility at POPSKs is available at 214 POPSKs across India.",
+    correctOption: "214",
+    options: [
+      "450",
+      "429",
+      "333",
+      "214"
+    ],
+    chapter: "Set 7 (Product and Services- Retail Post)",
+    topic: "POPSK (Post Office Passport Seva Kendra)"
+  },
+  {
+    id: 790,
+    question: "On what date was the PCC service started at POPSKs?",
+    answer: "The PCC service at POPSKs started on 28th September 2022.",
+    correctOption: "28th September 2022",
+    options: [
+      "28th September 2022",
+      "15th August 2021",
+      "26th January 2023",
+      "1st April 2022"
+    ],
+    chapter: "Set 7 (Product and Services- Retail Post)",
+    topic: "POPSK (Post Office Passport Seva Kendra)"
+  },
+  {
+    id: 791,
+    question: "Passport Seva via POPSK is available at how many Post Offices?",
+    answer: "The summary table indicates that Passport Seva via POPSK is available at 429 Post Offices.",
+    correctOption: "429",
+    options: [
+      "214",
+      "333",
+      "429",
+      "450"
+    ],
+    chapter: "Set 7 (Product and Services- Retail Post)",
+    topic: "POPSK (Post Office Passport Seva Kendra)"
+  },
+  {
+    id: 792,
+    question: "What does the Prasadam service by India Post offer?",
+    answer: "India Post offers delivery of Prasad (holy offerings) from famous temples and religious shrines to devotees across the country.",
+    correctOption: "Delivery of Prasad (holy offerings) from famous temples to devotees",
+    options: [
+      "Delivery of religious books",
+      "Delivery of Prasad (holy offerings) from famous temples to devotees",
+      "Free meals at local post offices",
+      "Booking of pilgrimage tours"
+    ],
+    chapter: "Set 7 (Product and Services- Retail Post)",
+    topic: "Prasadam Service"
+  },
+  {
+    id: 793,
+    question: "Which delivery service is generally used for the fast and safe delivery of Prasadam?",
+    answer: "Speed Post is generally used for fast and safe delivery of Prasadam.",
+    correctOption: "Speed Post",
+    options: [
+      "Ordinary Post",
+      "Registered Post",
+      "Speed Post",
+      "Parcel Post"
+    ],
+    chapter: "Set 7 (Product and Services- Retail Post)",
+    topic: "Prasadam Service"
+  },
+  {
+    id: 794,
+    question: "Which of the following is an example of a participating temple in the Prasadam service?",
+    answer: "Examples of participating temples include Tirupati Balaji, Shirdi Sai Baba, Vaishno Devi, Sabarimala, and Gangotri.",
+    correctOption: "All of the above",
+    options: [
+      "Tirupati Balaji",
+      "Shirdi Sai Baba",
+      "Vaishno Devi",
+      "All of the above"
+    ],
+    chapter: "Set 7 (Product and Services- Retail Post)",
+    topic: "Prasadam Service"
+  },
+  {
+    id: 795,
+    question: "How can customers access online booking for the Prasadam service?",
+    answer: "Customers can access online booking for Prasadam through the e-Post Office Portal.",
+    correctOption: "Through the e-Post Office Portal",
+    options: [
+      "Through the IRCTC website",
+      "Through the e-Post Office Portal",
+      "Through the MEA portal",
+      "Through the UIDAI website"
+    ],
+    chapter: "Set 7 (Product and Services- Retail Post)",
+    topic: "Prasadam Service"
+  },
+  {
+    id: 796,
+    question: "Are packaging and delivery charges included when booking Prasadam?",
+    answer: "Charges for Prasadam include packaging and delivery, as per temple-specific offerings.",
+    correctOption: "Yes, charges include packaging and delivery as per temple-specific offerings",
+    options: [
+      "No, they are paid on delivery",
+      "Yes, charges include packaging and delivery as per temple-specific offerings",
+      "Only delivery is charged; packaging is free",
+      "Neither is charged; it is a free service"
+    ],
+    chapter: "Set 7 (Product and Services- Retail Post)",
+    topic: "Prasadam Service"
+  },
+  {
+    id: 797,
+    question: "What does PRS stand for in the context of Post Office services?",
+    answer: "PRS stands for Passenger Reservation System.",
+    correctOption: "Passenger Reservation System",
+    options: [
+      "Postal Registration System",
+      "Passenger Reservation System",
+      "Public Record System",
+      "Parcel Routing Service"
+    ],
+    chapter: "Set 7 (Product and Services- Retail Post)",
+    topic: "Passenger Reservation System (PRS)"
+  },
+  {
+    id: 798,
+    question: "The Passenger Reservation System (PRS) is a collaboration between India Post and which ministry?",
+    answer: "India Post provides Railway Reservation Services in collaboration with the Ministry of Railways.",
+    correctOption: "Ministry of Railways",
+    options: [
+      "Ministry of External Affairs",
+      "Ministry of Home Affairs",
+      "Ministry of Railways",
+      "Ministry of Finance"
+    ],
+    chapter: "Set 7 (Product and Services- Retail Post)",
+    topic: "Passenger Reservation System (PRS)"
+  },
+  {
+    id: 799,
+    question: "In how many Post Offices is the Passenger Reservation System (PRS) currently functional?",
+    answer: "The PRS service is currently functional in 333 Post Offices across India.",
+    correctOption: "333",
+    options: [
+      "214",
+      "333",
+      "429",
+      "450"
+    ],
+    chapter: "Set 7 (Product and Services- Retail Post)",
+    topic: "Passenger Reservation System (PRS)"
+  },
+  {
+    id: 800,
+    question: "Which geographical areas are primarily targeted for the implementation of PRS in Post Offices?",
+    answer: "The service is especially implemented to target areas lacking railway stations or counters, specifically in rural and semi-rural/semi-urban locations.",
+    correctOption: "Rural and semi-rural/semi-urban locations",
+    options: [
+      "Metropolitan cities",
+      "International airports",
+      "Rural and semi-rural/semi-urban locations",
+      "State capital headquarters"
+    ],
+    chapter: "Set 7 (Product and Services- Retail Post)",
+    topic: "Passenger Reservation System (PRS)"
+  },
+  {
+    id: 801,
+    question: "What type of train tickets can be booked through the PRS at Post Offices?",
+    answer: "The service provides booking of Railway Tickets for all classes (General, Sleeper, AC, etc.).",
+    correctOption: "Railway Tickets for all classes (General, Sleeper, AC, etc.)",
+    options: [
+      "Only General class tickets",
+      "Only Sleeper class tickets",
+      "Only AC class tickets",
+      "Railway Tickets for all classes (General, Sleeper, AC, etc.)"
+    ],
+    chapter: "Set 7 (Product and Services- Retail Post)",
+    topic: "Passenger Reservation System (PRS)"
+  },
+  {
+    id: 802,
+    question: "Which service aims to increase the relevance of post offices in digital and commercial services?",
+    answer: "One of the stated objectives of Retail Post is to increase the relevance of post offices in digital and commercial services.",
+    correctOption: "Retail Post",
+    options: [
+      "Retail Post",
+      "PRS",
+      "Gangajal Distribution",
+      "POPSK"
+    ],
+    chapter: "Set 7 (Product and Services- Retail Post)",
+    topic: "Retail Post"
+  },
+  {
+    id: 803,
+    question: "What is the fee for a mandatory biometric update for a child between 5 and less than 7 years of age?",
+    answer: "A mandatory biometric update for ages 5-<7 is Free.",
+    correctOption: "Free",
+    options: [
+      "₹50",
+      "₹100",
+      "Free",
+      "₹150"
+    ],
+    chapter: "Set 7 (Product and Services- Retail Post)",
+    topic: "Aadhaar Services"
+  },
+  {
+    id: 804,
+    question: "Application forms of educational institutions and recruiting agencies are sold under which Retail Post category?",
+    answer: "Form Sales under Retail Post include the application forms of educational institutions and recruiting agencies.",
+    correctOption: "Form Sales",
+    options: [
+      "Bill Collection",
+      "Ticket Sales",
+      "Verification Services",
+      "Form Sales"
+    ],
+    chapter: "Set 7 (Product and Services- Retail Post)",
+    topic: "Retail Post"
+  },
+  {
+    id: 805,
+    question: "The collection of electricity bills, taxes, and government fees at a post office is an example of:",
+    answer: "Electricity bills, Taxes, and Government fees fall under the \"Bill Collection\" category of Retail Post.",
+    correctOption: "Retail Post - Bill Collection",
+    options: [
+      "Retail Post - Form Sales",
+      "Retail Post - Bill Collection",
+      "Retail Post - Product Sales",
+      "PRS"
+    ],
+    chapter: "Set 7 (Product and Services- Retail Post)",
+    topic: "Retail Post"
+  },
+  {
+    id: 806,
+    question: "What is the primary convenience benefit of setting up PRS in rural Post Offices?",
+    answer: "The PRS offers railway reservation facility closer to home, saving time and travel costs for the public.",
+    correctOption: "It offers railway reservation facilities closer to home, saving time and travel costs",
+    options: [
+      "It provides free travel for postal employees",
+      "It offers railway reservation facilities closer to home, saving time and travel costs",
+      "It allows users to track international mail",
+      "It provides passport services to the public"
+    ],
+    chapter: "Set 7 (Product and Services- Retail Post)",
+    topic: "Passenger Reservation System (PRS)"
   }
+
 
     
 ];
