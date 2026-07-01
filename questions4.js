@@ -4379,5 +4379,1125 @@ topic: "Mahila Samman Savings Certificate (MSSC)"
     chapter: "Set 11 (Postal Manual - Vol V)",
     topic: "Mail Monitoring and Procedures"
   },
+    {
+    id: 1437,
+    question: "The term 'Postmaster-General' includes the Principal Chief PMG, Chief PMG, Regional PMG, Director of Postal Services, and which of the following?",
+    answer: "The term includes any officer exercising the powers and authorities of a Postmaster-General.",
+    correctOption: "Any officer exercising their powers",
+    options: [
+      "Any officer exercising their powers",
+      "The Sub-Divisional Inspector",
+      "The Head Postmaster of a First Class GPO",
+      "The Record Officer"
+    ],
+    chapter: "Set 11 (Postal Manual - Vol V)",
+    topic: "Definitions and Terminology"
+  },
+  {
+    id: 1438,
+    question: "How is a First Class Head Office (HO) distinguished from a Second Class HO?",
+    answer: "A First Class HO is managed by a Senior Time Scale Officer (Chief Postmaster), and a Second Class HO is managed by a Group 'B' Officer.",
+    correctOption: "A First Class HO is managed by a Senior Time Scale Officer, while a Second Class is managed by a Group 'B' Officer",
+    options: [
+      "By the number of branches it controls",
+      "A First Class HO is managed by a Senior Time Scale Officer, while a Second Class is managed by a Group 'B' Officer",
+      "A First Class HO handles only foreign mail",
+      "A Second Class HO operates only at night"
+    ],
+    chapter: "Set 11 (Postal Manual - Vol V)",
+    topic: "Post Office Types and Functions"
+  },
+  {
+    id: 1439,
+    question: "What characterizes a 'Town Sub-Office'?",
+    answer: "A Town Sub-Office is located in towns with a Head Office.",
+    correctOption: "It is located in a town that also has a Head Office",
+    options: [
+      "It operates on a mobile van",
+      "It is located in a town that also has a Head Office",
+      "It serves exclusively rural areas",
+      "It only handles un-registered mail"
+    ],
+    chapter: "Set 11 (Postal Manual - Vol V)",
+    topic: "Post Office Types and Functions"
+  },
+  {
+    id: 1440,
+    question: "What is the primary purpose of a Transit Office on a through-mail line?",
+    answer: "The transit bags addressed to a transit office are opened there, and the forward bags are sent onwards unopened to reduce the number of loose bags.",
+    correctOption: "To reduce the number of loose bags by forwarding advance bags unopened",
+    options: [
+      "To sort individual letters",
+      "To reduce the number of loose bags by forwarding advance bags unopened",
+      "To assess customs duties",
+      "To deliver mail locally"
+    ],
+    chapter: "Set 11 (Postal Manual - Vol V)",
+    topic: "Mail Office Types"
+  },
+  {
+    id: 1441,
+    question: "In which RMS unit is letter sorting explicitly NOT done?",
+    answer: "A TMO is a branch of RMS where closed bags are received and dispatched; sorting of letters is not done in this unit.",
+    correctOption: "Transit Mail Office (TMO)",
+    options: [
+      "Sorting Mail Office",
+      "Transit Mail Office (TMO)",
+      "Automatic Mail Processing Centre",
+      "Sorting Sub-Office"
+    ],
+    chapter: "Set 11 (Postal Manual - Vol V)",
+    topic: "Mail Office Types"
+  },
+  {
+    id: 1442,
+    question: "What distinguishes a Sorting Mail Office from a Transit Mail Office?",
+    answer: "A Sorting Mail Office opens and sorts the contents of mail bags, whereas a TMO only handles closed mail bags.",
+    correctOption: "A Sorting Mail Office opens and sorts the contents of mail bags",
+    options: [
+      "A Sorting Mail Office uses V-SAT technology",
+      "A Sorting Mail Office opens and sorts the contents of mail bags",
+      "A Sorting Mail Office only handles closed mail bags",
+      "A Sorting Mail Office is managed by a Mail Agent"
+    ],
+    chapter: "Set 11 (Postal Manual - Vol V)",
+    topic: "Mail Office Types"
+  },
+  {
+    id: 1443,
+    question: "Where is a General Post Office (GPO) located if there are multiple First Class Head Offices at the Headquarters of the Head of a Circle?",
+    answer: "Where there is more than one First Class Head Office at the Headquarters of the Head of a Circle, the one attached to the Headquarters is termed the General Post Office.",
+    correctOption: "The one attached to the Headquarters",
+    options: [
+      "At the busiest railway station",
+      "The one attached to the Headquarters",
+      "At the airport",
+      "At the state border"
+    ],
+    chapter: "Set 11 (Postal Manual - Vol V)",
+    topic: "Post Office Types and Functions"
+  },
+  {
+    id: 1444,
+    question: "Under whose accounts is a Town Branch Office placed?",
+    answer: "A Branch Office, including a Town BO, is lower in status than an SO and is directly under the HO/SO for accounts.",
+    correctOption: "Directly under HO/SO for accounts",
+    options: [
+      "Directly under HO/SO for accounts",
+      "Under the Record Office",
+      "Under the Central Bag Office",
+      "Under the District Bag Office"
+    ],
+    chapter: "Set 11 (Postal Manual - Vol V)",
+    topic: "Post Office Types and Functions"
+  },
+  {
+    id: 1445,
+    question: "Which of the following is an objective of setting up a Sorting Office?",
+    answer: "The uses of a Sorting Office are (a) to simplify the work of sorting in other offices, (b) to reduce bag exchanges, and (c) to reduce the weight of mails on routes.",
+    correctOption: "To simplify sorting elsewhere",
+    options: [
+      "To simplify sorting elsewhere",
+      "To increase bag exchanges between Post Offices",
+      "To increase the weight of mails carried on routes",
+      "To assess customs duty"
+    ],
+    chapter: "Set 11 (Postal Manual - Vol V)",
+    topic: "Mail Office Types"
+  },
+  {
+    id: 1446,
+    question: "Which term refers to a branch of RMS that groups bundles from different POs into final destination bags?",
+    answer: "CBU/KBU is a unit of RMS for grouping bundles from different POs into final destination bags.",
+    correctOption: "Central/Kendriya Bagging Unit (CBU/KBU)",
+    options: [
+      "Transcription Centre",
+      "Central/Kendriya Bagging Unit (CBU/KBU)",
+      "Record Office",
+      "Returned Letter Office"
+    ],
+    chapter: "Set 11 (Postal Manual - Vol V)",
+    topic: "Definitions and Terminology"
+  },
+  {
+    id: 1447,
+    question: "The Returned Letter Office (RLO) deals with articles that are unclaimed, refused, and what else?",
+    answer: "RLO deals with unclaimed and refused articles and articles without addresses or with undecipherable or incomplete addresses.",
+    correctOption: "Articles without addresses or with undecipherable/incomplete addresses",
+    options: [
+      "Fully paid registered letters",
+      "Air parcels exceeding 30 kg",
+      "Articles without addresses or with undecipherable/incomplete addresses",
+      "Insured bundles"
+    ],
+    chapter: "Set 11 (Postal Manual - Vol V)",
+    topic: "Specialised Postal Offices"
+  },
+  {
+    id: 1448,
+    question: "What is an Office of Exchange termed when it refers to mails it addresses to another country?",
+    answer: "It is referred to as the dispatching (or outward) office of exchange in respect of mails it makes up and addresses to another country.",
+    correctOption: "Dispatching or outward office of exchange",
+    options: [
+      "Receiving office of exchange",
+      "Inward office of exchange",
+      "Dispatching or outward office of exchange",
+      "Sub-Foreign Post Office"
+    ],
+    chapter: "Set 11 (Postal Manual - Vol V)",
+    topic: "Specialised Postal Offices"
+  },
+  {
+    id: 1449,
+    question: "If an Office of Exchange is on the border and only receives/dispatches closed bags with no customs work, what is it called?",
+    answer: "An Office of Exchange on the border which only receives and dispatches closed bags is known as an 'Office of Exchange of transit'.",
+    correctOption: "Office of Exchange of Transit",
+    options: [
+      "Sub-Foreign Post Office",
+      "Foreign Post Office",
+      "Office of Exchange of Transit",
+      "Circle Bag Office"
+    ],
+    chapter: "Set 11 (Postal Manual - Vol V)",
+    topic: "Specialised Postal Offices"
+  },
+  {
+    id: 1450,
+    question: "Which office carries out the actual assessment of customs duty on foreign mails and may open articles for this purpose?",
+    answer: "The work of actual assessment of duty (and opening of articles for this purpose) is done only in the Foreign Post Offices.",
+    correctOption: "Foreign Post Office",
+    options: [
+      "Office of Exchange of Transit",
+      "Foreign Post Office",
+      "Transit Mail Office",
+      "Nodal Post Office"
+    ],
+    chapter: "Set 11 (Postal Manual - Vol V)",
+    topic: "Specialised Postal Offices"
+  },
+  {
+    id: 1451,
+    question: "What qualifies a firm as a 'Bulk Mailer' regarding registered articles?",
+    answer: "A firm which is capable of posting 5000 unregistered articles or 250 registered articles at a time is identified as a bulk mailer.",
+    correctOption: "Posting 250 registered articles at a time",
+    options: [
+      "Posting 50 registered articles at a time",
+      "Posting 100 registered articles at a time",
+      "Posting 250 registered articles at a time",
+      "Posting 5000 registered articles at a time"
+    ],
+    chapter: "Set 11 (Postal Manual - Vol V)",
+    topic: "Specialised Postal Offices"
+  },
+  {
+    id: 1452,
+    question: "In a Corporate Mail Office (CMO/BMO), how many copies of the invoice must a bulk mailer submit?",
+    answer: "The details of bundles prepared are entered in one invoice which is prepared in duplicate.",
+    correctOption: "Two (in duplicate)",
+    options: [
+      "One",
+      "Two (in duplicate)",
+      "Three (in triplicate)",
+      "Four (in quadruplicate)"
+    ],
+    chapter: "Set 11 (Postal Manual - Vol V)",
+    topic: "Specialised Postal Offices"
+  },
+  {
+    id: 1453,
+    question: "A Mass Mailing Centre (MMC) provides all the following services for customers EXCEPT:",
+    answer: "MMCs help in writing addresses, enclosing circulars, and affixing stamps/franking, but do not assess customs duties.",
+    correctOption: "Assessing customs duties on bulk parcels",
+    options: [
+      "Writing addresses",
+      "Enclosing circulars inside envelopes",
+      "Assessing customs duties on bulk parcels",
+      "Affixing postage stamps/franking"
+    ],
+    chapter: "Set 11 (Postal Manual - Vol V)",
+    topic: "Specialised Postal Offices"
+  },
+  {
+    id: 1454,
+    question: "The wages for the establishment of a Press Sorting Office (PSO) are paid by whom?",
+    answer: "The entire wages for the establishment is borne by the Newspaper publisher apart from providing required stationery.",
+    correctOption: "The Newspaper publisher",
+    options: [
+      "The Postal Directorate",
+      "The Circle Bag Office",
+      "The Newspaper publisher",
+      "The Local RMS Division"
+    ],
+    chapter: "Set 11 (Postal Manual - Vol V)",
+    topic: "Specialised Postal Offices"
+  },
+  {
+    id: 1455,
+    question: "What is the primary function of a Record Office?",
+    answer: "A Record Office is where work-papers are prepared/checked, and all forms, bags, and stationery are supplied.",
+    correctOption: "Preparing and checking work-papers of attached sections and supplying forms/bags",
+    options: [
+      "Sorting out returned letters",
+      "Preparing and checking work-papers of attached sections and supplying forms/bags",
+      "Grouping bulk mail bundles",
+      "Assessing customs duties on foreign parcels"
+    ],
+    chapter: "Set 11 (Postal Manual - Vol V)",
+    topic: "Railway Mail Service (RMS)"
+  },
+  {
+    id: 1456,
+    question: "Where is a Sub-Record Office typically situated?",
+    answer: "A Sub-Record Office is a stationary office of the RMS situated at the same place as a Mail Office.",
+    correctOption: "At the same place as a Mail Office",
+    options: [
+      "At the Circle Headquarters",
+      "At the same place as a Mail Office",
+      "Inside a Foreign Post Office",
+      "On a moving train"
+    ],
+    chapter: "Set 11 (Postal Manual - Vol V)",
+    topic: "Railway Mail Service (RMS)"
+  },
+  {
+    id: 1457,
+    question: "An official in charge of a Sub-Record Office may also work as which of the following?",
+    answer: "The official in-charge of a Sub-Record Office is the Sub-Record Officer, who may also work as a Sorting Assistant or Mail Agent.",
+    correctOption: "Sorting Assistant or Mail Agent",
+    options: [
+      "Chief Postmaster",
+      "Sorting Assistant or Mail Agent",
+      "Sub-Postmaster",
+      "Customs Assessor"
+    ],
+    chapter: "Set 11 (Postal Manual - Vol V)",
+    topic: "Railway Mail Service (RMS)"
+  },
+  {
+    id: 1458,
+    question: "Under the bag accounting system, what classification includes all Post Offices except Branch Offices/EDSO?",
+    answer: "All POs except Branch Offices/EDSO are classified as Unit Bag Offices (UBO).",
+    correctOption: "Unit Bag Office (UBO)",
+    options: [
+      "Unit Bag Office (UBO)",
+      "District Bag Office (DBO)",
+      "Circle Bag Office (CBO)",
+      "Central Bag Office"
+    ],
+    chapter: "Set 11 (Postal Manual - Vol V)",
+    topic: "Bag Accounting System"
+  },
+  {
+    id: 1459,
+    question: "What task must a Unit Bag Office (UBO) perform daily?",
+    answer: "Each UBO will maintain a daily bag book and send daily bag balance reports to the DBO.",
+    correctOption: "Maintain a daily bag book and send daily bag balance reports to the DBO",
+    options: [
+      "Dispatch airmail bags to foreign countries",
+      "Inspect District Bag Offices",
+      "Maintain a daily bag book and send daily bag balance reports to the DBO",
+      "Auction damaged bags"
+    ],
+    chapter: "Set 11 (Postal Manual - Vol V)",
+    topic: "Bag Accounting System"
+  },
+  {
+    id: 1460,
+    question: "What entity generally acts as a District Bag Office (DBO)?",
+    answer: "Every HRO/SRO in RMS is identified as a District Bag Office.",
+    correctOption: "Every HRO/SRO in RMS",
+    options: [
+      "The 'D' Section of the Postal Directorate",
+      "Every HRO/SRO in RMS",
+      "All Sub-Post Offices",
+      "The Nodal Post Office"
+    ],
+    chapter: "Set 11 (Postal Manual - Vol V)",
+    topic: "Bag Accounting System"
+  },
+  {
+    id: 1461,
+    question: "What is the role of the Circle Bag Office (CBO)?",
+    answer: "The CBO inspects UBOs/DBOs and manages procurement/repair/auction of bags.",
+    correctOption: "It inspects UBOs/DBOs, and manages procurement, repair, and auction of bags",
+    options: [
+      "It manages daily bag balances for individual Sub-Post Offices",
+      "It inspects UBOs/DBOs, and manages procurement, repair, and auction of bags",
+      "It only handles camp bags",
+      "It is an office on a through-mail line"
+    ],
+    chapter: "Set 11 (Postal Manual - Vol V)",
+    topic: "Bag Accounting System"
+  },
+  {
+    id: 1462,
+    question: "In the RMS, what is the designation for all officials other than Supervising Officers, Mail Guards, and MTS?",
+    answer: "The term Sorting Assistant designates all officials in the RMS other than Supervising Officers, Mail Guards, and MTS.",
+    correctOption: "Sorting Assistants",
+    options: [
+      "Mail Agents",
+      "Subsidiary Sorting Assistants",
+      "Sorting Assistants",
+      "Record Officers"
+    ],
+    chapter: "Set 11 (Postal Manual - Vol V)",
+    topic: "Definitions and Terminology"
+  },
+  {
+    id: 1463,
+    question: "How is a Set of a Section determined or numbered?",
+    answer: "The number of sets of a section is determined on the basis of weekly working hours.",
+    correctOption: "Based on the weekly working hours",
+    options: [
+      "Based on the number of bags handled",
+      "Based on the weekly working hours",
+      "Based on the alphabetical name of the route",
+      "Based on the distance traveled"
+    ],
+    chapter: "Set 11 (Postal Manual - Vol V)",
+    topic: "Railway Mail Service (RMS)"
+  },
+  {
+    id: 1464,
+    question: "How are Sets of a Mail Office numbered?",
+    answer: "Sets in a Mail Office are numbered in a consecutive series.",
+    correctOption: "In a consecutive series",
+    options: [
+      "Alphabetically (A, B, C)",
+      "Based on weekly working hours",
+      "In a consecutive series",
+      "By the pin code of the Mail Office"
+    ],
+    chapter: "Set 11 (Postal Manual - Vol V)",
+    topic: "Railway Mail Service (RMS)"
+  },
+  {
+    id: 1465,
+    question: "A trip from the Headquarters of a set towards its out-station is termed as?",
+    answer: "The trip from the Headquarters of the set towards its out-station is called the Out-trip.",
+    correctOption: "Out-trip",
+    options: [
+      "Out-trip",
+      "In-trip",
+      "Transit-trip",
+      "Connecting-trip"
+    ],
+    chapter: "Set 11 (Postal Manual - Vol V)",
+    topic: "Railway Mail Service (RMS)"
+  },
+  {
+    id: 1466,
+    question: "What term defines postal articles intended for delivery from the Post Office to which they are sent?",
+    answer: "Station articles are those postal articles intended for delivery from the Post Office or Mail Office to which they are sent.",
+    correctOption: "Station Articles",
+    options: [
+      "Sorting Articles",
+      "Station Articles",
+      "Forward Articles",
+      "Due Articles"
+    ],
+    chapter: "Set 11 (Postal Manual - Vol V)",
+    topic: "Definitions and Terminology"
+  },
+  {
+    id: 1467,
+    question: "A labelled bundle must be securely tied with what on top?",
+    answer: "A labelled bundle is a group of faced unregistered letter mail articles tied securely with a check-slip on top.",
+    correctOption: "A Check-Slip",
+    options: [
+      "A Registered List",
+      "A Check-Slip",
+      "A Parcel List",
+      "A Trial Card"
+    ],
+    chapter: "Set 11 (Postal Manual - Vol V)",
+    topic: "Mail Sorting and Bundling"
+  },
+  {
+    id: 1468,
+    question: "How many articles are required to prepare a station bundle?",
+    answer: "A station bundle is prepared when the number of articles (paid or unpaid) for an office is 15 or more.",
+    correctOption: "15 or more",
+    options: [
+      "5 or more",
+      "10 or more",
+      "15 or more",
+      "25 or more"
+    ],
+    chapter: "Set 11 (Postal Manual - Vol V)",
+    topic: "Mail Sorting and Bundling"
+  },
+  {
+    id: 1469,
+    question: "A sorting bundle containing articles that need to be sorted immediately on receipt is called an?",
+    answer: "An Express Bundle contains articles that need to be sorted immediately on receipt.",
+    correctOption: "Express Bundle",
+    options: [
+      "Express Bundle",
+      "Deferred Bundle",
+      "Station Bundle",
+      "Territorial Bundle"
+    ],
+    chapter: "Set 11 (Postal Manual - Vol V)",
+    topic: "Mail Sorting and Bundling"
+  },
+  {
+    id: 1470,
+    question: "What constitutes a Territorial Bundle?",
+    answer: "A Territorial Bundle is a sorting bundle prepared for a state, defined region, or foreign country (prepared when article count is 25 or more).",
+    correctOption: "A sorting bundle prepared for a state, defined region, or foreign country when the article count is 25 or more",
+    options: [
+      "A bundle of solely foreign parcels",
+      "A sorting bundle prepared for a state, defined region, or foreign country when the article count is 25 or more",
+      "A bundle of ordinary paid articles for a specific post office",
+      "A pre-sorted bundle from a bulk mailer"
+    ],
+    chapter: "Set 11 (Postal Manual - Vol V)",
+    topic: "Mail Sorting and Bundling"
+  },
+  {
+    id: 1471,
+    question: "What colour check-slip is used for sorting bundles (both Express and Deferred)?",
+    answer: "A White Check-Slip is used for Sorting bundles (both Express and Deferred).",
+    correctOption: "White",
+    options: [
+      "Pink",
+      "Blue",
+      "White",
+      "Yellow"
+    ],
+    chapter: "Set 11 (Postal Manual - Vol V)",
+    topic: "Mail Sorting and Bundling"
+  },
+  {
+    id: 1472,
+    question: "A check-slip with a blue strip in the corner represents which type of bundle?",
+    answer: "A Blue strip in the corner on a check-slip marks Metro Bundles.",
+    correctOption: "Metro Bundle",
+    options: [
+      "Rajdhani Bundle",
+      "Metro Bundle",
+      "Local Articles",
+      "Express Sorting Bundle"
+    ],
+    chapter: "Set 11 (Postal Manual - Vol V)",
+    topic: "Mail Sorting and Bundling"
+  },
+  {
+    id: 1473,
+    question: "A check-slip with 2 Green Diagonal Lines represents which type of articles?",
+    answer: "2 Green Diagonal Lines on a check-slip designate Local Articles.",
+    correctOption: "Local Articles",
+    options: [
+      "Local Articles",
+      "Rajdhani Bundles",
+      "Foreign Air Mail bundles",
+      "Express Sorting Bundles"
+    ],
+    chapter: "Set 11 (Postal Manual - Vol V)",
+    topic: "Mail Sorting and Bundling"
+  },
+  {
+    id: 1474,
+    question: "If a pre-sorted bundle from a customer is a sorting bundle, how should it be treated?",
+    answer: "If the pre-sorted bundle is a sorting bundle, it may be opened and sorted.",
+    correctOption: "It may be opened and sorted",
+    options: [
+      "It must never be opened",
+      "It may be opened and sorted",
+      "It must be returned to the sender",
+      "It must be sent directly to the RLO"
+    ],
+    chapter: "Set 11 (Postal Manual - Vol V)",
+    topic: "Mail Sorting and Bundling"
+  },
+  {
+    id: 1475,
+    question: "Which of the following is NOT contained in a standard Mail Bag?",
+    answer: "A Mail Bag does not include Value Payable (VP) articles, Insured articles, or Articles requiring customs duty.",
+    correctOption: "Value Payable (VP) articles",
+    options: [
+      "Unregistered articles of the letter mail",
+      "Value Payable (VP) articles",
+      "Registered articles enclosed in a registered bag",
+      "Unregistered parcels"
+    ],
+    chapter: "Set 11 (Postal Manual - Vol V)",
+    topic: "Mail Bags and Bag Types"
+  },
+  {
+    id: 1476,
+    question: "When a registered packet bag is NOT prescribed, where are heavy registered packets dispatched?",
+    answer: "When a registered packet bag is prescribed, they go there; otherwise, heavy registered packets are dispatched inside the mail bag.",
+    correctOption: "Inside the Mail Bag",
+    options: [
+      "Loose in the mail van",
+      "Inside a Parcel Bag",
+      "Inside the Mail Bag",
+      "Inside an Account Bag"
+    ],
+    chapter: "Set 11 (Postal Manual - Vol V)",
+    topic: "Mail Bags and Bag Types"
+  },
+  {
+    id: 1477,
+    question: "If an airmail bag contains an air parcel, what superscription must the label bear?",
+    answer: "When an air parcel is sent inside an airmail bag, the label of the bag should bear the superscription 'C.A.P'.",
+    correctOption: "C.A.P",
+    options: [
+      "C.A.P",
+      "A.P.",
+      "F.A.P",
+      "A.M.P"
+    ],
+    chapter: "Set 11 (Postal Manual - Vol V)",
+    topic: "Mail Bags and Bag Types"
+  },
+  {
+    id: 1478,
+    question: "When registered articles are placed in an air mail bag or cover, how should they be tied?",
+    answer: "They should be bundled and tied up crosswise (lengthwise and breadth wise) to ensure no article gets loose and mixed up with unregistered articles.",
+    correctOption: "Lengthwise and breadth wise (crosswise) to ensure no article gets loose",
+    options: [
+      "Loose, but securely sealed at the top",
+      "Lengthwise and breadth wise (crosswise) to ensure no article gets loose",
+      "Clipped together with a check-slip",
+      "They cannot be placed in an airmail bag"
+    ],
+    chapter: "Set 11 (Postal Manual - Vol V)",
+    topic: "Mail Bags and Bag Types"
+  },
+  {
+    id: 1479,
+    question: "What is the maximum permissible weight of an air mail bag or air TB?",
+    answer: "The weight of an air mail bag or air TB should not exceed 30 kg.",
+    correctOption: "30 kg",
+    options: [
+      "15 kg",
+      "20 kg",
+      "25 kg",
+      "30 kg"
+    ],
+    chapter: "Set 11 (Postal Manual - Vol V)",
+    topic: "Mail Bags and Bag Types"
+  },
+  {
+    id: 1480,
+    question: "When is a registered bundle treated as a single registered article in sorting?",
+    answer: "Registered bundles are treated in sorting as single registered articles.",
+    correctOption: "Always, when made up (when the number of registered articles exceeds two)",
+    options: [
+      "Only when it contains insured items",
+      "Only when it contains more than 50 articles",
+      "Always, when made up (when the number of registered articles exceeds two)",
+      "Never, it is always opened"
+    ],
+    chapter: "Set 11 (Postal Manual - Vol V)",
+    topic: "Mail Sorting and Bundling"
+  },
+  {
+    id: 1481,
+    question: "Are 'Registered Bags' treated as due bags?",
+    answer: "A Registered Bag is a due bag, meaning it must be prepared even if there are no registered articles or cash bag.",
+    correctOption: "Yes, they must be prepared even if there are no registered articles or cash bag",
+    options: [
+      "Yes, they must be prepared even if there are no registered articles or cash bag",
+      "No, they are unusual bags",
+      "Only if they contain a cash bag",
+      "Only when sent to a Foreign Post Office"
+    ],
+    chapter: "Set 11 (Postal Manual - Vol V)",
+    topic: "Mail Bags and Bag Types"
+  },
+  {
+    id: 1482,
+    question: "Which document accompanies a Speed Post Bag and shows the number of articles dispatched and the office of booking?",
+    answer: "A Speed Post Bag is accompanied by a Speed Post List which shows the number of articles dispatched and Office of booking.",
+    correctOption: "Speed Post List",
+    options: [
+      "Registered List",
+      "Parcel List",
+      "Speed Post List",
+      "Mail List"
+    ],
+    chapter: "Set 11 (Postal Manual - Vol V)",
+    topic: "Mail Bags and Bag Types"
+  },
+  {
+    id: 1483,
+    question: "When is an 'Insured Bundle' made up?",
+    answer: "An Insured Bundle is made up when there are more than one insured letter for a post office.",
+    correctOption: "When there are more than one insured letter for a post office",
+    options: [
+      "When there is exactly one insured letter",
+      "When there are more than one insured letter for a post office",
+      "When the total value of insurance exceeds Rs. 100,000",
+      "Only when a separate Insured Letter Bag is not prescribed"
+    ],
+    chapter: "Set 11 (Postal Manual - Vol V)",
+    topic: "Mail Sorting and Bundling"
+  },
+  {
+    id: 1484,
+    question: "What category do Parcel Bags fall under when dispatched?",
+    answer: "Parcel bags are not due bags. When dispatched they are treated as unusual mails.",
+    correctOption: "Unusual mails",
+    options: [
+      "Due mails",
+      "Account mails",
+      "Unusual mails",
+      "Forward mails"
+    ],
+    chapter: "Set 11 (Postal Manual - Vol V)",
+    topic: "Mail Bags and Bag Types"
+  },
+  {
+    id: 1485,
+    question: "Is there a separate list inside an Insured Bag?",
+    answer: "There is no separate list inside the insured bag; items are listed in the ordinary parcel list.",
+    correctOption: "No, the items are listed in the ordinary parcel list",
+    options: [
+      "Yes, an Insured List",
+      "No, the items are listed in the ordinary parcel list",
+      "Yes, a Registered List",
+      "No, they are not listed anywhere"
+    ],
+    chapter: "Set 11 (Postal Manual - Vol V)",
+    topic: "Mail Bags and Bag Types"
+  },
+  {
+    id: 1486,
+    question: "Where must an Insured Bag be enclosed when no parcel bag is made up for that office/section?",
+    answer: "It is never dispatched loose; if no parcel bag is made up, it is placed in the mail bag instead.",
+    correctOption: "In the mail bag",
+    options: [
+      "Dispatched loose",
+      "In the mail bag",
+      "In the account bag",
+      "In a registered bag"
+    ],
+    chapter: "Set 11 (Postal Manual - Vol V)",
+    topic: "Mail Bags and Bag Types"
+  },
+  {
+    id: 1487,
+    question: "Under what column/remarks are Registered Packet Bags entered?",
+    answer: "RP Bags are treated as due mails and entered under the remarks 'RP'.",
+    correctOption: "RP",
+    options: [
+      "RP",
+      "RP-B",
+      "R-Bag",
+      "R-Pack"
+    ],
+    chapter: "Set 11 (Postal Manual - Vol V)",
+    topic: "Mail Bags and Bag Types"
+  },
+  {
+    id: 1488,
+    question: "A bag used to enclose several bags sent to the same office to secure the disposal in transit of only one bag is called a?",
+    answer: "A transit bag is used to enclose several bags sent to the same office or section thereby affording protection to them.",
+    correctOption: "Transit Bag",
+    options: [
+      "Special Bag",
+      "Transit Bag",
+      "Account Bag",
+      "Combined Bag"
+    ],
+    chapter: "Set 11 (Postal Manual - Vol V)",
+    topic: "Mail Bags and Bag Types"
+  },
+  {
+    id: 1489,
+    question: "What document must a Transit Bag contain inside?",
+    answer: "A transit bag must contain a mail list.",
+    correctOption: "A Mail List",
+    options: [
+      "A Check-Slip",
+      "A Parcel List",
+      "A Mail List",
+      "A Trial Card"
+    ],
+    chapter: "Set 11 (Postal Manual - Vol V)",
+    topic: "Mail Bags and Bag Types"
+  },
+  {
+    id: 1490,
+    question: "What is the contents of an Account Bag when sent by a Sub-Office (SO) to a Head Office (HO)?",
+    answer: "When sent by the SO to HO, the account bag contains the S.O. daily account.",
+    correctOption: "The S.O. daily account",
+    options: [
+      "The S.O. slip",
+      "The S.O. daily account",
+      "The due mail list",
+      "The daily bag book"
+    ],
+    chapter: "Set 11 (Postal Manual - Vol V)",
+    topic: "Mail Bags and Bag Types"
+  },
+  {
+    id: 1491,
+    question: "Are Branch Office (BO) bags treated as due bags?",
+    answer: "Branch office bags are due bags.",
+    correctOption: "Yes, they are due bags",
+    options: [
+      "No, they are unusual bags",
+      "Yes, they are due bags",
+      "Only if they contain a cash remittance",
+      "Only when sent to a Head Office"
+    ],
+    chapter: "Set 11 (Postal Manual - Vol V)",
+    topic: "Mail Bags and Bag Types"
+  },
+  {
+    id: 1492,
+    question: "Which bag is used to enclose remittances of cash between Post Offices?",
+    answer: "A cash bag is used to enclose remittances of cash between Post Offices.",
+    correctOption: "Cash bag",
+    options: [
+      "Parcel bag",
+      "Cash bag",
+      "Sorting bag",
+      "Transit bag"
+    ],
+    chapter: "Set 11 (Postal Manual - Vol V)",
+    topic: "Mail Bags and Bag Types"
+  },
+  {
+    id: 1493,
+    question: "When high officers of the Government (entitled to the privilege) are on tour, what bag is used to enclose their correspondence?",
+    answer: "A special bag is used to enclose correspondence of the high officers of Government entitled to the privilege and the Director-General of Posts when on tour.",
+    correctOption: "Special bag",
+    options: [
+      "Transit bag",
+      "Camp bag",
+      "Special bag",
+      "Account bag"
+    ],
+    chapter: "Set 11 (Postal Manual - Vol V)",
+    topic: "Mail Bags and Bag Types"
+  },
+  {
+    id: 1494,
+    question: "Who closes the 'Camp bag' for a High Officer-in-Camp?",
+    answer: "A camp bag is used to enclose office files/papers and is closed by the Secretariat or Headquarters offices of the high officers.",
+    correctOption: "The Secretariat or Headquarters offices of the high officers",
+    options: [
+      "The sorting mail office",
+      "The Central Bag Office",
+      "The Secretariat or Headquarters offices of the high officers",
+      "The local Head Postmaster"
+    ],
+    chapter: "Set 11 (Postal Manual - Vol V)",
+    topic: "Mail Bags and Bag Types"
+  },
+  {
+    id: 1495,
+    question: "How are Special bags and Camp bags classified for dispatch?",
+    answer: "Both Special bags and Camp bags are not due bags, but when dispatched, they are treated as unusual mails.",
+    correctOption: "Unusual mails",
+    options: [
+      "Due mails",
+      "Routine mails",
+      "Unusual mails",
+      "Deferred mails"
+    ],
+    chapter: "Set 11 (Postal Manual - Vol V)",
+    topic: "Mail Bags and Bag Types"
+  },
+  {
+    id: 1496,
+    question: "What is a 'Changing Station'?",
+    answer: "A Changing Station is a Railway Station where the beats of two transit sections join and exchange mails.",
+    correctOption: "A Railway Station where the beats of two transit sections join and mails are handed over",
+    options: [
+      "A post office that exchanges foreign mail",
+      "A station where the bags are changed from canvas to dosuti",
+      "A Railway Station where the beats of two transit sections join and mails are handed over",
+      "A room provided for Mail Agents to rest"
+    ],
+    chapter: "Set 11 (Postal Manual - Vol V)",
+    topic: "Railway Mail Service (RMS)"
+  },
+  {
+    id: 1497,
+    question: "If an RMS section works in a train in immediate connection with another train/section, what are they termed (assuming enough time to transfer bags)?",
+    answer: "If the interval is sufficient to connect bags being made up by a mail office at the junction station, the sections are termed 'connecting sections'.",
+    correctOption: "Connecting Sections",
+    options: [
+      "Transit Sections",
+      "Overlapping Sections",
+      "Connecting Sections",
+      "Continuous Beats"
+    ],
+    chapter: "Set 11 (Postal Manual - Vol V)",
+    topic: "Railway Mail Service (RMS)"
+  },
+  {
+    id: 1498,
+    question: "Which of the following CANNOT order 'Overtime duty' in the RMS?",
+    answer: "Overtime duty means duty performed under the orders of the Superintendent, Assistant Superintendent, Inspector or Record Officer.",
+    correctOption: "Gramin Dak Sevak",
+    options: [
+      "Superintendent",
+      "Assistant Superintendent",
+      "Inspector",
+      "Gramin Dak Sevak"
+    ],
+    chapter: "Set 11 (Postal Manual - Vol V)",
+    topic: "RMS Orders and Administration"
+  },
+  {
+    id: 1499,
+    question: "What facility is utilized to avoid unnecessary handling of bags by intermediate sections when a lot of bags are available at distant places?",
+    answer: "Cage TB facility is utilized to avoid unnecessary handling of bags by intermediate sections when a lot of bags are available at distant places.",
+    correctOption: "Cage TB",
+    options: [
+      "V-SAT transmission",
+      "Cage TB",
+      "Automatic Mail Processing Centre",
+      "Transcription Centre"
+    ],
+    chapter: "Set 11 (Postal Manual - Vol V)",
+    topic: "Railway Mail Service (RMS)"
+  },
+  {
+    id: 1500,
+    question: "A bundle containing newspapers intended for sale for delivery from the RMS station to which it is addressed is termed a?",
+    answer: "A press packet contains newspapers intended for sale for delivery from the Railway Mail Service station to which it is addressed.",
+    correctOption: "Press packet",
+    options: [
+      "Press packet",
+      "Corporate packet",
+      "Deferred bundle",
+      "Nodal packet"
+    ],
+    chapter: "Set 11 (Postal Manual - Vol V)",
+    topic: "Definitions and Terminology"
+  },
+  {
+    id: 1501,
+    question: "Which orders are issued by a Superintendent, RMS prescribing changes in sorting lists?",
+    answer: "A orders are orders issued by a Superintendent, RMS prescribing changes in sorting lists.",
+    correctOption: "A Orders",
+    options: [
+      "B Orders",
+      "T Orders",
+      "A Orders",
+      "S Orders"
+    ],
+    chapter: "Set 11 (Postal Manual - Vol V)",
+    topic: "RMS Orders and Administration"
+  },
+  {
+    id: 1502,
+    question: "'B orders' provide guidance for subordinates in Mail Offices on all subjects EXCEPT?",
+    answer: "B orders provide guidance on all subjects except alterations in sorting lists.",
+    correctOption: "Alterations in sorting lists",
+    options: [
+      "Disposal of camp articles",
+      "Alterations in sorting lists",
+      "Working hours",
+      "Leave rules"
+    ],
+    chapter: "Set 11 (Postal Manual - Vol V)",
+    topic: "RMS Orders and Administration"
+  },
+  {
+    id: 1503,
+    question: "What prefix is added to 'B' orders if they are issued in connection with the disposal of camp articles and camp bags?",
+    answer: "The letter 'T' will be prefixed to the letter 'B' in the case of 'B' orders issued in connection with the disposal of camp articles.",
+    correctOption: "T",
+    options: [
+      "A",
+      "C",
+      "T",
+      "S"
+    ],
+    chapter: "Set 11 (Postal Manual - Vol V)",
+    topic: "RMS Orders and Administration"
+  },
+  {
+    id: 1504,
+    question: "Lists, abstracts, and other documents prepared by a set of a Transit Section or Mail Office while at work are known as?",
+    answer: "Work-papers mean the lists and abstracts and other documents prepared by a set of a Transit Section or Mail Office while at work.",
+    correctOption: "Work-papers",
+    options: [
+      "Due Mails",
+      "Check-Slips",
+      "Work-papers",
+      "Sorting diagrams"
+    ],
+    chapter: "Set 11 (Postal Manual - Vol V)",
+    topic: "Definitions and Terminology"
+  },
+  {
+    id: 1505,
+    question: "What document provides detailed instructions on the receipt and dispatch of mail bags in Mail Offices and Transit Sections?",
+    answer: "The Due Mail List is a document that provides detailed instructions on the receipt and dispatch of mail bags in Mail Offices and Transit Sections.",
+    correctOption: "Due Mail List",
+    options: [
+      "Sorting List",
+      "Due Mail List",
+      "Invoice",
+      "Trial Card"
+    ],
+    chapter: "Set 11 (Postal Manual - Vol V)",
+    topic: "RMS Orders and Administration"
+  },
+  {
+    id: 1506,
+    question: "What does a Sorting List primarily indicate?",
+    answer: "The Sorting List indicates the offices for which Mail bags and Registered bags need to be made up, and the manner of dispatch.",
+    correctOption: "The offices for which Mail bags and Registered bags need to be made up",
+    options: [
+      "The daily bag balances of UBOs",
+      "The offices for which Mail bags and Registered bags need to be made up",
+      "The exact train schedules",
+      "The names of all Bulk Mailers"
+    ],
+    chapter: "Set 11 (Postal Manual - Vol V)",
+    topic: "RMS Orders and Administration"
+  },
+  {
+    id: 1507,
+    question: "Which term comprises all the bags, articles, and documents which must be dispatched every day or at regular intervals?",
+    answer: "The term due mail comprises all the bags, articles, and documents which must be dispatched every day or at regular intervals.",
+    correctOption: "Due mail",
+    options: [
+      "Unusual mails",
+      "Station articles",
+      "Due mail",
+      "Forward bags"
+    ],
+    chapter: "Set 11 (Postal Manual - Vol V)",
+    topic: "Definitions and Terminology"
+  },
+  {
+    id: 1508,
+    question: "The arrangement of articles with the address-side upwards and the addresses turned in the same direction is known as?",
+    answer: "The term 'facing' means the arrangement of articles with the address-side upwards and the addresses turned in the same direction.",
+    correctOption: "Facing",
+    options: [
+      "Bundling",
+      "Tying",
+      "Facing",
+      "Sorting"
+    ],
+    chapter: "Set 11 (Postal Manual - Vol V)",
+    topic: "Definitions and Terminology"
+  },
+  {
+    id: 1509,
+    question: "Used in relation to RMS sections, what does the term 'beat' mean?",
+    answer: "The term beat used in relation to an RMS section means the portion of a Railway or Steamer line over which the section works.",
+    correctOption: "The portion of a Railway or Steamer line over which the section works",
+    options: [
+      "The number of hours worked per week",
+      "The maximum weight of the mail bags carried",
+      "The portion of a Railway or Steamer line over which the section works",
+      "The area around a local Post Office for delivery"
+    ],
+    chapter: "Set 11 (Postal Manual - Vol V)",
+    topic: "Definitions and Terminology"
+  },
+  {
+    id: 1510,
+    question: "What distinguishes 'camp correspondence'?",
+    answer: "Camp correspondence means letters addressed 'camp' or with any other prescribed address, without the addition of the name of any post-town, intended for high officers on tour.",
+    correctOption: "It is addressed 'camp' or other prescribed address without the addition of the name of any post-town",
+    options: [
+      "It is enclosed only in green bags",
+      "It contains newspapers meant for sale",
+      "It is addressed 'camp' or other prescribed address without the addition of the name of any post-town",
+      "It is mailed by boy scouts"
+    ],
+    chapter: "Set 11 (Postal Manual - Vol V)",
+    topic: "Definitions and Terminology"
+  },
+  {
+    id: 1511,
+    question: "If a letter is posted after the prescribed hour of closing the mail, within the allowed interval, and has the prescribed extra fee affixed, what is it called?",
+    answer: "Late letters are posted within the allowed interval with the prescribed late fee affixed in addition to the postage.",
+    correctOption: "Late letter",
+    options: [
+      "Mis-directed letter",
+      "Late letter",
+      "Too late letter",
+      "Delayed letter"
+    ],
+    chapter: "Set 11 (Postal Manual - Vol V)",
+    topic: "Definitions and Terminology"
+  },
+  {
+    id: 1512,
+    question: "What action is taken for a 'Too late' letter?",
+    answer: "Too late letters are stamped 'Detained late fee not paid' and detained till the next dispatch.",
+    correctOption: "It is stamped 'Detained late fee not paid' and detained till the next dispatch",
+    options: [
+      "It is delivered with postage due",
+      "It is sent via Speed Post",
+      "It is stamped 'Detained late fee not paid' and detained till the next dispatch",
+      "It is immediately forwarded without the fee"
+    ],
+    chapter: "Set 11 (Postal Manual - Vol V)",
+    topic: "Mail Monitoring and Procedures"
+  },
+  {
+    id: 1513,
+    question: "A vernacular article on which the incorrect destination has been written in English by the office of posting is known as a?",
+    answer: "A mis-directed article is a vernacular article on which the incorrect destination has been written in English by the office of posting.",
+    correctOption: "Mis-directed article",
+    options: [
+      "Mis-sent article",
+      "Mis-directed article",
+      "Trial card",
+      "Camp article"
+    ],
+    chapter: "Set 11 (Postal Manual - Vol V)",
+    topic: "Definitions and Terminology"
+  },
+  {
+    id: 1514,
+    question: "What is the primary purpose of a Trial Card?",
+    answer: "Trial cards are used for the purpose of determining the relative advantage of alternative mail routes or the cause of detention to articles.",
+    correctOption: "To determine the relative advantage of alternative mail routes or the cause of detention to articles",
+    options: [
+      "To test the efficiency of the sorting machines",
+      "To determine the relative advantage of alternative mail routes or the cause of detention to articles",
+      "To act as a placeholder in a transit bag",
+      "To track speed post parcels"
+    ],
+    chapter: "Set 11 (Postal Manual - Vol V)",
+    topic: "Mail Monitoring and Procedures"
+  },
+  {
+    id: 1515,
+    question: "What form designation is given to a Trial card?",
+    answer: "Trial cards are service Post Cards [M 26 (a)].",
+    correctOption: "M 26 (a)",
+    options: [
+      "M 25",
+      "M 26 (a)",
+      "T 1",
+      "RP 5"
+    ],
+    chapter: "Set 11 (Postal Manual - Vol V)",
+    topic: "Mail Monitoring and Procedures"
+  },
+  {
+    id: 1516,
+    question: "Under what condition can a Trial Card be included in a station bundle?",
+    answer: "The manual strictly notes that the trial card should not be included in any station bundle.",
+    correctOption: "Under no condition; it should not be included in any station bundle",
+    options: [
+      "If it is fully prepaid",
+      "If it is marked 'Express'",
+      "Under no condition; it should not be included in any station bundle",
+      "If it is destined for a Foreign Post Office"
+    ],
+    chapter: "Set 11 (Postal Manual - Vol V)",
+    topic: "Mail Monitoring and Procedures"
+  }
   
   ];
