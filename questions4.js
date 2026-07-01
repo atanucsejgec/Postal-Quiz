@@ -719,4 +719,724 @@ options: ["₹1", "₹2", "₹5", "₹10"],
 chapter: "Set 10 (Products and Services -Banking)",
 topic: "Fees and Charges"
 },
+  {
+id: 1147,
+question: "What is the rule for subsequent deposits in a Post Office Savings Account after the initial ₹500?",
+answer: "Subsequent deposits must be ≥ ₹10 and in whole rupees only.",
+correctOption: "Minimum of ₹10, in whole rupees only",
+options: ["Any amount", "Multiples of ₹10", "Minimum of ₹10, in whole rupees only", "Multiples of ₹50"],
+chapter: "Set 10 (Savings Schemes)",
+topic: "Post Office Savings Account (SB)"
+},
+{
+id: 1148,
+question: "Who can operate a Post Office Savings Account opened on behalf of a person of unsound mind?",
+answer: "A guardian can open and operate the account on behalf of a person of unsound mind.",
+correctOption: "A guardian",
+options: ["The person themselves", "A guardian", "A joint account holder", "The Postmaster"],
+chapter: "Set 10 (Savings Schemes)",
+topic: "Post Office Savings Account (SB)"
+},
+{
+id: 1149,
+question: "Is the conversion of a minor's Post Office Savings Account allowed once opened?",
+answer: "For a minor above 10 years or generally under savings account rules, conversion is not allowed.",
+correctOption: "Conversion is not allowed",
+options: ["Yes, at any time", "Yes, after 5 years", "Conversion is not allowed", "Yes, if requested by the guardian"],
+chapter: "Set 10 (Savings Schemes)",
+topic: "Post Office Savings Account (SB)"
+},
+{
+id: 1150,
+question: "Under what specific condition does a Post Office Savings Account close automatically?",
+answer: "If the balance becomes Nil, the account closes automatically.",
+correctOption: "If the balance becomes Nil",
+options: ["If there is no transaction for 1 year", "If the balance becomes Nil", "If the account holder turns 18", "If the ATM card expires"],
+chapter: "Set 10 (Savings Schemes)",
+topic: "Post Office Savings Account (SB)"
+},
+{
+id: 1151,
+question: "When calculating the interest for a Post Office Savings Account, what happens if the balance falls below ₹500 between the 10th and the month-end?",
+answer: "No interest is earned if the balance falls below ₹500 during the period between the 10th and month-end.",
+correctOption: "No interest is paid for that month",
+options: ["The interest rate is halved for that month", "A ₹50 penalty is charged immediately", "No interest is paid for that month", "The account is closed"],
+chapter: "Set 10 (Savings Schemes)",
+topic: "Post Office Savings Account (SB)"
+},
+{
+id: 1152,
+question: "Which of the following insurance/pension schemes can a Post Office Savings Account holder NOT directly enroll in through their account?",
+answer: "Enrollments are allowed for APY, PMSBY, and PMJJBY. PMVVY is not mentioned.",
+correctOption: "Pradhan Mantri Vaya Vandana Yojana (PMVVY)",
+options: ["Atal Pension Yojana (APY)", "Pradhan Mantri Suraksha Bima Yojana (PMSBY)", "Pradhan Mantri Vaya Vandana Yojana (PMVVY)", "Pradhan Mantri Jeevan Jyoti Bima Yojana (PMJJBY)"],
+chapter: "Set 10 (Savings Schemes)",
+topic: "Post Office Savings Account (SB)"
+},
+{
+id: 1153,
+question: "What must a minor do upon attaining majority regarding their Post Office Savings Account?",
+answer: "A minor attaining majority must submit KYC and a new account form for continuation.",
+correctOption: "Submit fresh KYC and a new account form for continuation",
+options: ["Close the account immediately", "Submit fresh KYC and a new account form for continuation", "Transfer the balance to a new Post Office", "No action is required"],
+chapter: "Set 10 (Savings Schemes)",
+topic: "Post Office Savings Account (SB)"
+},
+{
+id: 1154,
+question: "What is the current guaranteed return (ROI) on a Recurring Deposit (RD) account?",
+answer: "The RD account offers guaranteed returns with an ROI of 6.7%.",
+correctOption: "6.7%",
+options: ["6.7%", "6.9%", "7.1%", "7.4%"],
+chapter: "Set 10 (Savings Schemes)",
+topic: "Recurring Deposit (RD)"
+},
+{
+id: 1155,
+question: "How frequently is the interest compounded on a Post Office Recurring Deposit (RD) account?",
+answer: "RD offers guaranteed returns with interest compounded quarterly.",
+correctOption: "Quarterly",
+options: ["Monthly", "Quarterly", "Half-yearly", "Annually"],
+chapter: "Set 10 (Savings Schemes)",
+topic: "Recurring Deposit (RD)"
+},
+{
+id: 1156,
+question: "What are the denomination rules for subsequent deposits in an RD account after the minimum ₹100 opening deposit?",
+answer: "Deposits must be minimum ₹100, then in multiples of ₹10.",
+correctOption: "Multiples of ₹10",
+options: ["Multiples of ₹10", "Multiples of ₹50", "Multiples of ₹100", "Any amount"],
+chapter: "Set 10 (Savings Schemes)",
+topic: "Recurring Deposit (RD)"
+},
+{
+id: 1157,
+question: "If an RD account is opened on the 10th of a month, by what date must subsequent monthly deposits be made?",
+answer: "If opened before the 15th, deposits must be made up to the 15th of each month.",
+correctOption: "Up to the 15th of each month",
+options: ["Up to the 10th of each month", "Up to the 15th of each month", "Up to the last working day of each month", "Up to the 5th of each month"],
+chapter: "Set 10 (Savings Schemes)",
+topic: "Recurring Deposit (RD)"
+},
+{
+id: 1158,
+question: "If an RD account is opened on the 20th of a month, by what date must subsequent monthly deposits be made?",
+answer: "If opened after the 15th, deposits must be made up to the last working day of each month.",
+correctOption: "Up to the last working day of each month",
+options: ["Up to the 15th of each month", "Up to the 20th of each month", "Up to the last working day of each month", "By the end of the next month"],
+chapter: "Set 10 (Savings Schemes)",
+topic: "Recurring Deposit (RD)"
+},
+{
+id: 1159,
+question: "If an RD account is discontinued after 4 continuous defaults, within what timeframe can it be revived?",
+answer: "The account can be revived within 2 months of being discontinued.",
+correctOption: "Within 2 months",
+options: ["Within 1 month", "Within 2 months", "Within 6 months", "Within 1 year"],
+chapter: "Set 10 (Savings Schemes)",
+topic: "Recurring Deposit (RD)"
+},
+{
+id: 1160,
+question: "What option is available to an RD account holder if they have missed less than 4 continuous monthly deposits (defaults)?",
+answer: "If there are < 4 defaults, there is an option to extend maturity by the number of missed months.",
+correctOption: "They have the option to extend maturity by the number of missed months",
+options: ["They can ignore the missed deposits and continue", "They have the option to extend maturity by the number of missed months", "The account automatically closes", "The maturity amount is reduced by 50%"],
+chapter: "Set 10 (Savings Schemes)",
+topic: "Recurring Deposit (RD)"
+},
+{
+id: 1161,
+question: "What is the rebate given for a 6-month advance deposit on an RD account of ₹100 denomination?",
+answer: "A rebate of ₹10 is given for 6 months advance deposit for ₹100 denomination.",
+correctOption: "₹10",
+options: ["₹5", "₹10", "₹20", "₹40"],
+chapter: "Set 10 (Savings Schemes)",
+topic: "Recurring Deposit (RD)"
+},
+{
+id: 1162,
+question: "What happens if an unpaid RD loan amount remains at the time of maturity?",
+answer: "If unpaid at maturity, the loan amount is deducted from the maturity value.",
+correctOption: "It is deducted from the maturity value",
+options: ["The account is extended indefinitely", "It is waived off", "It is deducted from the maturity value", "A legal notice is sent to the guarantor"],
+chapter: "Set 10 (Savings Schemes)",
+topic: "Recurring Deposit (RD)"
+},
+{
+id: 1163,
+question: "Under what condition is premature closure NOT allowed for an RD account, even after 3 years?",
+answer: "If an advance deposit is made, the account cannot be closed till the advance period ends.",
+correctOption: "If an advance deposit is made and the advance period hasn't ended",
+options: ["If a loan is active", "If an advance deposit is made and the advance period hasn't ended", "If the account is held jointly", "If the account is defaulted"],
+chapter: "Set 10 (Savings Schemes)",
+topic: "Recurring Deposit (RD)"
+},
+{
+id: 1164,
+question: "When an RD account is extended for a further 5 years on application, what interest rate applies to the extended period?",
+answer: "The original interest rate applies during the further 5 years extension.",
+correctOption: "Original interest rate",
+options: ["Savings Account rate", "Prevailing RD rate at the time of extension", "Original interest rate", "RD rate + 1%"],
+chapter: "Set 10 (Savings Schemes)",
+topic: "Recurring Deposit (RD)"
+},
+{
+id: 1165,
+question: "What is the interest rate (ROI) for a 1-year Time Deposit (TD) account?",
+answer: "The ROI(1) for a 1-year TD is 6.9%.",
+correctOption: "6.9%",
+options: ["6.7%", "6.9%", "7.0%", "7.1%"],
+chapter: "Set 10 (Savings Schemes)",
+topic: "Time Deposit (TD)"
+},
+{
+id: 1166,
+question: "What is the interest rate (ROI) for a 2-year Time Deposit (TD) account?",
+answer: "The ROI(2) for a 2-year TD is 7%.",
+correctOption: "7.0%",
+options: ["6.9%", "7.0%", "7.1%", "7.5%"],
+chapter: "Set 10 (Savings Schemes)",
+topic: "Time Deposit (TD)"
+},
+{
+id: 1167,
+question: "What is the interest rate (ROI) for a 3-year Time Deposit (TD) account?",
+answer: "The ROI(3) for a 3-year TD is 7.1%.",
+correctOption: "7.1%",
+options: ["6.9%", "7.0%", "7.1%", "7.5%"],
+chapter: "Set 10 (Savings Schemes)",
+topic: "Time Deposit (TD)"
+},
+{
+id: 1168,
+question: "If a Time Deposit (TD) is opened using a cheque, which date is considered for the deposit?",
+answer: "If by cheque, the cheque clearance date is considered for deposit.",
+correctOption: "The date of cheque clearance",
+options: ["The date the cheque is issued", "The date the cheque is handed over to the post office", "The date of cheque clearance", "The end of the month"],
+chapter: "Set 10 (Savings Schemes)",
+topic: "Time Deposit (TD)"
+},
+{
+id: 1169,
+question: "In a Time Deposit (TD) account, what extra interest is earned on unwithdrawn annual interest?",
+answer: "No extra interest is given on unwithdrawn interest.",
+correctOption: "No extra interest is earned on unwithdrawn interest",
+options: ["Extra interest is paid at the TD rate", "Extra interest is paid at the Savings Account rate", "No extra interest is earned on unwithdrawn interest", "Compound interest is applied quarterly"],
+chapter: "Set 10 (Savings Schemes)",
+topic: "Time Deposit (TD)"
+},
+{
+id: 1170,
+question: "Can the annual interest from a Time Deposit (TD) account be credited to a Post Office Savings (SB) account?",
+answer: "Annual interest can be credited to an SB account on application.",
+correctOption: "Yes, on application",
+options: ["No, it must be withdrawn in cash", "Yes, on application", "Yes, it is mandatory and automatic", "Only for 5-Year TDs"],
+chapter: "Set 10 (Savings Schemes)",
+topic: "Time Deposit (TD)"
+},
+{
+id: 1171,
+question: "Within what timeframe must a 2-Year TD be extended after maturity?",
+answer: "The extension window for a 2-Year TD is within 12 months of maturity.",
+correctOption: "Within 12 months",
+options: ["Within 3 months", "Within 6 months", "Within 12 months", "Within 18 months"],
+chapter: "Set 10 (Savings Schemes)",
+topic: "Time Deposit (TD)"
+},
+{
+id: 1172,
+question: "Within what timeframe must a 3-Year or 5-Year TD be extended after maturity?",
+answer: "The extension window for a 3/5-Year TD is within 18 months of maturity.",
+correctOption: "Within 18 months",
+options: ["Within 6 months", "Within 12 months", "Within 18 months", "Within 24 months"],
+chapter: "Set 10 (Savings Schemes)",
+topic: "Time Deposit (TD)"
+},
+{
+id: 1173,
+question: "What is the maximum number of times a Time Deposit (TD) account can be extended?",
+answer: "Extension is allowed up to twice.",
+correctOption: "Twice",
+options: ["Once", "Twice", "Thrice", "Unlimited times"],
+chapter: "Set 10 (Savings Schemes)",
+topic: "Time Deposit (TD)"
+},
+{
+id: 1174,
+question: "What interest rate is applicable to a Time Deposit (TD) account when it is extended?",
+answer: "The interest rate applicable upon extension is the rate on the day of maturity.",
+correctOption: "The rate on the day of maturity",
+options: ["The original rate at account opening", "The Savings Account rate", "The rate on the day of maturity", "The rate on the day of application"],
+chapter: "Set 10 (Savings Schemes)",
+topic: "Time Deposit (TD)"
+},
+{
+id: 1175,
+question: "If a Time Deposit (TD) is closed prematurely after 1 year, what interest rate is applied for any completed incomplete months/year?",
+answer: "For an incomplete year during premature closure, the PO Savings A/c rate applies.",
+correctOption: "Savings Account rate",
+options: ["TD rate - 2%", "Savings Account rate", "No interest", "Original TD rate"],
+chapter: "Set 10 (Savings Schemes)",
+topic: "Time Deposit (TD)"
+},
+{
+id: 1176,
+question: "In a Monthly Income Scheme (MIS) Joint Account, how is the investment limit treated among the holders?",
+answer: "The maximum deposit limit is 15 lakh with an equal share among holders.",
+correctOption: "The limit is shared equally among holders",
+options: ["The primary holder owns the entire limit", "The limit is shared equally among holders", "The limit is shared in a 60:40 ratio", "The secondary holder has no share"],
+chapter: "Set 10 (Savings Schemes)",
+topic: "Monthly Income Scheme (MIS)"
+},
+{
+id: 1177,
+question: "Are minor accounts combined with the guardian's limits when calculating the maximum deposit for an MIS account?",
+answer: "For MIS limit clarification, minors are treated separately.",
+correctOption: "No, minors are treated separately",
+options: ["Yes, they are grouped together", "No, minors are treated separately", "Yes, if the minor is below 10 years", "Minors cannot have MIS limits"],
+chapter: "Set 10 (Savings Schemes)",
+topic: "Monthly Income Scheme (MIS)"
+},
+{
+id: 1178,
+question: "Who is responsible for paying income tax on the interest earned from a Monthly Income Scheme (MIS)?",
+answer: "Interest is taxable in the hands of the depositor (TDS not deducted by post office).",
+correctOption: "It is taxable in the hands of the depositor, and TDS is not deducted by the post office",
+options: ["The Post Office deducts TDS", "The interest is completely tax-free", "It is taxable in the hands of the depositor, and TDS is not deducted by the post office", "The Ministry of Finance pays the tax"],
+chapter: "Set 10 (Savings Schemes)",
+topic: "Monthly Income Scheme (MIS)"
+},
+{
+id: 1179,
+question: "In the event of the death of an MIS account holder before maturity, what happens to the account?",
+answer: "Amount is refunded to nominee/legal heirs, and interest is paid up to the preceding month of refund.",
+correctOption: "The amount is refunded to the nominee/legal heirs and interest paid up to the preceding month of refund",
+options: ["The account is forcibly extended", "The amount is forfeited to the government", "The amount is refunded to the nominee/legal heirs and interest paid up to the preceding month of refund", "The account continues until maturity in the nominee's name"],
+chapter: "Set 10 (Savings Schemes)",
+topic: "Monthly Income Scheme (MIS)"
+},
+{
+id: 1180,
+question: "What is the maximum age restriction for retired civilian employees to invest in SCSS if they want to apply under special retirement rules?",
+answer: "Retired Civilian Employees between 55 to 60 years can invest within 3 months of retirement.",
+correctOption: "55 to 60 years",
+options: ["50 to 55 years", "55 to 60 years", "60 to 65 years", "50 to 60 years"],
+chapter: "Set 10 (Savings Schemes)",
+topic: "Senior Citizens Savings Scheme (SCSS)"
+},
+{
+id: 1181,
+question: "What is the guaranteed return (ROI) for the Senior Citizens Savings Scheme (SCSS)?",
+answer: "The ROI for SCSS is 8.2%.",
+correctOption: "8.2%",
+options: ["7.4%", "7.7%", "8.2%", "8.5%"],
+chapter: "Set 10 (Savings Schemes)",
+topic: "Senior Citizens Savings Scheme (SCSS)"
+},
+{
+id: 1182,
+question: "In a Joint SCSS account, who gets the full investment ownership?",
+answer: "First holder gets the full investment ownership in a joint SCSS account.",
+correctOption: "The first holder gets the full investment ownership",
+options: ["Shared equally", "The first holder gets the full investment ownership", "The spouse gets full ownership", "Ownership is based on the deposit contribution"],
+chapter: "Set 10 (Savings Schemes)",
+topic: "Senior Citizens Savings Scheme (SCSS)"
+},
+{
+id: 1183,
+question: "For how long does a deceased person's SCSS account earn the PO Savings Account interest rate?",
+answer: "From the date of death, it earns PO SB interest rate.",
+correctOption: "From the date of death",
+options: ["From the date of death", "From the date the post office is notified", "From the maturity date", "It continues to earn the SCSS rate"],
+chapter: "Set 10 (Savings Schemes)",
+topic: "Senior Citizens Savings Scheme (SCSS)"
+},
+{
+id: 1184,
+question: "In a PPF account, what is the frequency of depositing installments per financial year?",
+answer: "Any number of installments (in ₹50 multiples) are allowed for PPF.",
+correctOption: "Any number of installments in multiples of ₹50",
+options: ["Maximum 12 installments", "Maximum 4 installments", "Any number of installments in multiples of ₹50", "Only 1 installment per year"],
+chapter: "Set 10 (Savings Schemes)",
+topic: "Public Provident Fund (PPF)"
+},
+{
+id: 1185,
+question: "What happens to a Public Provident Fund (PPF) account if the minimum deposit of ₹500 is not met in a Financial Year?",
+answer: "If ₹500 is not deposited, the account becomes discontinued and no loan/withdrawal is allowed.",
+correctOption: "The account becomes discontinued, and no loan/withdrawal is allowed",
+options: ["The account is permanently closed", "The account becomes discontinued, and no loan/withdrawal is allowed", "The interest rate is reduced to the Savings Account rate", "A ₹500 penalty is deducted automatically"],
+chapter: "Set 10 (Savings Schemes)",
+topic: "Public Provident Fund (PPF)"
+},
+{
+id: 1186,
+question: "Can a second loan be taken against a PPF account while the first loan is still active?",
+answer: "Second loan shall not be provided till first loan was not repaid.",
+correctOption: "Second loan shall not be provided till the first loan is repaid",
+options: ["Yes, up to the maximum limit", "Yes, but at a higher interest rate", "Second loan shall not be provided till the first loan is repaid", "Yes, if requested on medical grounds"],
+chapter: "Set 10 (Savings Schemes)",
+topic: "Public Provident Fund (PPF)"
+},
+{
+id: 1187,
+question: "What is the maximum number of loans that can be taken against a PPF account in a single Financial Year?",
+answer: "Only one loan can be taken in a Financial Year.",
+correctOption: "One",
+options: ["One", "Two", "Three", "Unlimited"],
+chapter: "Set 10 (Savings Schemes)",
+topic: "Public Provident Fund (PPF)"
+},
+{
+id: 1188,
+question: "If a PPF loan is not repaid within 36 months, what interest rate is charged from the date of loan disbursement?",
+answer: "If repaid after 36 months, a 6% per annum interest rate is applicable from the date of disbursement.",
+correctOption: "6% per annum",
+options: ["1% per annum", "2% per annum", "6% per annum", "PPF rate + 2%"],
+chapter: "Set 10 (Savings Schemes)",
+topic: "Public Provident Fund (PPF)"
+},
+{
+id: 1189,
+question: "How is the withdrawal limit for a PPF account calculated?",
+answer: "Withdrawal limit = 50% of balance at the end of the 4th year before the year of withdrawal or end of the preceding year, whichever is lower.",
+correctOption: "50% of balance at the end of the 4th year before the year of withdrawal or end of the preceding year, whichever is lower",
+options: ["25% of the initial deposit", "50% of balance at the end of the 4th year before the year of withdrawal or end of the preceding year, whichever is lower", "50% of the current balance", "75% of the balance at the end of the 2nd year"],
+chapter: "Set 10 (Savings Schemes)",
+topic: "Public Provident Fund (PPF)"
+},
+{
+id: 1190,
+question: "What maturity option allows a PPF account holder to retain their balance, continue earning the PPF interest rate, and make one withdrawal per FY without further deposits?",
+answer: "Option 2 allows retaining maturity value without further deposit, applicable PPF interest rate, and 1 withdrawal per FY.",
+correctOption: "Option 2 (Retain maturity value without further deposit)",
+options: ["Discontinued Account Option", "Option 1 (Withdraw entire amount)", "Option 2 (Retain maturity value without further deposit)", "Option 3 (Extend with deposits)"],
+chapter: "Set 10 (Savings Schemes)",
+topic: "Public Provident Fund (PPF)"
+},
+{
+id: 1191,
+question: "Can a discontinued PPF account be extended beyond its 15-year maturity?",
+answer: "A discontinued PPF account cannot be extended.",
+correctOption: "Discontinued account cannot be extended",
+options: ["Yes, in 5-year blocks", "Yes, but only with a penalty", "Discontinued account cannot be extended", "Yes, but only for 1 year"],
+chapter: "Set 10 (Savings Schemes)",
+topic: "Public Provident Fund (PPF)"
+},
+{
+id: 1192,
+question: "Within what timeframe must an extension option for a PPF account be exercised after maturity?",
+answer: "Extension in blocks of 5 years must be opted within 1 year.",
+correctOption: "Within 1 year",
+options: ["Within 3 months", "Within 6 months", "Within 1 year", "Within 2 years"],
+chapter: "Set 10 (Savings Schemes)",
+topic: "Public Provident Fund (PPF)"
+},
+{
+id: 1193,
+question: "Which of the following is a valid reason for premature closure of a PPF account after 5 years?",
+answer: "Valid reasons include life-threatening illness, higher education, and change in residential status.",
+correctOption: "Change in residential status (e.g., NRI)",
+options: ["Purchasing a vehicle", "Change in residential status (e.g., NRI)", "Starting a new business", "General financial hardship"],
+chapter: "Set 10 (Savings Schemes)",
+topic: "Public Provident Fund (PPF)"
+},
+{
+id: 1194,
+question: "What happens to a PPF account upon the death of the account holder?",
+answer: "On death, the account must be closed and no further deposits are allowed.",
+correctOption: "Account must be closed and no further deposits allowed",
+options: ["It can be transferred to the nominee's name", "It can be continued by the legal heir until maturity", "Account must be closed and no further deposits allowed", "It continues earning interest indefinitely"],
+chapter: "Set 10 (Savings Schemes)",
+topic: "Public Provident Fund (PPF)"
+},
+{
+id: 1195,
+question: "Under what exception can more than 2 Sukanya Samriddhi Accounts (SSA) be opened in a single family?",
+answer: "Exception: In case of twins/triplets, more than 2 accounts can be opened.",
+correctOption: "In case of twins/triplets",
+options: ["If the family is below the poverty line", "In case of twins/triplets", "If the family adopts a child", "There are no exceptions"],
+chapter: "Set 10 (Savings Schemes)",
+topic: "Sukanya Samriddhi Account (SSA)"
+},
+{
+id: 1196,
+question: "What is the maximum annual deposit limit for a Sukanya Samriddhi Account (SSA)?",
+answer: "The maximum annual deposit for SSA is ₹1.5 lakh.",
+correctOption: "₹1.5 lakh",
+options: ["₹1 lakh", "₹1.5 lakh", "₹2 lakh", "₹2.5 lakh"],
+chapter: "Set 10 (Savings Schemes)",
+topic: "Sukanya Samriddhi Account (SSA)"
+},
+{
+id: 1197,
+question: "What tax benefit is associated with the Sukanya Samriddhi Account (SSA)?",
+answer: "SSA is eligible under Section 80C and the interest is Tax-Free under the Income Tax Act.",
+correctOption: "Eligible under Section 80C and interest is tax-free",
+options: ["Eligible under Section 80D", "Eligible under Section 80C and interest is tax-free", "Tax-exempt under Section 80TTA", "No tax benefits"],
+chapter: "Set 10 (Savings Schemes)",
+topic: "Sukanya Samriddhi Account (SSA)"
+},
+{
+id: 1198,
+question: "How is a defaulted Sukanya Samriddhi Account (SSA) revived before the 15-year mark?",
+answer: "Revival requires paying ₹250 + ₹50 per missed year.",
+correctOption: "By paying ₹250 + ₹50 default fee per missed year",
+options: ["By paying ₹250 penalty only", "By paying ₹500 + ₹50 default fee per missed year", "By paying ₹250 + ₹50 default fee per missed year", "It cannot be revived"],
+chapter: "Set 10 (Savings Schemes)",
+topic: "Sukanya Samriddhi Account (SSA)"
+},
+{
+id: 1199,
+question: "When is the interest credited to a Sukanya Samriddhi Account (SSA)?",
+answer: "Interest is credited at the end of each financial year.",
+correctOption: "At the end of each financial year",
+options: ["Monthly", "Quarterly", "Half-yearly", "At the end of each financial year"],
+chapter: "Set 10 (Savings Schemes)",
+topic: "Sukanya Samriddhi Account (SSA)"
+},
+{
+id: 1200,
+question: "How can a withdrawal for the girl's education/needs be structured from an SSA once she is eligible?",
+answer: "Withdrawal may be made in one lump sum or in installment, once in a year for max 5 years.",
+correctOption: "It may be made in one lump sum or in installments, once in a year for max 5 years",
+options: ["It must be taken completely as a lump sum", "It can only be taken in monthly stipends", "It may be made in one lump sum or in installments, once in a year for max 5 years", "Up to 10% can be withdrawn per year indefinitely"],
+chapter: "Set 10 (Savings Schemes)",
+topic: "Sukanya Samriddhi Account (SSA)"
+},
+{
+id: 1201,
+question: "What interest rate is applied to a Sukanya Samriddhi Account (SSA) from the date of the girl child's death till the payment is made?",
+answer: "Interest from the date of death till payment = PO Savings Account rate.",
+correctOption: "Post Office Savings Account rate",
+options: ["SSA interest rate", "Post Office Savings Account rate", "No interest", "SSA interest rate minus 2%"],
+chapter: "Set 10 (Savings Schemes)",
+topic: "Sukanya Samriddhi Account (SSA)"
+},
+{
+id: 1202,
+question: "Premature closure of an SSA after 5 years is allowed for which of the following reasons?",
+answer: "Death of the guardian by whom the account is operated is a valid ground for premature closure.",
+correctOption: "Death of the guardian by whom the account is operated",
+options: ["Change of residential status to NRI", "Death of the guardian by whom the account is operated", "Minor turning 18", "Moving to another state"],
+chapter: "Set 10 (Savings Schemes)",
+topic: "Sukanya Samriddhi Account (SSA)"
+},
+{
+id: 1203,
+question: "What is the restriction on closing an SSA account early on the grounds of the girl's marriage?",
+answer: "No closure is allowed before 1 month or after 3 months from the date of marriage.",
+correctOption: "No closure is allowed before 1 month or after 3 months from the date of marriage",
+options: ["No closure is allowed before 6 months of marriage", "No closure is allowed before 1 month or after 3 months from the date of marriage", "Closure is only allowed 1 year after marriage", "It is allowed at any time post-marriage"],
+chapter: "Set 10 (Savings Schemes)",
+topic: "Sukanya Samriddhi Account (SSA)"
+},
+{
+id: 1204,
+question: "How many National Savings Certificate (NSC) accounts can a single individual open?",
+answer: "For NSC, under Number of accounts: Any number can be opened.",
+correctOption: "Any number of accounts",
+options: ["One", "Two", "Maximum of five", "Any number of accounts"],
+chapter: "Set 10 (Savings Schemes)",
+topic: "National Savings Certificate (NSC)"
+},
+{
+id: 1205,
+question: "What is the maximum upper limit for depositing in a National Savings Certificate (NSC)?",
+answer: "The maximum limit is No upper limit for NSC.",
+correctOption: "No upper limit",
+options: ["₹1.5 lakh", "₹5 lakh", "₹15 lakh", "No upper limit"],
+chapter: "Set 10 (Savings Schemes)",
+topic: "National Savings Certificate (NSC)"
+},
+{
+id: 1206,
+question: "Which of the following is NOT a valid reason to transfer an NSC account to another person?",
+answer: "Transfers are only allowed on death, court order, or pledging; gifts are not listed.",
+correctOption: "As a gift to a relative",
+options: ["On court order", "As a gift to a relative", "Death of the account holder to a nominee", "When pledged to an approved authority"],
+chapter: "Set 10 (Savings Schemes)",
+topic: "National Savings Certificate (NSC)"
+},
+{
+id: 1207,
+question: "What is the minimum deposit for purchasing a Kisan Vikas Patra (KVP)?",
+answer: "The minimum deposit for KVP is ₹1,000 (multiples of ₹100).",
+correctOption: "₹1,000",
+options: ["₹100", "₹500", "₹1,000", "₹1,500"],
+chapter: "Set 10 (Savings Schemes)",
+topic: "Kisan Vikas Patra (KVP)"
+},
+{
+id: 1208,
+question: "How often is the interest compounded for a Kisan Vikas Patra (KVP) to achieve the doubled maturity value?",
+answer: "KVP interest (7.5%) is compounded annually.",
+correctOption: "Annually",
+options: ["Monthly", "Quarterly", "Half-yearly", "Annually"],
+chapter: "Set 10 (Savings Schemes)",
+topic: "Kisan Vikas Patra (KVP)"
+},
+{
+id: 1209,
+question: "Can a Kisan Vikas Patra (KVP) account be pledged or transferred as security?",
+answer: "KVP may be pledged/transferred as security.",
+correctOption: "Yes",
+options: ["Yes", "No", "Only if the value is above ₹1 lakh", "Only for agricultural loans"],
+chapter: "Set 10 (Savings Schemes)",
+topic: "Kisan Vikas Patra (KVP)"
+},
+{
+id: 1210,
+question: "Until what date was the Mahila Samman Savings Certificate (MSSC) scheme available?",
+answer: "This scheme was available till 31.03.2025.",
+correctOption: "31.03.2025",
+options: ["31.03.2023", "31.03.2024", "31.03.2025", "31.12.2025"],
+chapter: "Set 10 (Savings Schemes)",
+topic: "Mahila Samman Savings Certificate (MSSC)"
+},
+{
+id: 1211,
+question: "What is the required time gap between closing one Mahila Samman Savings Certificate (MSSC) account and opening another?",
+answer: "A 3 months gap is required between closing one account and opening another.",
+correctOption: "3 months",
+options: ["1 month", "3 months", "6 months", "1 year"],
+chapter: "Set 10 (Savings Schemes)",
+topic: "Mahila Samman Savings Certificate (MSSC)"
+},
+{
+id: 1212,
+question: "What is the fixed per annum interest rate offered by the Mahila Samman Savings Certificate (MSSC)?",
+answer: "The interest rate for MSSC is 7.5% per annum (fixed).",
+correctOption: "7.5%",
+options: ["7.1%", "7.5%", "8.0%", "8.2%"],
+chapter: "Set 10 (Savings Schemes)",
+topic: "Mahila Samman Savings Certificate (MSSC)"
+},
+{
+id: 1213,
+question: "Under extreme compassionate grounds, premature closure of an MSSC account is allowed for which reason regarding a guardian?",
+answer: "Premature closure is allowed on death of the guardian (if account is opened by guardian).",
+correctOption: "Death of the guardian (if opened by guardian)",
+options: ["Financial bankruptcy of the guardian", "Relocation of the guardian", "Death of the guardian (if opened by guardian)", "Divorce of the guardian"],
+chapter: "Set 10 (Savings Schemes)",
+topic: "Mahila Samman Savings Certificate (MSSC)"
+},
+{
+id: 1214,
+question: "The PM CARES for Children Scheme, 2021 was an initiative by which Ministry?",
+answer: "The nodal Ministry is the Ministry of Women and Child Development (MWCD).",
+correctOption: "Ministry of Women and Child Development (MWCD)",
+options: ["Ministry of Finance", "Ministry of Health and Family Welfare", "Ministry of Women and Child Development (MWCD)", "Ministry of Home Affairs"],
+chapter: "Set 10 (Savings Schemes)",
+topic: "PM CARES for Children Scheme"
+},
+{
+id: 1215,
+question: "If a PM CARES beneficiary is already 18 years or more at the time of account opening, how is the account structured?",
+answer: "If 18 or more, a single account (not joint) is opened in their name.",
+correctOption: "As a single account (not joint) in their name",
+options: ["Jointly with the District Magistrate", "Jointly with a surviving family member", "As a single account (not joint) in their name", "It cannot be opened"],
+chapter: "Set 10 (Savings Schemes)",
+topic: "PM CARES for Children Scheme"
+},
+{
+id: 1216,
+question: "In the PM CARES scheme, what happens to the upfront lump-sum contribution?",
+answer: "The amount is age-adjusted so that the corpus becomes ₹10 lakh at the time the beneficiary attains 18 years.",
+correctOption: "It is age-adjusted so the corpus reaches exactly ₹10 lakh when the child turns 18",
+options: ["It is directly handed as cash to the guardian", "It is age-adjusted so the corpus reaches exactly ₹10 lakh when the child turns 18", "It is heavily taxed by the government", "It is invested directly into the stock market"],
+chapter: "Set 10 (Savings Schemes)",
+topic: "PM CARES for Children Scheme"
+},
+{
+id: 1217,
+question: "Under the PM CARES for Children Scheme, during what age range does the beneficiary receive a monthly stipend?",
+answer: "The beneficiary receives a monthly stipend from 18 years of age till attaining 23 years.",
+correctOption: "From 18 to 23 years",
+options: ["From 10 to 18 years", "From 15 to 21 years", "From 18 to 23 years", "From 21 to 25 years"],
+chapter: "Set 10 (Savings Schemes)",
+topic: "PM CARES for Children Scheme"
+},
+{
+id: 1218,
+question: "What is the schedule fee for the transfer of a Post Office account?",
+answer: "Transfer of account fee is Rs. 100.",
+correctOption: "₹100",
+options: ["₹10", "₹50", "₹100", "₹150"],
+chapter: "Set 10 (Savings Schemes)",
+topic: "Fees and Charges"
+},
+{
+id: 1219,
+question: "Do the specified schedule of fees for Post Office services include applicable taxes?",
+answer: "Tax as applicable on the above service charges shall also be payable.",
+correctOption: "No, tax as applicable on the service charges shall also be payable",
+options: ["Yes, they are inclusive of all taxes", "No, tax as applicable on the service charges shall also be payable", "Services are completely tax-exempt", "Only GST is included"],
+chapter: "Set 10 (Savings Schemes)",
+topic: "Fees and Charges"
+},
+{
+id: 1220,
+question: "What is the maximum term/maturity period for a Monthly Income Scheme (MIS) account?",
+answer: "The maturity period is 5 years from the date of account opening.",
+correctOption: "5 years",
+options: ["1 year", "3 years", "5 years", "10 years"],
+chapter: "Set 10 (Savings Schemes)",
+topic: "Monthly Income Scheme (MIS)"
+},
+{
+id: 1221,
+question: "Which of the following Post Office accounts can have any number of accounts opened by a single individual?",
+answer: "KVP (and NSC) allows any number of accounts to be opened.",
+correctOption: "Kisan Vikas Patra (KVP)",
+options: ["SB Account", "PPF Account", "Sukanya Samriddhi Account (SSA)", "Kisan Vikas Patra (KVP)"],
+chapter: "Set 10 (Savings Schemes)",
+topic: "Kisan Vikas Patra (KVP)"
+},
+{
+id: 1222,
+question: "Which of the following accounts restricts joint account ownership to spouses only?",
+answer: "For SCSS, a joint account can only be opened with a spouse.",
+correctOption: "Senior Citizens Savings Scheme (SCSS)",
+options: ["Post Office Savings Account (SB)", "Recurring Deposit (RD)", "Monthly Income Scheme (MIS)", "Senior Citizens Savings Scheme (SCSS)"],
+chapter: "Set 10 (Savings Schemes)",
+topic: "Senior Citizens Savings Scheme (SCSS)"
+},
+{
+id: 1223,
+question: "What is the maximum number of adults that can hold a Joint Post Office Savings Account (SB)?",
+answer: "Joint Account (up to 3 adults) can be opened.",
+correctOption: "3",
+options: ["2", "3", "4", "5"],
+chapter: "Set 10 (Savings Schemes)",
+topic: "Post Office Savings Account (SB)"
+},
+{
+id: 1224,
+question: "What type of joint operation applies to a 'Joint B' Post Office Savings Account?",
+answer: "Joint B means 'Both to operate'.",
+correctOption: "Both to operate",
+options: ["Either or Survivor", "Any one of the holders", "Both to operate", "Operated by a guardian only"],
+chapter: "Set 10 (Savings Schemes)",
+topic: "Post Office Savings Account (SB)"
+},
+{
+id: 1225,
+question: "Which two Time Deposit (TD) tenures share the same 18-month extension window post-maturity?",
+answer: "The extension window for 3/5-Year TD is within 18 months of maturity.",
+correctOption: "3-Year and 5-Year TD",
+options: ["1-Year and 2-Year TD", "2-Year and 3-Year TD", "3-Year and 5-Year TD", "1-Year and 5-Year TD"],
+chapter: "Set 10 (Savings Schemes)",
+topic: "Time Deposit (TD)"
+},
+{
+id: 1226,
+question: "How is the interest calculated for the Mahila Samman Savings Certificate (MSSC)?",
+answer: "MSSC interest is compounded quarterly and paid on maturity or account closure.",
+correctOption: "Compounded quarterly and paid on maturity or account closure",
+options: ["Paid monthly to a linked SB account", "Compounded quarterly and paid on maturity or account closure", "Compounded annually and paid on maturity", "Paid quarterly directly to the account holder"],
+chapter: "Set 10 (Savings Schemes)",
+topic: "Mahila Samman Savings Certificate (MSSC)"
+},
   ];
