@@ -8866,4 +8866,706 @@ chapter: "Set 7 (Product and Services- Janasurakhshs Yojna)",
 topic: "Janasurakhsha Yojana - Comparison"
 },
 
+    {
+        id: 707,
+    question: "Who is considered the 'Payee' in a money order transaction?",
+    answer: "A 'Payee' is defined as the person named in the money order as the individual to whom the money is to be paid.",
+    correctOption: "The person named in the money order to receive the payment",
+    options: [
+      "The person who sends the money",
+      "The person named in the money order to receive the payment",
+      "The Postmaster of the issuing office",
+      "The agent delivering the money"
+    ],
+    chapter: "Set 7 (Product and Services- Remittance)",
+    topic: "Money Order Services"
+  },
+  {
+    id: 708,
+    question: "What is the primary advantage of sending money through a money order?",
+    answer: "The primary advantage of a money order is that the money is delivered directly at the house or place of stay of the payee.",
+    correctOption: "The money is delivered directly to the payee's house or place of stay",
+    options: [
+      "It is completely free of charge",
+      "The money is delivered directly to the payee's house or place of stay",
+      "It can be sent in any foreign currency",
+      "It guarantees same-day delivery"
+    ],
+    chapter: "Set 7 (Product and Services- Remittance)",
+    topic: "Money Order Services"
+  },
+  {
+    id: 709,
+    question: "Who is the 'Remitter' in a money order transaction?",
+    answer: "A remitter is defined as the person who sends the money order.",
+    correctOption: "The person who sends the money order",
+    options: [
+      "The person receiving the money",
+      "The postman",
+      "The person who sends the money order",
+      "The head of the post office"
+    ],
+    chapter: "Set 7 (Product and Services- Remittance)",
+    topic: "Money Order Services"
+  },
+  {
+    id: 710,
+    question: "In which languages can the entries on a money order form be written?",
+    answer: "Entries on a money order form must be written in English, Hindi, or in the local language.",
+    correctOption: "English, Hindi, or the local language",
+    options: [
+      "Only in English",
+      "Only in Hindi",
+      "English, Hindi, or the local language",
+      "Any international language"
+    ],
+    chapter: "Set 7 (Product and Services- Remittance)",
+    topic: "Money Order Services"
+  },
+  {
+    id: 711,
+    question: "How are Post Offices that are NOT Money Order (MO) offices distinguished in the POG - III list?",
+    answer: "All Post Offices are MO offices, except those distinguished by the letter 'D' against their name in the list POG - III.",
+    correctOption: "By the letter \"D\"",
+    options: [
+      "By the letter \"M\"",
+      "By the letter \"X\"",
+      "By the letter \"D\"",
+      "By the letter \"N\""
+    ],
+    chapter: "Set 7 (Product and Services- Remittance)",
+    topic: "Money Order Services"
+  },
+  {
+    id: 712,
+    question: "Is the Post Office responsible if a money order is paid to the wrong person due to incorrect information provided by the remitter?",
+    answer: "The Post Office will not be responsible for the wrong payment of a MO caused by incorrect or incomplete information given by the remitter.",
+    correctOption: "No, the Post Office will not be responsible",
+    options: [
+      "Yes, the Post Office must refund the remitter",
+      "No, the Post Office will not be responsible",
+      "Yes, but only for half the amount",
+      "The Postman is personally liable"
+    ],
+    chapter: "Set 7 (Product and Services- Remittance)",
+    topic: "Money Order Services"
+  },
+  {
+    id: 713,
+    question: "What is the Post Office's liability after a money order has been paid to the intended recipient?",
+    answer: "After a money order has been paid to whosoever it is meant for, the Post Office shall not be liable to any further claim.",
+    correctOption: "Not liable to any further claim",
+    options: [
+      "Liable for 30 days",
+      "Liable for one year",
+      "Not liable to any further claim",
+      "Liable if the remitter changes their mind"
+    ],
+    chapter: "Set 7 (Product and Services- Remittance)",
+    topic: "Money Order Services"
+  },
+  {
+    id: 714,
+    question: "If a remitter wants to alter the payee's address, what document must they produce?",
+    answer: "To alter the address, the remitter must apply in writing and produce the receipt of the money order.",
+    correctOption: "The original money order receipt",
+    options: [
+      "Aadhar Card",
+      "The original money order receipt",
+      "A police verification certificate",
+      "The payee's consent letter"
+    ],
+    chapter: "Set 7 (Product and Services- Remittance)",
+    topic: "Money Order Services"
+  },
+  {
+    id: 715,
+    question: "What is the additional charge for altering the address of a payee on a money order?",
+    answer: "When altering a payee's address, no additional charge is required.",
+    correctOption: "No additional charge is required",
+    options: [
+      "Rs. 10",
+      "5% of the money order value",
+      "No additional charge is required",
+      "Rs. 50"
+    ],
+    chapter: "Set 7 (Product and Services- Remittance)",
+    topic: "Money Order Services"
+  },
+  {
+    id: 716,
+    question: "What is the critical condition for altering the payee's address on a money order?",
+    answer: "The process of altering the payee's address must be done before the delivery of the MO.",
+    correctOption: "It must be done before the delivery of the MO",
+    options: [
+      "It must be done within 24 hours of booking",
+      "It must be done before the delivery of the MO",
+      "It must be done at the Head Post Office",
+      "It requires the payee's signature"
+    ],
+    chapter: "Set 7 (Product and Services- Remittance)",
+    topic: "Money Order Services"
+  },
+  {
+    id: 717,
+    question: "Under the latest rules, what is the policy regarding the alteration of the payee's name in a money order?",
+    answer: "According to the latest rule, no alteration in the name of the payee shall be permitted in the money order.",
+    correctOption: "No alteration in the name of the payee shall be permitted",
+    options: [
+      "It is permitted with a fee",
+      "It is permitted with the Postmaster's approval",
+      "No alteration in the name of the payee shall be permitted",
+      "It is permitted only for family members"
+    ],
+    chapter: "Set 7 (Product and Services- Remittance)",
+    topic: "Money Order Services"
+  },
+  {
+    id: 718,
+    question: "Is there a fee required to apply for the stoppage of payment of a money order?",
+    answer: "To stop the payment of a MO, an application in writing is made by the remitter, and no additional charge is required.",
+    correctOption: "No additional charge is required",
+    options: [
+      "Yes, Rs. 20",
+      "Yes, equal to the commission paid",
+      "No additional charge is required",
+      "Yes, 10% of the total amount"
+    ],
+    chapter: "Set 7 (Product and Services- Remittance)",
+    topic: "Money Order Services"
+  },
+  {
+    id: 719,
+    question: "When does an unpaid money order become 'Void'?",
+    answer: "If a MO cannot be paid or repaid to the remitter, it becomes void at the end of the second month following the month of issue.",
+    correctOption: "At the end of the second month following the month of issue",
+    options: [
+      "At the end of the month of issue",
+      "At the end of the second month following the month of issue",
+      "After six months",
+      "After one year"
+    ],
+    chapter: "Set 7 (Product and Services- Remittance)",
+    topic: "Money Order Services"
+  },
+  {
+    id: 720,
+    question: "After how long is the amount of an unpaid money order forfeited?",
+    answer: "The amount of a money order unpaid beyond three (3) years from the date of booking shall be forfeited.",
+    correctOption: "Three years from the date of booking",
+    options: [
+      "One year from the date of booking",
+      "Two years from the date of booking",
+      "Three years from the date of booking",
+      "Five years from the date of booking"
+    ],
+    chapter: "Set 7 (Product and Services- Remittance)",
+    topic: "Money Order Services"
+  },
+  {
+    id: 721,
+    question: "Where does the forfeited amount of a money order go?",
+    answer: "After the three-year expiry period, the forfeited amount is treated as revenue to the Government of India.",
+    correctOption: "It is treated as revenue to the Government of India",
+    options: [
+      "It is distributed among postal staff",
+      "It is kept in a suspense account",
+      "It is treated as revenue to the Government of India",
+      "It is donated to charity"
+    ],
+    chapter: "Set 7 (Product and Services- Remittance)",
+    topic: "Money Order Services"
+  },
+  {
+    id: 722,
+    question: "What does the remitter receive after the money order is successfully paid?",
+    answer: "After payment, the remitter receives an acknowledgement of payment signed by the payee or his authorized agent.",
+    correctOption: "An acknowledgement of payment signed by the payee",
+    options: [
+      "A digital SMS only",
+      "An acknowledgement of payment signed by the payee",
+      "A stamped receipt from the Postmaster",
+      "A copy of the payee's ID card"
+    ],
+    chapter: "Set 7 (Product and Services- Remittance)",
+    topic: "Money Order Services"
+  },
+  {
+    id: 723,
+    question: "What happens if the remitter does not receive the acknowledgment in a reasonable time?",
+    answer: "If the acknowledgment is not received, the remitter can apply and be given a certificate of payment signed by the Postmaster of the office.",
+    correctOption: "A certificate of payment signed by the Postmaster will be given on application",
+    options: [
+      "The remitter gets a full refund",
+      "The Post Office issues a fresh money order",
+      "A certificate of payment signed by the Postmaster will be given on application",
+      "The payee is penalized"
+    ],
+    chapter: "Set 7 (Product and Services- Remittance)",
+    topic: "Money Order Services"
+  },
+  {
+    id: 724,
+    question: "When was the Electronic Money Order (e-MO) service introduced?",
+    answer: "The e-MO service was introduced on 10th October, 2008.",
+    correctOption: "10th October 2008",
+    options: [
+      "10th October 2006",
+      "10th October 2008",
+      "20th January 2006",
+      "14th July 2020"
+    ],
+    chapter: "Set 7 (Product and Services- Remittance)",
+    topic: "Electronic Money Order (e-MO)"
+  },
+  {
+    id: 725,
+    question: "What is the maximum amount for which a single e-MO can be issued?",
+    answer: "The maximum amount for a single money order issued shall not exceed Rs. 10,000.",
+    correctOption: "Rs. 10,000",
+    options: [
+      "Rs. 5,000",
+      "Rs. 10,000",
+      "Rs. 25,000",
+      "Rs. 50,000"
+    ],
+    chapter: "Set 7 (Product and Services- Remittance)",
+    topic: "Electronic Money Order (e-MO)"
+  },
+  {
+    id: 726,
+    question: "Are fractions of a rupee allowed in a single e-MO?",
+    answer: "A single money order issued shall not include a fraction of a rupee.",
+    correctOption: "No, it shall not include a fraction of a rupee",
+    options: [
+      "Yes, up to 50 paise",
+      "Yes, any fraction is allowed",
+      "No, it shall not include a fraction of a rupee",
+      "Yes, if sent to a government department"
+    ],
+    chapter: "Set 7 (Product and Services- Remittance)",
+    topic: "Electronic Money Order (e-MO)"
+  },
+  {
+    id: 727,
+    question: "What is the total maximum amount a person can remit through retail money orders in a single month?",
+    answer: "The total amount remitted through retail money order to a person in a month shall not exceed Rs. 25,000.",
+    correctOption: "Rs. 25,000",
+    options: [
+      "Rs. 10,000",
+      "Rs. 25,000",
+      "Rs. 50,000",
+      "Rs. 1,00,000"
+    ],
+    chapter: "Set 7 (Product and Services- Remittance)",
+    topic: "Electronic Money Order (e-MO)"
+  },
+  {
+    id: 728,
+    question: "What is the commission rate for sending an e-MO?",
+    answer: "The commission for sending an Electronic Money Order (e-MO) is 5%.",
+    correctOption: "5%",
+    options: [
+      "2%",
+      "5%",
+      "10%",
+      "Rs. 50 flat rate"
+    ],
+    chapter: "Set 7 (Product and Services- Remittance)",
+    topic: "Electronic Money Order (e-MO)"
+  },
+  {
+    id: 729,
+    question: "For which of the following funds is the e-MO commission waived?",
+    answer: "Remittance shall be made without payment of commission for contributions to the PM Relief Fund, PM CARES Fund, or CM Relief Fund.",
+    correctOption: "PM Relief Fund, PM CARES Fund, or CM Relief Fund",
+    options: [
+      "Only PM Relief Fund",
+      "Only CM Relief Fund",
+      "PM Relief Fund, PM CARES Fund, or CM Relief Fund",
+      "Local NGO funds"
+    ],
+    chapter: "Set 7 (Product and Services- Remittance)",
+    topic: "Electronic Money Order (e-MO)"
+  },
+  {
+    id: 730,
+    question: "Ordinarily, where is the payment of a money order made?",
+    answer: "The payment of a money order shall ordinarily be made at the address of the payee.",
+    correctOption: "At the address of the payee",
+    options: [
+      "At the issuing Post Office",
+      "At the nearest Head Post Office",
+      "At the address of the payee",
+      "At the local bank branch"
+    ],
+    chapter: "Set 7 (Product and Services- Remittance)",
+    topic: "Money Order Services"
+  },
+  {
+    id: 731,
+    question: "Who determines the verification instructions if the payee is a minor or physically/mentally incapable?",
+    answer: "The identity of a minor, illiterate, or incapable payee is verified according to administrative instructions specified by the Director General.",
+    correctOption: "Administrative instructions specified by the Director General",
+    options: [
+      "The local Postmaster",
+      "The remitter",
+      "Administrative instructions specified by the Director General",
+      "The Reserve Bank of India"
+    ],
+    chapter: "Set 7 (Product and Services- Remittance)",
+    topic: "Money Order Services"
+  },
+  {
+    id: 732,
+    question: "What happens if the payee refuses to accept the money order?",
+    answer: "If the payee refuses payment, the amount of the money order is returned to the remitter excluding the commission.",
+    correctOption: "The amount is returned to the remitter excluding the commission",
+    options: [
+      "It is kept at the Post Office indefinitely",
+      "The amount is returned to the remitter excluding the commission",
+      "The amount is returned to the remitter including the commission",
+      "It is forfeited to the government"
+    ],
+    chapter: "Set 7 (Product and Services- Remittance)",
+    topic: "Money Order Services"
+  },
+  {
+    id: 733,
+    question: "If a payee is not found at the address, for how many days maximum can the MO be retained in the post office?",
+    answer: "If the payee is not found, the money order shall be retained in the post office for a period not exceeding seven days.",
+    correctOption: "7 days",
+    options: [
+      "3 days",
+      "7 days",
+      "14 days",
+      "30 days"
+    ],
+    chapter: "Set 7 (Product and Services- Remittance)",
+    topic: "Money Order Services"
+  },
+  {
+    id: 734,
+    question: "From which date is the 7-day retention period for an undelivered MO calculated?",
+    answer: "It is retained for a period not exceeding seven days from the date of its presentation to the payee, or from the date it is sent out for payment.",
+    correctOption: "From the date of its presentation to the payee or sent out for payment",
+    options: [
+      "From the date of booking",
+      "From the date of its presentation to the payee or sent out for payment",
+      "From the date the remitter complains",
+      "From the start of the month"
+    ],
+    chapter: "Set 7 (Product and Services- Remittance)",
+    topic: "Money Order Services"
+  },
+  {
+    id: 735,
+    question: "What is the procedure if the payee of a money order is dead?",
+    answer: "If the payee of a money order is dead, the amount of the money order shall be returned to the remitter.",
+    correctOption: "The amount of the MO shall be returned to the remitter",
+    options: [
+      "The money is given to their legal heir automatically",
+      "The amount of the MO shall be returned to the remitter",
+      "The amount is seized by the government",
+      "The MO is redirected to the nearest police station"
+    ],
+    chapter: "Set 7 (Product and Services- Remittance)",
+    topic: "Money Order Services"
+  },
+  {
+    id: 736,
+    question: "Who has the authority to suspend the services of money orders for a post office in special circumstances?",
+    answer: "The services of money orders may be suspended by the Circle Head, by order in writing.",
+    correctOption: "The Circle Head",
+    options: [
+      "The Postmaster General",
+      "The Circle Head",
+      "The Director General",
+      "The Central Government"
+    ],
+    chapter: "Set 7 (Product and Services- Remittance)",
+    topic: "Money Order Services"
+  },
+  {
+    id: 737,
+    question: "What does IFS stand for in the context of international remittances?",
+    answer: "IFS stands for International Financial System, a software developed by UPU.",
+    correctOption: "International Financial System",
+    options: [
+      "Indian Financial Services",
+      "International Financial System",
+      "Internal Fund Settlement",
+      "International Fiat System"
+    ],
+    chapter: "Set 7 (Product and Services- Remittance)",
+    topic: "International Financial System (IFS)"
+  },
+  {
+    id: 738,
+    question: "Who developed the IFS software used for international remittances?",
+    answer: "The International Financial System (IFS) is software developed by the UPU to coordinate international remittance services.",
+    correctOption: "Universal Postal Union (UPU)",
+    options: [
+      "Reserve Bank of India (RBI)",
+      "India Post",
+      "Universal Postal Union (UPU)",
+      "World Bank"
+    ],
+    chapter: "Set 7 (Product and Services- Remittance)",
+    topic: "International Financial System (IFS)"
+  },
+  {
+    id: 739,
+    question: "Through which domestic service are IFS money order remittances paid in India?",
+    answer: "The remittances received under the IFS service are being paid through the eMO service.",
+    correctOption: "eMO service",
+    options: [
+      "IMO service",
+      "eMO service",
+      "VPP service",
+      "ECS service"
+    ],
+    chapter: "Set 7 (Product and Services- Remittance)",
+    topic: "International Financial System (IFS)"
+  },
+  {
+    id: 740,
+    question: "In what currency does the payee receive the full amount for an IFS Money Order?",
+    answer: "The payee receives the full amount in Indian Rupees.",
+    correctOption: "Indian Rupees",
+    options: [
+      "US Dollars",
+      "Euros",
+      "Indian Rupees",
+      "The remitter's local currency"
+    ],
+    chapter: "Set 7 (Product and Services- Remittance)",
+    topic: "International Financial System (IFS)"
+  },
+  {
+    id: 741,
+    question: "What is the maximum cash limit for receiving an IFS remittance?",
+    answer: "Remittances up to INR 50,000 can be received in cash under the IFS service.",
+    correctOption: "INR 50,000",
+    options: [
+      "INR 10,000",
+      "INR 25,000",
+      "INR 50,000",
+      "INR 1,00,000"
+    ],
+    chapter: "Set 7 (Product and Services- Remittance)",
+    topic: "International Financial System (IFS)"
+  },
+  {
+    id: 742,
+    question: "How is an IFS remittance exceeding INR 50,000 paid to the beneficiary?",
+    answer: "Amounts exceeding INR 50,000 are to be paid through Cheque.",
+    correctOption: "Through a Cheque",
+    options: [
+      "Through multiple cash payments",
+      "Through a Cheque",
+      "Through a Demand Draft",
+      "Through direct bank transfer"
+    ],
+    chapter: "Set 7 (Product and Services- Remittance)",
+    topic: "International Financial System (IFS)"
+  },
+  {
+    id: 743,
+    question: "What is the maximum limit in USD for a cheque payment via IFS?",
+    answer: "Payment through Cheque is subject to a maximum limit of USD 2500.",
+    correctOption: "USD 2500",
+    options: [
+      "USD 1000",
+      "USD 2500",
+      "USD 5000",
+      "USD 10000"
+    ],
+    chapter: "Set 7 (Product and Services- Remittance)",
+    topic: "International Financial System (IFS)"
+  },
+  {
+    id: 744,
+    question: "How many maximum IFS transactions are allowed per person per year?",
+    answer: "There is a maximum limit of 30 transactions per person per year for IFS remittances.",
+    correctOption: "30 transactions",
+    options: [
+      "10 transactions",
+      "12 transactions",
+      "20 transactions",
+      "30 transactions"
+    ],
+    chapter: "Set 7 (Product and Services- Remittance)",
+    topic: "International Financial System (IFS)"
+  },
+  {
+    id: 745,
+    question: "Which of the following documents is required by the beneficiary to claim an IFS Money Order?",
+    answer: "The beneficiary has to furnish the Unique MO Number along with valid identification documents (KYC Documents).",
+    correctOption: "Unique MO Number and valid identification (KYC)",
+    options: [
+      "Unique MO Number and valid identification (KYC)",
+      "Only the Unique MO Number",
+      "Proof of address of the remitter",
+      "A letter from the local police station"
+    ],
+    chapter: "Set 7 (Product and Services- Remittance)",
+    topic: "International Financial System (IFS)"
+  },
+  {
+    id: 746,
+    question: "Whose guidelines govern the payments of IFS Money Orders?",
+    answer: "Payments for IFS Money Orders are subject to RBI Guidelines from time to time.",
+    correctOption: "Reserve Bank of India (RBI)",
+    options: [
+      "Ministry of Finance",
+      "Reserve Bank of India (RBI)",
+      "Universal Postal Union (UPU)",
+      "State Governments"
+    ],
+    chapter: "Set 7 (Product and Services- Remittance)",
+    topic: "International Financial System (IFS)"
+  },
+  {
+    id: 747,
+    question: "When was the Instant Money Order (IMO) service introduced?",
+    answer: "The IMO Service was introduced on 20th January, 2006.",
+    correctOption: "20th January 2006",
+    options: [
+      "20th January 2006",
+      "10th October 2008",
+      "9th August 2003",
+      "14th July 2020"
+    ],
+    chapter: "Set 7 (Product and Services- Remittance)",
+    topic: "Instant Money Order (IMO)"
+  },
+  {
+    id: 748,
+    question: "On which date was the Instant Money Order (IMO) service discontinued?",
+    answer: "The IMO Service was discontinued with effect from 14th July, 2020.",
+    correctOption: "14th July 2020",
+    options: [
+      "10th October 2008",
+      "14th July 2020",
+      "31st January 2024",
+      "9th August 2003"
+    ],
+    chapter: "Set 7 (Product and Services- Remittance)",
+    topic: "Instant Money Order (IMO)"
+  },
+  {
+    id: 749,
+    question: "What was the minimum amount that could be sent via the discontinued IMO service?",
+    answer: "The minimum amount for the IMO service was Rs. 1000/-.",
+    correctOption: "Rs. 1000",
+    options: [
+      "Rs. 100",
+      "Rs. 500",
+      "Rs. 1000",
+      "Rs. 5000"
+    ],
+    chapter: "Set 7 (Product and Services- Remittance)",
+    topic: "Instant Money Order (IMO)"
+  },
+  {
+    id: 750,
+    question: "What was the maximum amount that could be sent via the discontinued IMO service?",
+    answer: "The maximum amount for the IMO service was Rs. 50000/-.",
+    correctOption: "Rs. 50,000",
+    options: [
+      "Rs. 10,000",
+      "Rs. 25,000",
+      "Rs. 50,000",
+      "Rs. 1,00,000"
+    ],
+    chapter: "Set 7 (Product and Services- Remittance)",
+    topic: "Instant Money Order (IMO)"
+  },
+  {
+    id: 751,
+    question: "What does ECS stand for in bulk payment transactions?",
+    answer: "ECS stands for Electronic Clearance Service.",
+    correctOption: "Electronic Clearance Service",
+    options: [
+      "Electronic Cash System",
+      "Electronic Clearance Service",
+      "Essential Clearance Scheme",
+      "Economic Cash Service"
+    ],
+    chapter: "Set 7 (Product and Services- Remittance)",
+    topic: "Electronic Clearance Service (ECS)"
+  },
+  {
+    id: 752,
+    question: "What kind of transactions is the ECS scheme primarily designed for?",
+    answer: "ECS is an alternative method of effecting bulk payment transactions like periodic payments of interest, salary, pension, etc.",
+    correctOption: "Bulk payment transactions like periodic salary, pension, or interest",
+    options: [
+      "Individual person-to-person remittances",
+      "International money transfers",
+      "Bulk payment transactions like periodic salary, pension, or interest",
+      "Purchasing postal stamps online"
+    ],
+    chapter: "Set 7 (Product and Services- Remittance)",
+    topic: "Electronic Clearance Service (ECS)"
+  },
+  {
+    id: 753,
+    question: "In the Department of Posts, what is the ECS scheme used to pay?",
+    answer: "The ECS is being offered in the Department of Posts in connection with the payment of monthly interest under 'Monthly Income Scheme' (MIS).",
+    correctOption: "Monthly interest under the \"Monthly Income Scheme\" (MIS)",
+    options: [
+      "Employee salaries",
+      "Monthly interest under the \"Monthly Income Scheme\" (MIS)",
+      "Commission to agents",
+      "Vendor refunds"
+    ],
+    chapter: "Set 7 (Product and Services- Remittance)",
+    topic: "Electronic Clearance Service (ECS)"
+  },
+  {
+    id: 754,
+    question: "When and where was the ECS scheme introduced by the Department of Posts on a pilot basis?",
+    answer: "The Department of Posts introduced the ECS scheme on a pilot basis in Mumbai City on 9th August 2003.",
+    correctOption: "Mumbai on 9th August 2003",
+    options: [
+      "Delhi on 10th October 2008",
+      "Mumbai on 9th August 2003",
+      "Chennai on 20th January 2006",
+      "Kolkata on 14th July 2020"
+    ],
+    chapter: "Set 7 (Product and Services- Remittance)",
+    topic: "Electronic Clearance Service (ECS)"
+  },
+  {
+    id: 755,
+    question: "When was the International Money Transfer Service (IMTS) discontinued?",
+    answer: "The IMTS was discontinued with effect from 31st January, 2024.",
+    correctOption: "31st January 2024",
+    options: [
+      "14th July 2020",
+      "10th October 2008",
+      "31st January 2024",
+      "9th August 2003"
+    ],
+    chapter: "Set 7 (Product and Services- Remittance)",
+    topic: "International Money Transfer Service (IMTS)"
+  },
+  {
+    id: 756,
+    question: "Why was the International Money Transfer Service (IMTS) discontinued?",
+    answer: "IMTS was discontinued because WUMT was discontinued by India Post.",
+    correctOption: "WUMT was discontinued by India Post",
+    options: [
+      "RBI banned it",
+      "UPU stopped supporting it",
+      "WUMT was discontinued by India Post",
+      "Due to high commission rates"
+    ],
+    chapter: "Set 7 (Product and Services- Remittance)",
+    topic: "International Money Transfer Service (IMTS)"
+  }
+
+    
 ];
