@@ -1,4 +1,4 @@
-const newQuestions = [
+const questionBank6 = [
   {
     id: 1837,
     question: "Which service provides the facility of collecting cash at the time of delivery?",
@@ -1163,4 +1163,3 @@ const newQuestions = [
   }
 ];
 
-questionBank.push(...newQuestions);
