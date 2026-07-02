@@ -10,7 +10,7 @@ const questionBank6 = [
       "Direct Post service",
       "Bill Mail Service"
     ],
-    chapter: "Products and services",
+    chapter: "Part - 13 ( Products and Services )",
     topic: "COD Contractual Service"
   },
   {
@@ -24,7 +24,7 @@ const questionBank6 = [
       "₹50,000",
       "₹1,00,000"
     ],
-    chapter: "Products and services",
+    chapter: "Part - 13 ( Products and Services )",
     topic: "COD Contractual Service"
   },
   {
@@ -38,7 +38,7 @@ const questionBank6 = [
       "Only retail walk-in customers",
       "Only franchise outlets"
     ],
-    chapter: "Products and services",
+    chapter: "Part - 13 ( Products and Services )",
     topic: "COD Contractual Service"
   },
   {
@@ -52,7 +52,7 @@ const questionBank6 = [
       "Invoices and bills",
       "Address labels"
     ],
-    chapter: "Products and services",
+    chapter: "Part - 13 ( Products and Services )",
     topic: "COD Contractual Service"
   },
   {
@@ -66,7 +66,7 @@ const questionBank6 = [
       "No, it is optional",
       "No, insurance not allowed"
     ],
-    chapter: "Products and services",
+    chapter: "Part - 13 ( Products and Services )",
     topic: "COD Contractual Service"
   },
   {
@@ -80,7 +80,7 @@ const questionBank6 = [
       "Postcard service",
       "Savings Account"
     ],
-    chapter: "Products and services",
+    chapter: "Part - 13 ( Products and Services )",
     topic: "COD Contractual Service"
   },
   {
@@ -94,7 +94,7 @@ const questionBank6 = [
       "₹100 fixed charge",
       "2% of recovered amount"
     ],
-    chapter: "Products and services",
+    chapter: "Part - 13 ( Products and Services )",
     topic: "COD Contractual Service"
   },
   {
@@ -108,7 +108,7 @@ const questionBank6 = [
       "1.6% of total amount only",
       "₹200 fixed charge"
     ],
-    chapter: "Products and services",
+    chapter: "Part - 13 ( Products and Services )",
     topic: "COD Contractual Service"
   },
   {
@@ -122,7 +122,7 @@ const questionBank6 = [
       "₹10,000",
       "₹50,000"
     ],
-    chapter: "Products and services",
+    chapter: "Part - 13 ( Products and Services )",
     topic: "Book Now Pay Later (BNPL)"
   },
   {
@@ -136,7 +136,7 @@ const questionBank6 = [
       "Buy a franking machine",
       "Pay all charges in advance"
     ],
-    chapter: "Products and services",
+    chapter: "Part - 13 ( Products and Services )",
     topic: "Book Now Pay Later (BNPL)"
   },
   {
@@ -150,7 +150,7 @@ const questionBank6 = [
       "12 months",
       "24 months"
     ],
-    chapter: "Products and services",
+    chapter: "Part - 13 ( Products and Services )",
     topic: "Book Now Pay Later (BNPL)"
   },
   {
@@ -164,7 +164,7 @@ const questionBank6 = [
       "Monthly basis",
       "Yearly basis"
     ],
-    chapter: "Products and services",
+    chapter: "Part - 13 ( Products and Services )",
     topic: "Book Now Pay Later (BNPL)"
   },
   {
@@ -178,7 +178,7 @@ const questionBank6 = [
       "Office of Posting",
       "Railway Mail Service"
     ],
-    chapter: "Products and services",
+    chapter: "Part - 13 ( Products and Services )",
     topic: "Book Now Pay Later (BNPL)"
   },
   {
@@ -192,7 +192,7 @@ const questionBank6 = [
       "Ministry of Railways",
       "UIDAI office"
     ],
-    chapter: "Products and services",
+    chapter: "Part - 13 ( Products and Services )",
     topic: "Book Now Pay Later (BNPL)"
   },
   {
@@ -206,7 +206,7 @@ const questionBank6 = [
       "On the last day of the quarter",
       "Only once a year"
     ],
-    chapter: "Products and services",
+    chapter: "Part - 13 ( Products and Services )",
     topic: "Book Now Pay Later (BNPL)"
   },
   {
@@ -220,7 +220,7 @@ const questionBank6 = [
       "10% per annum",
       "12% per annum"
     ],
-    chapter: "Products and services",
+    chapter: "Part - 13 ( Products and Services )",
     topic: "Book Now Pay Later (BNPL)"
   },
   {
@@ -234,7 +234,7 @@ const questionBank6 = [
       "Only bulk mailers",
       "Railway passengers"
     ],
-    chapter: "Products and services",
+    chapter: "Part - 13 ( Products and Services )",
     topic: "COD Retail Service"
   },
   {
@@ -248,7 +248,7 @@ const questionBank6 = [
       "₹25,000",
       "₹50,000"
     ],
-    chapter: "Products and services",
+    chapter: "Part - 13 ( Products and Services )",
     topic: "COD Retail Service"
   },
   {
@@ -262,7 +262,7 @@ const questionBank6 = [
       "Only with insurance",
       "Only through Speed Post"
     ],
-    chapter: "Products and services",
+    chapter: "Part - 13 ( Products and Services )",
     topic: "COD Retail Service"
   },
   {
@@ -276,7 +276,7 @@ const questionBank6 = [
       "Only Aadhaar cards",
       "Only postage stamps"
     ],
-    chapter: "Products and services",
+    chapter: "Part - 13 ( Products and Services )",
     topic: "COD Retail Service"
   },
   {
@@ -290,7 +290,7 @@ const questionBank6 = [
       "Postcard message",
       "QR code only"
     ],
-    chapter: "Products and services",
+    chapter: "Part - 13 ( Products and Services )",
     topic: "COD Retail Service"
   },
   {
@@ -304,7 +304,7 @@ const questionBank6 = [
       "SB-7 form",
       "PLI-1 form"
     ],
-    chapter: "Products and services",
+    chapter: "Part - 13 ( Products and Services )",
     topic: "COD Retail Service"
   },
   {
@@ -318,7 +318,7 @@ const questionBank6 = [
       "The place of payment in the MO form must be the same as the place of booking",
       "It must be insured"
     ],
-    chapter: "Products and services",
+    chapter: "Part - 13 ( Products and Services )",
     topic: "COD Retail Service"
   },
   {
@@ -332,7 +332,7 @@ const questionBank6 = [
       "COD Retail with amount in figures and words",
       "Urgent Delivery"
     ],
-    chapter: "Products and services",
+    chapter: "Part - 13 ( Products and Services )",
     topic: "COD Retail Service"
   },
   {
@@ -346,7 +346,7 @@ const questionBank6 = [
       "Savings banking work",
       "Passport issue work"
     ],
-    chapter: "Products and services",
+    chapter: "Part - 13 ( Products and Services )",
     topic: "Direct Post"
   },
   {
@@ -360,7 +360,7 @@ const questionBank6 = [
       "1000",
       "5000"
     ],
-    chapter: "Products and services",
+    chapter: "Part - 13 ( Products and Services )",
     topic: "Direct Post"
   },
   {
@@ -374,7 +374,7 @@ const questionBank6 = [
       "Legal size",
       "B2"
     ],
-    chapter: "Products and services",
+    chapter: "Part - 13 ( Products and Services )",
     topic: "Direct Post"
   },
   {
@@ -388,7 +388,7 @@ const questionBank6 = [
       "Direct Post",
       "Business Post"
     ],
-    chapter: "Products and services",
+    chapter: "Part - 13 ( Products and Services )",
     topic: "Direct Post"
   },
   {
@@ -402,7 +402,7 @@ const questionBank6 = [
       "2 June 2005",
       "26 January 2006"
     ],
-    chapter: "Products and services",
+    chapter: "Part - 13 ( Products and Services )",
     topic: "Direct Post"
   },
   {
@@ -416,7 +416,7 @@ const questionBank6 = [
       "Only registered letters",
       "Only insured articles"
     ],
-    chapter: "Products and services",
+    chapter: "Part - 13 ( Products and Services )",
     topic: "Direct Post"
   },
   {
@@ -430,7 +430,7 @@ const questionBank6 = [
       "5000 articles are posted at a time",
       "10,000 articles are posted at a time"
     ],
-    chapter: "Products and services",
+    chapter: "Part - 13 ( Products and Services )",
     topic: "Direct Post"
   },
   {
@@ -444,7 +444,7 @@ const questionBank6 = [
       "Bill Mail Service",
       "Logistics Post"
     ],
-    chapter: "Products and services",
+    chapter: "Part - 13 ( Products and Services )",
     topic: "Bill Mail Service"
   },
   {
@@ -458,7 +458,7 @@ const questionBank6 = [
       "5000",
       "10,000"
     ],
-    chapter: "Products and services",
+    chapter: "Part - 13 ( Products and Services )",
     topic: "Bill Mail Service"
   },
   {
@@ -472,7 +472,7 @@ const questionBank6 = [
       "5000",
       "10,000"
     ],
-    chapter: "Products and services",
+    chapter: "Part - 13 ( Products and Services )",
     topic: "Bill Mail Service"
   },
   {
@@ -486,7 +486,7 @@ const questionBank6 = [
       "Only in cloth bags",
       "Only in plastic covers"
     ],
-    chapter: "Products and services",
+    chapter: "Part - 13 ( Products and Services )",
     topic: "Bill Mail Service"
   },
   {
@@ -500,7 +500,7 @@ const questionBank6 = [
       "Only insured packets",
       "Only VP articles"
     ],
-    chapter: "Products and services",
+    chapter: "Part - 13 ( Products and Services )",
     topic: "Bill Mail Service"
   },
   {
@@ -514,7 +514,7 @@ const questionBank6 = [
       "A weighing machine only",
       "A parcel sealing device"
     ],
-    chapter: "Products and services",
+    chapter: "Part - 13 ( Products and Services )",
     topic: "Franking Machine"
   },
   {
@@ -528,7 +528,7 @@ const questionBank6 = [
       "The machine replaces envelopes",
       "The machine works only for parcels"
     ],
-    chapter: "Products and services",
+    chapter: "Part - 13 ( Products and Services )",
     topic: "Franking Machine"
   },
   {
@@ -542,7 +542,7 @@ const questionBank6 = [
       "India Post",
       "RBI"
     ],
-    chapter: "Products and services",
+    chapter: "Part - 13 ( Products and Services )",
     topic: "Franking Machine"
   },
   {
@@ -556,7 +556,7 @@ const questionBank6 = [
       "India Post or an authorized dealer",
       "Only private couriers"
     ],
-    chapter: "Products and services",
+    chapter: "Part - 13 ( Products and Services )",
     topic: "Franking Machine"
   },
   {
@@ -570,7 +570,7 @@ const questionBank6 = [
       "Only village postmen",
       "Only passport offices"
     ],
-    chapter: "Products and services",
+    chapter: "Part - 13 ( Products and Services )",
     topic: "Media Post"
   },
   {
@@ -584,7 +584,7 @@ const questionBank6 = [
       "Only railway tickets",
       "Only money orders"
     ],
-    chapter: "Products and services",
+    chapter: "Part - 13 ( Products and Services )",
     topic: "Media Post"
   },
   {
@@ -598,7 +598,7 @@ const questionBank6 = [
       "50 paise per passbook",
       "₹1 per passbook"
     ],
-    chapter: "Products and services",
+    chapter: "Part - 13 ( Products and Services )",
     topic: "Media Post"
   },
   {
@@ -612,7 +612,7 @@ const questionBank6 = [
       "1 million",
       "2 million"
     ],
-    chapter: "Products and services",
+    chapter: "Part - 13 ( Products and Services )",
     topic: "Media Post"
   },
   {
@@ -626,7 +626,7 @@ const questionBank6 = [
       "1 million",
       "1.5 million"
     ],
-    chapter: "Products and services",
+    chapter: "Part - 13 ( Products and Services )",
     topic: "Media Post"
   },
   {
@@ -640,7 +640,7 @@ const questionBank6 = [
       "₹2 per piece",
       "₹5 per piece"
     ],
-    chapter: "Products and services",
+    chapter: "Part - 13 ( Products and Services )",
     topic: "Media Post"
   },
   {
@@ -654,7 +654,7 @@ const questionBank6 = [
       "Retail Post",
       "Bill Mail"
     ],
-    chapter: "Products and services",
+    chapter: "Part - 13 ( Products and Services )",
     topic: "E-Post"
   },
   {
@@ -668,7 +668,7 @@ const questionBank6 = [
       "Air mail and sea mail only",
       "Only hand delivery"
     ],
-    chapter: "Products and services",
+    chapter: "Part - 13 ( Products and Services )",
     topic: "E-Post"
   },
   {
@@ -682,7 +682,7 @@ const questionBank6 = [
       "A hard copy as an unaccountable letter item",
       "An insured article"
     ],
-    chapter: "Products and services",
+    chapter: "Part - 13 ( Products and Services )",
     topic: "E-Post"
   },
   {
@@ -696,7 +696,7 @@ const questionBank6 = [
       "Both retail and bulk customers",
       "Only government offices"
     ],
-    chapter: "Products and services",
+    chapter: "Part - 13 ( Products and Services )",
     topic: "E-Post"
   },
   {
@@ -710,7 +710,7 @@ const questionBank6 = [
       "Enter into an agreement with the concerned postal authority",
       "Use a railway reservation form"
     ],
-    chapter: "Products and services",
+    chapter: "Part - 13 ( Products and Services )",
     topic: "E-Post"
   },
   {
@@ -724,7 +724,7 @@ const questionBank6 = [
       "Media Post service",
       "COD Retail"
     ],
-    chapter: "Products and services",
+    chapter: "Part - 13 ( Products and Services )",
     topic: "E-Payment"
   },
   {
@@ -738,7 +738,7 @@ const questionBank6 = [
       "Many-to-one solution",
       "One-to-many solution"
     ],
-    chapter: "Products and services",
+    chapter: "Part - 13 ( Products and Services )",
     topic: "E-Payment"
   },
   {
@@ -752,7 +752,7 @@ const questionBank6 = [
       "₹15 + GST",
       "₹20 + GST"
     ],
-    chapter: "Products and services",
+    chapter: "Part - 13 ( Products and Services )",
     topic: "E-Payment"
   },
   {
@@ -766,7 +766,7 @@ const questionBank6 = [
       "₹15 + 18% GST",
       "₹20 + 18% GST"
     ],
-    chapter: "Products and services",
+    chapter: "Part - 13 ( Products and Services )",
     topic: "E-Payment"
   },
   {
@@ -780,7 +780,7 @@ const questionBank6 = [
       "₹18 + GST",
       "₹20 + 18% GST"
     ],
-    chapter: "Products and services",
+    chapter: "Part - 13 ( Products and Services )",
     topic: "E-Payment"
   },
   {
@@ -794,7 +794,7 @@ const questionBank6 = [
       "Aadhaar Service",
       "PRS Service"
     ],
-    chapter: "Products and services",
+    chapter: "Part - 13 ( Products and Services )",
     topic: "Business Post / Franchise / Speed Post Discount"
   },
   {
@@ -808,7 +808,7 @@ const questionBank6 = [
       "Bill Mail Service",
       "Gangajal Service"
     ],
-    chapter: "Products and services",
+    chapter: "Part - 13 ( Products and Services )",
     topic: "Business Post / Franchise / Speed Post Discount"
   },
   {
@@ -822,7 +822,7 @@ const questionBank6 = [
       "Business Post",
       "E-Money Order"
     ],
-    chapter: "Products and services",
+    chapter: "Part - 13 ( Products and Services )",
     topic: "Business Post / Franchise / Speed Post Discount"
   },
   {
@@ -836,7 +836,7 @@ const questionBank6 = [
       "Replace all Head Post Offices",
       "Stop Speed Post service"
     ],
-    chapter: "Products and services",
+    chapter: "Part - 13 ( Products and Services )",
     topic: "Business Post / Franchise / Speed Post Discount"
   },
   {
@@ -850,7 +850,7 @@ const questionBank6 = [
       "Delivery and transmission",
       "Counter enquiry"
     ],
-    chapter: "Products and services",
+    chapter: "Part - 13 ( Products and Services )",
     topic: "Business Post / Franchise / Speed Post Discount"
   },
   {
@@ -864,7 +864,7 @@ const questionBank6 = [
       "PLI agency services including premium collection",
       "All of these"
     ],
-    chapter: "Products and services",
+    chapter: "Part - 13 ( Products and Services )",
     topic: "Business Post / Franchise / Speed Post Discount"
   },
   {
@@ -878,7 +878,7 @@ const questionBank6 = [
       "25%",
       "32%"
     ],
-    chapter: "Products and services",
+    chapter: "Part - 13 ( Products and Services )",
     topic: "Business Post / Franchise / Speed Post Discount"
   },
   {
@@ -892,7 +892,7 @@ const questionBank6 = [
       "Oral format only",
       "SMS format only"
     ],
-    chapter: "Products and services",
+    chapter: "Part - 13 ( Products and Services )",
     topic: "Business Post / Franchise / Speed Post Discount"
   },
   {
@@ -906,7 +906,7 @@ const questionBank6 = [
       "Reduced by 50%",
       "Cancelled permanently"
     ],
-    chapter: "Products and services",
+    chapter: "Part - 13 ( Products and Services )",
     topic: "Business Post / Franchise / Speed Post Discount"
   },
   {
@@ -920,7 +920,7 @@ const questionBank6 = [
       "500 subscribers and 500 copies",
       "1000 subscribers and 1000 copies"
     ],
-    chapter: "Products and services",
+    chapter: "Part - 13 ( Products and Services )",
     topic: "Magazine Post / Logistics Post / Retail Post"
   },
   {
@@ -934,7 +934,7 @@ const questionBank6 = [
       "Surface parcel only",
       "Express article only"
     ],
-    chapter: "Products and services",
+    chapter: "Part - 13 ( Products and Services )",
     topic: "Magazine Post / Logistics Post / Retail Post"
   },
   {
@@ -948,7 +948,7 @@ const questionBank6 = [
       "Parcel Post",
       "Speed Post item"
     ],
-    chapter: "Products and services",
+    chapter: "Part - 13 ( Products and Services )",
     topic: "Magazine Post / Logistics Post / Retail Post"
   },
   {
@@ -962,7 +962,7 @@ const questionBank6 = [
       "25 kg",
       "50 kg"
     ],
-    chapter: "Products and services",
+    chapter: "Part - 13 ( Products and Services )",
     topic: "Magazine Post / Logistics Post / Retail Post"
   },
   {
@@ -976,7 +976,7 @@ const questionBank6 = [
       "Large Transit Load",
       "Limited Transport Line"
     ],
-    chapter: "Products and services",
+    chapter: "Part - 13 ( Products and Services )",
     topic: "Magazine Post / Logistics Post / Retail Post"
   },
   {
@@ -990,7 +990,7 @@ const questionBank6 = [
       "1000 kg",
       "No limit"
     ],
-    chapter: "Products and services",
+    chapter: "Part - 13 ( Products and Services )",
     topic: "Magazine Post / Logistics Post / Retail Post"
   },
   {
@@ -1004,7 +1004,7 @@ const questionBank6 = [
       "Direct Post",
       "Magazine Post"
     ],
-    chapter: "Products and services",
+    chapter: "Part - 13 ( Products and Services )",
     topic: "Magazine Post / Logistics Post / Retail Post"
   },
   {
@@ -1018,7 +1018,7 @@ const questionBank6 = [
       "Sale of Rakhi envelopes",
       "All of these"
     ],
-    chapter: "Products and services",
+    chapter: "Part - 13 ( Products and Services )",
     topic: "Magazine Post / Logistics Post / Retail Post"
   },
   {
@@ -1032,7 +1032,7 @@ const questionBank6 = [
       "Parcels and logistics",
       "Passport and PRS"
     ],
-    chapter: "Products and services",
+    chapter: "Part - 13 ( Products and Services )",
     topic: "Aadhaar / Gangajal / Passport / PRS / Jeevan Pramaan"
   },
   {
@@ -1046,7 +1046,7 @@ const questionBank6 = [
       "Free of cost",
       "Available only online"
     ],
-    chapter: "Products and services",
+    chapter: "Part - 13 ( Products and Services )",
     topic: "Aadhaar / Gangajal / Passport / PRS / Jeevan Pramaan"
   },
   {
@@ -1060,7 +1060,7 @@ const questionBank6 = [
       "Email ID and date of birth",
       "All of these"
     ],
-    chapter: "Products and services",
+    chapter: "Part - 13 ( Products and Services )",
     topic: "Aadhaar / Gangajal / Passport / PRS / Jeevan Pramaan"
   },
   {
@@ -1074,7 +1074,7 @@ const questionBank6 = [
       "Only thumb impression",
       "Only photograph"
     ],
-    chapter: "Products and services",
+    chapter: "Part - 13 ( Products and Services )",
     topic: "Aadhaar / Gangajal / Passport / PRS / Jeevan Pramaan"
   },
   {
@@ -1088,7 +1088,7 @@ const questionBank6 = [
       "₹75",
       "₹100"
     ],
-    chapter: "Products and services",
+    chapter: "Part - 13 ( Products and Services )",
     topic: "Aadhaar / Gangajal / Passport / PRS / Jeevan Pramaan"
   },
   {
@@ -1102,7 +1102,7 @@ const questionBank6 = [
       "₹201",
       "₹251"
     ],
-    chapter: "Products and services",
+    chapter: "Part - 13 ( Products and Services )",
     topic: "Aadhaar / Gangajal / Passport / PRS / Jeevan Pramaan"
   },
   {
@@ -1116,7 +1116,7 @@ const questionBank6 = [
       "UIDAI and RBI",
       "Ministry of Home Affairs and Railways"
     ],
-    chapter: "Products and services",
+    chapter: "Part - 13 ( Products and Services )",
     topic: "Aadhaar / Gangajal / Passport / PRS / Jeevan Pramaan"
   },
   {
@@ -1130,7 +1130,7 @@ const questionBank6 = [
       "POSB",
       "EMS"
     ],
-    chapter: "Products and services",
+    chapter: "Part - 13 ( Products and Services )",
     topic: "Aadhaar / Gangajal / Passport / PRS / Jeevan Pramaan"
   },
   {
@@ -1144,7 +1144,7 @@ const questionBank6 = [
       "Digital Life Certificate",
       "Aadhaar enrolment form"
     ],
-    chapter: "Products and services",
+    chapter: "Part - 13 ( Products and Services )",
     topic: "Aadhaar / Gangajal / Passport / PRS / Jeevan Pramaan"
   },
   {
@@ -1158,8 +1158,484 @@ const questionBank6 = [
       "₹70",
       "₹100"
     ],
-    chapter: "Products and services",
+    chapter: "Part - 13 ( Products and Services )",
     topic: "Aadhaar / Gangajal / Passport / PRS / Jeevan Pramaan"
+  },
+    {
+    id: 1920,
+    question: "What does PRAN stand for in NPS?",
+    answer: "PRAN stands for Permanent Retirement Account Number.",
+    correctOption: "Permanent Retirement Account Number",
+    options: [
+      "Personal Retirement Account Network",
+      "Permanent Retirement Account Number",
+      "Pension Record and Accounting Number",
+      "Permanent Record of Account Number"
+    ],
+    chapter: "Part - 13 ( Products and Services )",
+    topic: "National Pension System (NPS)"
+  },
+  {
+    id: 1921,
+    question: "Which of the following is the nodal agency for the implementation and monitoring of NPS?",
+    answer: "PFRDA is the nodal agency for the implementation and monitoring of NPS.",
+    correctOption: "PFRDA",
+    options: [
+      "NSDL",
+      "RBI",
+      "PFRDA",
+      "DoP"
+    ],
+    chapter: "Part - 13 ( Products and Services )",
+    topic: "National Pension System (NPS)"
+  },
+  {
+    id: 1922,
+    question: "When was the voluntary NPS rolled out for all citizens of India?",
+    answer: "The voluntary NPS was rolled out for all citizens of India on 1st May 2009.",
+    correctOption: "1st May 2009",
+    options: [
+      "1st May 2009",
+      "1st April 2008",
+      "1st January 2010",
+      "15th August 2011"
+    ],
+    chapter: "Part - 13 ( Products and Services )",
+    topic: "National Pension System (NPS)"
+  },
+  {
+    id: 1923,
+    question: "Under NPS, what role has PFRDA assigned to the Department of Posts?",
+    answer: "PFRDA has assigned the role of Point of Presence (POP) to the Department of Posts under NPS.",
+    correctOption: "Point of Presence (POP)",
+    options: [
+      "Pension Fund Manager (PFM)",
+      "Central Recordkeeping Agency (CRA)",
+      "Point of Presence (POP)",
+      "Trust Manager"
+    ],
+    chapter: "Part - 13 ( Products and Services )",
+    topic: "National Pension System (NPS)"
+  },
+  {
+    id: 1924,
+    question: "What is the age eligibility to open an NPS account?",
+    answer: "The age eligibility to open an NPS account is 18 to 70 years.",
+    correctOption: "18 to 70 years",
+    options: [
+      "18 to 60 years",
+      "21 to 65 years",
+      "18 to 70 years",
+      "18 to 75 years"
+    ],
+    chapter: "Part - 13 ( Products and Services )",
+    topic: "National Pension System (NPS)"
+  },
+  {
+    id: 1925,
+    question: "Non-Resident Indians (NRIs) are eligible to open which type of NPS account?",
+    answer: "Non-Resident Indians (NRIs) are eligible to open only Tier-1 NPS account.",
+    correctOption: "Tier-1 only",
+    options: [
+      "Tier-1 only",
+      "Tier-2 only",
+      "Both Tier-1 and Tier-2",
+      "Neither Tier-1 nor Tier-2"
+    ],
+    chapter: "Part - 13 ( Products and Services )",
+    topic: "National Pension System (NPS)"
+  },
+  {
+    id: 1926,
+    question: "How many maximum nominees are allowed in an NPS account?",
+    answer: "A maximum of 3 nominees are allowed in an NPS account.",
+    correctOption: "3",
+    options: [
+      "1",
+      "2",
+      "3",
+      "5"
+    ],
+    chapter: "Part - 13 ( Products and Services )",
+    topic: "National Pension System (NPS)"
+  },
+  {
+    id: 1927,
+    question: "What is the minimum contribution required in a Tier-1 account per year to keep it active?",
+    answer: "The minimum contribution required in a Tier-1 account per year to keep it active is ₹1000.",
+    correctOption: "₹1000",
+    options: [
+      "₹500",
+      "₹1000",
+      "₹2000",
+      "₹5000"
+    ],
+    chapter: "Part - 13 ( Products and Services )",
+    topic: "National Pension System (NPS)"
+  },
+  {
+    id: 1928,
+    question: "What happens if a subscriber contributes less than ₹1000 in a year in a Tier-1 account?",
+    answer: "If a subscriber contributes less than ₹1000 in a year, the account becomes frozen and CRA facilities get restricted.",
+    correctOption: "Account becomes frozen and CRA facilities get restricted",
+    options: [
+      "Account is closed permanently",
+      "Penalty of ₹500 is deducted automatically",
+      "Account becomes frozen and CRA facilities get restricted",
+      "Transferred to a normal savings account"
+    ],
+    chapter: "Part - 13 ( Products and Services )",
+    topic: "National Pension System (NPS)"
+  },
+  {
+    id: 1929,
+    question: "What is the additional tax deduction limit for voluntary extra contribution under Section 80CCD(1B)?",
+    answer: "The additional tax deduction limit for voluntary extra contribution under Section 80CCD(1B) is ₹50,000.",
+    correctOption: "₹50,000",
+    options: [
+      "₹25,000",
+      "₹50,000",
+      "₹1,00,000",
+      "₹1,50,000"
+    ],
+    chapter: "Part - 13 ( Products and Services )",
+    topic: "National Pension System (NPS)"
+  },
+  {
+    id: 1930,
+    question: "At the time of normal exit (Age 60), at least how much of the accumulated pension wealth must be used to purchase a life annuity?",
+    answer: "At least 40% of the accumulated pension wealth must be used to purchase a life annuity at normal exit.",
+    correctOption: "40%",
+    options: [
+      "20%",
+      "40%",
+      "60%",
+      "80%"
+    ],
+    chapter: "Part - 13 ( Products and Services )",
+    topic: "National Pension System (NPS)"
+  },
+  {
+    id: 1931,
+    question: "If the total accumulated corpus is less than ₹5 Lakhs at age 60, the subscriber can opt for:",
+    answer: "If the total accumulated corpus is less than ₹5 Lakhs at age 60, the subscriber can opt for 100% lump sum withdrawal.",
+    correctOption: "100% lump sum withdrawal",
+    options: [
+      "100% annuity purchase",
+      "50% lump sum and 50% annuity",
+      "100% lump sum withdrawal",
+      "Mandatory deferment till age 75"
+    ],
+    chapter: "Part - 13 ( Products and Services )",
+    topic: "National Pension System (NPS)"
+  },
+  {
+    id: 1932,
+    question: "To exit NPS before the age of 60, a subscriber must have completed at least how many years in NPS?",
+    answer: "To exit NPS before the age of 60, a subscriber must have completed at least 10 years in NPS.",
+    correctOption: "10 years",
+    options: [
+      "5 years",
+      "10 years",
+      "15 years",
+      "20 years"
+    ],
+    chapter: "Part - 13 ( Products and Services )",
+    topic: "National Pension System (NPS)"
+  },
+  {
+    id: 1933,
+    question: "In case of pre-mature exit (before age 60), what percentage of wealth must be used to purchase an annuity?",
+    answer: "In case of pre-mature exit before age 60, 80% of the wealth must be used to purchase an annuity.",
+    correctOption: "80%",
+    options: [
+      "40%",
+      "60%",
+      "80%",
+      "100%"
+    ],
+    chapter: "Part - 13 ( Products and Services )",
+    topic: "National Pension System (NPS)"
+  },
+  {
+    id: 1934,
+    question: "On the death of an NPS subscriber, the nominee receives:",
+    answer: "On the death of an NPS subscriber, the nominee receives 100% NPS pension wealth in lump sum.",
+    correctOption: "100% NPS pension wealth in lump sum",
+    options: [
+      "50% lump sum and 50% annuity",
+      "Only monthly pension",
+      "100% NPS pension wealth in lump sum",
+      "Nothing, funds go to the government"
+    ],
+    chapter: "Part - 13 ( Products and Services )",
+    topic: "National Pension System (NPS)"
+  },
+  {
+    id: 1935,
+    question: "In which year did Indian Philatelic history begin with the introduction of paper postage?",
+    answer: "Indian Philatelic history began in 1852 with the introduction of paper postage.",
+    correctOption: "1852",
+    options: [
+      "1774",
+      "1840",
+      "1852",
+      "1947"
+    ],
+    chapter: "Part - 13 ( Products and Services )",
+    topic: "Philately (Stamps)"
+  },
+  {
+    id: 1936,
+    question: "What was the shape of India's first stamp?",
+    answer: "India's first stamp was circular in shape.",
+    correctOption: "Circular",
+    options: [
+      "Rectangular",
+      "Square",
+      "Circular",
+      "Triangular"
+    ],
+    chapter: "Part - 13 ( Products and Services )",
+    topic: "Philately (Stamps)"
+  },
+  {
+    id: 1937,
+    question: "The first stamp of Independent India depicted:",
+    answer: "The first stamp of Independent India depicted the Indian Flag.",
+    correctOption: "The Indian Flag",
+    options: [
+      "Mahatma Gandhi",
+      "The Ashoka Pillar",
+      "The Indian Flag",
+      "Red Fort"
+    ],
+    chapter: "Part - 13 ( Products and Services )",
+    topic: "Philately (Stamps)"
+  },
+  {
+    id: 1938,
+    question: "Commemorative stamps proposals must be sent at least how much time in advance?",
+    answer: "Commemorative stamps proposals must be sent at least 1 year in advance.",
+    correctOption: "1 year",
+    options: [
+      "3 months",
+      "6 months",
+      "1 year",
+      "2 years"
+    ],
+    chapter: "Part - 13 ( Products and Services )",
+    topic: "Philately (Stamps)"
+  },
+  {
+    id: 1939,
+    question: "What is the minimum denomination from which Definitive Stamps are available?",
+    answer: "Definitive Stamps are available from a minimum denomination of 25 paise.",
+    correctOption: "25 paise",
+    options: [
+      "10 paise",
+      "25 paise",
+      "50 paise",
+      "1 Rupee"
+    ],
+    chapter: "Part - 13 ( Products and Services )",
+    topic: "Philately (Stamps)"
+  },
+  {
+    id: 1940,
+    question: "'My Stamp' is the brand name for:",
+    answer: "'My Stamp' is the brand name for personalized sheets of postage stamps of India Post.",
+    correctOption: "Personalized sheets of postage stamps of India Post",
+    options: [
+      "Official government stamps",
+      "Foreign stamps sold in India",
+      "Personalized sheets of postage stamps of India Post",
+      "Revenue stamps"
+    ],
+    chapter: "Part - 13 ( Products and Services )",
+    topic: "Philately (Stamps)"
+  },
+  {
+    id: 1941,
+    question: "How many stamps are there in one sheet of 'My Stamp'?",
+    answer: "There are 12 stamps in one sheet of 'My Stamp'.",
+    correctOption: "12",
+    options: [
+      "10",
+      "12",
+      "16",
+      "20"
+    ],
+    chapter: "Part - 13 ( Products and Services )",
+    topic: "Philately (Stamps)"
+  },
+  {
+    id: 1942,
+    question: "What is the cost of one sheet of 'My Stamp'?",
+    answer: "The cost of one sheet of 'My Stamp' is ₹300.",
+    correctOption: "₹300",
+    options: [
+      "₹100",
+      "₹200",
+      "₹300",
+      "₹500"
+    ],
+    chapter: "Part - 13 ( Products and Services )",
+    topic: "Philately (Stamps)"
+  },
+  {
+    id: 1943,
+    question: "For corporate customers, what is the minimum mandatory quantity to order Customized My Stamp?",
+    answer: "For corporate customers, the minimum mandatory quantity to order Customized My Stamp is 5000 sheets.",
+    correctOption: "5000 sheets",
+    options: [
+      "100 sheets",
+      "500 sheets",
+      "1000 sheets",
+      "5000 sheets"
+    ],
+    chapter: "Part - 13 ( Products and Services )",
+    topic: "Philately (Stamps)"
+  },
+  {
+    id: 1944,
+    question: "Which of the following provides 'Special Cancellation' on First Day Covers and Special Covers?",
+    answer: "Philatelic Bureau provides 'Special Cancellation' on First Day Covers and Special Covers.",
+    correctOption: "Philatelic Bureau",
+    options: [
+      "Any Branch Post Office",
+      "Philatelic Counter",
+      "Philatelic Bureau",
+      "National Philatelic Museum only"
+    ],
+    chapter: "Part - 13 ( Products and Services )",
+    topic: "Philately (Stamps)"
+  },
+  {
+    id: 1945,
+    question: "What is the minimum deposit required to open a Domestic Philatelic Deposit Account (PDA)?",
+    answer: "The minimum deposit required to open a Domestic Philatelic Deposit Account (PDA) is ₹200.",
+    correctOption: "₹200",
+    options: [
+      "₹100",
+      "₹200",
+      "₹500",
+      "₹1000"
+    ],
+    chapter: "Part - 13 ( Products and Services )",
+    topic: "Philately (Stamps)"
+  },
+  {
+    id: 1946,
+    question: "A Domestic Philatelic Deposit Account becomes inoperative when the balance is:",
+    answer: "A Domestic Philatelic Deposit Account becomes inoperative when the balance is less than the value of a single order plus handling charges.",
+    correctOption: "Less than the value of a single order plus handling charges",
+    options: [
+      "Exactly Zero",
+      "Less than ₹500",
+      "Less than the value of a single order plus handling charges",
+      "Less than ₹100"
+    ],
+    chapter: "Part - 13 ( Products and Services )",
+    topic: "Philately (Stamps)"
+  },
+  {
+    id: 1947,
+    question: "What is the minimum deposit to open a Foreign Philatelic Deposit Account (at Mumbai GPO)?",
+    answer: "The minimum deposit to open a Foreign Philatelic Deposit Account at Mumbai GPO is ₹1000 equivalent.",
+    correctOption: "₹1000 equivalent",
+    options: [
+      "₹500 equivalent",
+      "₹1000 equivalent",
+      "$50",
+      "$100"
+    ],
+    chapter: "Part - 13 ( Products and Services )",
+    topic: "Philately (Stamps)"
+  },
+  {
+    id: 1948,
+    question: "How many stamps should be affixed on the view side of a Maximum Card?",
+    answer: "Only 1 stamp should be affixed on the view side of a Maximum Card.",
+    correctOption: "Only 1",
+    options: [
+      "Only 1",
+      "Exactly 2",
+      "Up to 3",
+      "As many as fit the space"
+    ],
+    chapter: "Part - 13 ( Products and Services )",
+    topic: "Philately (Stamps)"
+  },
+  {
+    id: 1949,
+    question: "Where is the National Philatelic Museum located?",
+    answer: "The National Philatelic Museum is located at the Ground floor of Dak Bhawan, Sansad Marg, New Delhi.",
+    correctOption: "Ground floor of Dak Bhawan, Sansad Marg, New Delhi",
+    options: [
+      "Mumbai GPO",
+      "Parliament House",
+      "Ground floor of Dak Bhawan, Sansad Marg, New Delhi",
+      "Mysore HO"
+    ],
+    chapter: "Part - 13 ( Products and Services )",
+    topic: "Philately (Stamps)"
+  },
+  {
+    id: 1950,
+    question: "What does SPARSH stand for in the Deen Dayal SPARSH Yojana?",
+    answer: "SPARSH stands for Scholarship for Promotion of Aptitude and Research in Stamps as a Hobby.",
+    correctOption: "Scholarship for Promotion of Aptitude and Research in Stamps as a Hobby",
+    options: [
+      "Scheme for Promotion of Arts and Research in Stamps as a Hobby",
+      "Scholarship for Promotion of Aptitude and Research in Stamps as a Hobby",
+      "Students Philately and Research Scholarship Hub",
+      "Sponsorship for Philatelic Arts, Research and Stamp Habit"
+    ],
+    chapter: "Part - 13 ( Products and Services )",
+    topic: "Philately (Stamps)"
+  },
+  {
+    id: 1951,
+    question: "The SPARSH scheme awards scholarships to students of which classes?",
+    answer: "The SPARSH scheme awards scholarships to students of Classes 6 to 9.",
+    correctOption: "Classes 6 to 9",
+    options: [
+      "Classes 1 to 5",
+      "Classes 6 to 9",
+      "Classes 9 to 12",
+      "College students"
+    ],
+    chapter: "Part - 13 ( Products and Services )",
+    topic: "Philately (Stamps)"
+  },
+  {
+    id: 1952,
+    question: "What is the scholarship amount awarded per annum under the SPARSH scheme?",
+    answer: "The scholarship amount awarded per annum under the SPARSH scheme is ₹6000.",
+    correctOption: "₹6000",
+    options: [
+      "₹3000",
+      "₹5000",
+      "₹6000",
+      "₹10000"
+    ],
+    chapter: "Part - 13 ( Products and Services )",
+    topic: "Philately (Stamps)"
+  },
+  {
+    id: 1953,
+    question: "Philately is famously known as:",
+    answer: "Philately is famously known as the King of Hobbies and Hobby of Kings.",
+    correctOption: "The King of Hobbies and Hobby of Kings",
+    options: [
+      "The King of Hobbies and Hobby of Kings",
+      "The Art of Letters",
+      "The Heritage Collection",
+      "The Postal Science"
+    ],
+    chapter: "Part - 13 ( Products and Services )",
+    topic: "Philately (Stamps)"
   }
 ];
 
